@@ -3867,4 +3867,38 @@ a {
 }
 #our_clients .body_ .bottom_row li {
   border: 2px solid #F7F7F7;
+}
+
+#our_blog {
+  margin-top: 50px;
+}
+#our_blog .head_text {
+  display: flex;
+  justify-content: space-between;
+}
+#our_blog .head_text .left {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700px;
+  color: #333333;
+}
+#our_blog .right {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 36px;
+  font-weight: 700px;
+  color: #333333;
+}
+#our_blog .right:hover {
+  cursor: pointer;
+  color: #336699;
+}
+#our_blog .body_images {
+  margin-top: 10px;
+}
+#our_blog .body_images ul li {
+  display: flex;
+  display: inline;
+  margin-left: 20px;
 }/*# sourceMappingURL=style.css.map */

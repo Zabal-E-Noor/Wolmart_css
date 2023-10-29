@@ -3844,4 +3844,27 @@ a {
   line-height: 22px;
   font-weight: 600;
   color: #333333;
+}
+
+#our_clients .head_ {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700px;
+  color: #333333;
+}
+#our_clients .body_ {
+  margin-left: 20px;
+}
+#our_clients .body_ .top_row {
+  display: flex;
+}
+#our_clients .body_ .top_row li {
+  border: 2px solid #F7F7F7;
+}
+#our_clients .body_ .bottom_row {
+  display: flex;
+}
+#our_clients .body_ .bottom_row li {
+  border: 2px solid #F7F7F7;
 }/*# sourceMappingURL=style.css.map */

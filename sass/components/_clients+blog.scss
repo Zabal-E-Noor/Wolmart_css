@@ -1,0 +1,28 @@
+#our_clients{
+
+    .head_{
+        font-family: $theme;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 700px;
+        color: #333333;
+    }
+    .body_{
+         margin-left: 20px;
+        .top_row{
+            display: flex;
+             li{
+            border: 2px solid #F7F7F7;
+            }
+            
+
+        }
+        .bottom_row{
+            display: flex;
+            li{
+                border: 2px solid #F7F7F7;
+                }
+
+        }
+    }
+}

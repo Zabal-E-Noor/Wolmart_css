@@ -1,0 +1,54 @@
+ .head_icon .wishlist {
+        font-size: 27px;
+
+        padding-left: 10px;
+
+    }
+
+    .head_icon .wishlist_text {
+        font-size: 13px;
+        padding-top: 20px;
+        transform: translate(-33px, 15px);
+        -webkit-transform: translate(-33px, 15px);
+        -moz-transform: translate(-33px, 15px);
+        -ms-transform: translate(-33px, 15px);
+        -o-transform: translate(-33px, 15px);
+    }
+
+    .head_icon .compare {
+        font-size: 30px;
+        margin-left: 10px;
+        transform: translate(-20px);
+        -webkit-transform: translate(-20px);
+        -moz-transform: translate(-20px);
+        -ms-transform: translate(-20px);
+        -o-transform: translate(-20px);
+    }
+
+    .head_icon .compare_text {
+        font-size: 13px;
+        transform: translate(-62px, 35px);
+        -webkit-transform: translate(-62px, 35px);
+        -moz-transform: translate(-62px, 35px);
+        -ms-transform: translate(-62px, 35px);
+        -o-transform: translate(-62px, 35px);
+    }
+
+    .head_icon .cart {
+        font-size: 27px;
+        padding-left: 20px;
+        transform: translate(-30px);
+        -webkit-transform: translate(-50px);
+        -moz-transform: translate(-30px);
+        -ms-transform: translate(-30px);
+        -o-transform: translate(-30px);
+    }
+
+    .head_icon .cart_text {
+        font-size: 12px;
+        padding-top: 20px;
+        transform: translate(-70px, 17px);
+        -webkit-transform: translate(-70px, 17px);
+        -moz-transform: translate(-70px, 17px);
+        -ms-transform: translate(-70px, 17px);
+        -o-transform: translate(-70px, 17px);

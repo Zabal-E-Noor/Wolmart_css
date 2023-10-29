@@ -1,0 +1,25 @@
+#main_slider {
+    .carousel-inner {
+        .carousel-item {
+            background-image: url('/images/background/slide1.jpg');
+            .slide_1 {
+                display: inline;
+                display: flex;
+
+                img {
+                    position: relative;
+                    display: inline;
+                }
+
+                .shoes {
+                    img {
+                        
+                        position: absolute;
+                        display: inline-block;
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }
+}

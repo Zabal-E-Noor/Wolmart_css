@@ -1,0 +1,251 @@
+#footer_head {
+    background-color: #336699;
+    height: 110px;
+
+    .bar {
+        margin-bottom: 90px;
+        padding-top: 26px;
+        display: flex;
+        gap: 17%;
+
+        .col-lg-4 {
+            display: flex;
+            gap: 5%;
+
+            i {
+                font-size: 47px;
+                color: #ffffff;
+            }
+
+            .txt {
+                .t1 {
+                    font-family: $theme;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #ffffff;
+                }
+
+                .t2 {
+                    width: 500px;
+                    font-family: $theme;
+                    font-size: 13px;
+                    font-weight: 500;
+                    color: #ffffff;
+                }
+            }
+        }
+
+
+        .col-lg-6 {
+            .input {
+                width: 500px;
+                height: 49px;
+                padding: 15px;
+                font-size: 14px;
+                color: black;
+                border-radius: .5em;
+
+                border: 2px solid #fff;
+                margin-right: -10px;
+            }
+
+            .button {
+                font-family: $theme;
+                font-size: 16px;
+                font-weight: 600;
+                color: #ffffff;
+                border: none;
+                background-color: #1363DF;
+                text-decoration: none;
+                padding: 15px;
+                padding-bottom: 17px;
+                font-size: 17px;
+                color: #fff;
+                border-radius: .5em;
+                margin-left: 20px;
+                cursor: pointer;
+
+                &:hover {
+
+                    background-color: #1A73E8;
+                }
+            }
+        }
+    }
+}
+
+#footer_body {
+    background-color: #F8F8F8;
+
+    .part_1 {
+        padding-top: 50px;
+
+        .links {
+            width: 290px;
+            height: 200px;
+
+            .t_i {
+                font-family: $theme;
+                font-size: 13px;
+                font-weight: 500;
+                color: #333333;
+                padding-top: 10px;
+            }
+
+            .t_ii {
+                font-family: $theme;
+                font-size: 18px;
+                font-weight: 600;
+                color: #333333;
+                padding-top: 20px;
+                &:hover{
+                    cursor: pointer;
+                  
+                    text-decoration: underline;
+                }
+            }
+
+            .t_iii {
+                font-family: $theme;
+                font-size: 13px;
+                font-weight: 400;
+                color: #666666;
+                padding-top: 20px;
+            }
+
+            .icon {
+                padding-top: 20px;
+                ul li {
+                    gap: 10px;
+                    display: flex;
+                    display: inline;
+                    font-size: 14px;
+                    
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                }
+                .facebook{padding: 7px 12px;
+                    background-color: #1B4F9B}
+                .twitter{padding: 7px 10px;
+                    background-color: #00ADEF}
+                .instagram{padding: 7px 10px;
+                    background-color: #CC0001}
+                .youtube{padding: 7px 10px;
+                    background-color: #2C567E}
+                .pinterest{padding: 7px 10px;
+                    background-color: #f96A02}
+            }
+        }
+    }
+}
+#footer_body {
+    .part_1{
+        display: flex;
+        justify-content: space-between;
+       
+
+    .customer{ width: 290px;
+        height: 300px;
+    .topic{
+        font-family: $theme;
+        font-size: 14px;
+        font-weight: 600;
+        color: #333333;
+        padding-bottom: 5px;
+        
+    }
+    ul li{
+        font-family: $theme;
+        font-size: 13px;
+        font-weight: 400;
+        color: #666666;
+        padding-top: 10px;
+    }
+    
+    }
+    .account{ width: 290px;
+        height: 300px;
+        .topic{
+            font-family: $theme;
+            font-size: 14px;
+            font-weight: 600;
+            color: #333333;
+            padding-bottom: 5px;
+            
+        }
+        ul li{
+            font-family: $theme;
+            font-size: 13px;
+            font-weight: 400;
+            color: #666666;
+            padding-top: 10px;
+        }}
+    .company{ width: 290px;
+        height: 300px;
+       
+        .topic{
+            font-family: $theme;
+            font-size: 14px;
+            font-weight: 600;
+            color: #333333;
+            padding-bottom: 5px;
+            
+        }
+        ul li{
+            font-family: $theme;
+            font-size: 13px;
+            font-weight: 400;
+            color: #666666;
+            padding-top: 10px;
+        }}
+}
+
+}
+#footer_body {
+    .part_2{
+        .consumer_Electric{
+            ul li{
+                display: flex;
+                display: inline;
+                gap: 10px;
+            }
+        }
+        .clothing_Apparel{
+            ul li{
+                display: flex;
+                display: inline;
+                gap: 10px;
+            }
+        }
+        .Home_Garden{
+            ul li{
+                display: flex;
+                display: inline;
+                gap: 10px;
+            }
+        }
+        .Health_Beauty{
+            ul li{
+                display: flex;
+                display: inline;
+                gap: 10px;
+            }
+        } .Jewelry_Watches{
+            ul li{
+                display: flex;
+                display: inline;
+                gap: 10px;
+            }
+        } .Computer_Technologies{
+            ul li{
+                display: flex;
+                display: inline;
+                gap: 10px;
+            }
+        }
+        
+    }
+}

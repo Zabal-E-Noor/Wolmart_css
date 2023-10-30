@@ -34,6 +34,7 @@
 
 #our_blog {
     margin-top: 50px;
+    margin-bottom: 50px;
 
 
     .head_text {
@@ -153,7 +154,24 @@
 
 
     }
+}
+// ===============
+//     Your Recent Views
+//     ================ 
+#Recent_Views{
+    .head{
+        font-family: $theme;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 700px;
+        color: #333333;
+    }
+    .body{
+        font-family: $theme;
+        font-size: 14px;
+        line-height: 36px;
+        font-weight: 400px;
+        color: #666666;
 
-    .body_text {}
-
+    }
 }

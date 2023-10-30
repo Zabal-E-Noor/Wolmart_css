@@ -4183,33 +4183,102 @@ a {
   padding-top: 10px;
 }
 
+#footer_body .part_2 {
+  padding-top: 20px;
+}
+#footer_body .part_2 .topic {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+  padding-bottom: 5px;
+}
+#footer_body .part_2 ul li {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #666666;
+  padding-top: 10px;
+}
+#footer_body .part_2 .consumer_Electric {
+  padding-top: 20px;
+}
 #footer_body .part_2 .consumer_Electric ul li {
   display: flex;
   display: inline;
-  gap: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+#footer_body .part_2 .consumer_Electric ul li:hover {
+  cursor: pointer;
+  color: #1363DF;
+}
+#footer_body .part_2 .clothing_Apparel {
+  padding-top: 20px;
 }
 #footer_body .part_2 .clothing_Apparel ul li {
   display: flex;
   display: inline;
-  gap: 10px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+#footer_body .part_2 .clothing_Apparel ul li:hover {
+  cursor: pointer;
+  color: #1363DF;
+}
+#footer_body .part_2 .Home_Garden {
+  padding-top: 20px;
 }
 #footer_body .part_2 .Home_Garden ul li {
   display: flex;
   display: inline;
-  gap: 10px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+#footer_body .part_2 .Home_Garden ul li:hover {
+  cursor: pointer;
+  color: #1363DF;
+}
+#footer_body .part_2 .Health_Beauty {
+  padding-top: 20px;
 }
 #footer_body .part_2 .Health_Beauty ul li {
   display: flex;
   display: inline;
-  gap: 10px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+#footer_body .part_2 .Health_Beauty ul li:hover {
+  cursor: pointer;
+  color: #1363DF;
+}
+#footer_body .part_2 .Jewelry_Watches {
+  padding-top: 20px;
 }
 #footer_body .part_2 .Jewelry_Watches ul li {
   display: flex;
   display: inline;
-  gap: 10px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+#footer_body .part_2 .Jewelry_Watches ul li:hover {
+  cursor: pointer;
+  color: #1363DF;
+}
+#footer_body .part_2 .Computer_Technologies {
+  padding-top: 20px;
 }
 #footer_body .part_2 .Computer_Technologies ul li {
   display: flex;
   display: inline;
-  gap: 10px;
+  padding-left: 15px;
+}
+#footer_body .part_2 .Computer_Technologies ul li:hover {
+  cursor: pointer;
+  color: #1363DF;
+}
+
+#footer_body .part_3 {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */

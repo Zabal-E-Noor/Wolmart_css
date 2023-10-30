@@ -206,46 +206,105 @@
 }
 #footer_body {
     .part_2{
+        padding-top: 20px;
+        .topic{
+            font-family: $theme;
+            font-size: 14px;
+            font-weight: 600;
+            color: #333333;
+            padding-bottom: 5px
+
+        }
+        ul li{
+            font-family: $theme;
+            font-size: 13px;
+            font-weight: 400;
+            color: #666666;
+            padding-top: 10px;
+           
+           
+        }
         .consumer_Electric{
+            padding-top: 20px;
             ul li{
                 display: flex;
                 display: inline;
-                gap: 10px;
+                padding-top: 10px;
+                padding-left: 15px;
+                &:hover{
+                    cursor: pointer;
+                    color: #1363DF;
+                }
             }
         }
         .clothing_Apparel{
+            padding-top: 20px;
             ul li{
                 display: flex;
                 display: inline;
-                gap: 10px;
+                padding-left: 15px;
+                padding-top: 10px;
+                &:hover{
+                    cursor: pointer;
+                    color: #1363DF;
+                }
             }
         }
         .Home_Garden{
+            padding-top: 20px;
             ul li{
                 display: flex;
                 display: inline;
-                gap: 10px;
+                padding-left: 15px;
+                padding-top: 10px;
+                &:hover{
+                    cursor: pointer;
+                    color: #1363DF;
+                }
             }
         }
         .Health_Beauty{
+            padding-top: 20px;
             ul li{
                 display: flex;
                 display: inline;
-                gap: 10px;
+                padding-left: 15px;
+                padding-top: 10px;
+                &:hover{
+                    cursor: pointer;
+                    color: #1363DF;
+                }
             }
         } .Jewelry_Watches{
+            padding-top: 20px;
             ul li{
                 display: flex;
                 display: inline;
-                gap: 10px;
+                padding-left: 15px;
+                padding-top: 10px;
+                &:hover{
+                    cursor: pointer;
+                    color: #1363DF;
+                }
             }
         } .Computer_Technologies{
+            padding-top: 20px;
             ul li{
                 display: flex;
                 display: inline;
-                gap: 10px;
+                padding-left: 15px;
+                &:hover{
+                    cursor: pointer;
+                    color: #1363DF;
+                }  
             }
         }
         
+    }
+}
+#footer_body {
+    .part_3{
+display: flex;
+justify-content: space-between;
     }
 }

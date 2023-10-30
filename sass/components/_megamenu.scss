@@ -161,9 +161,9 @@
         -moz-transform: translate(-20px);
         -ms-transform: translate(-20px);
         -o-transform: translate(-20px);
-        padding-top: 20px;
         display: none;
         z-index: 999;
+        padding: 20px 0px;
     }
 
     .browse_catagories .drop_box ul li {
@@ -179,7 +179,6 @@
         border-bottom: 1px solid #F1F1F1;
         z-index: 999;
         position: relative;
-
         &:hover {
             color: #336699;
         }
@@ -190,6 +189,7 @@
         font-size: 17px;
 
     }
+    
 }
 //=======================//
 //2. FASHION// 
@@ -676,6 +676,7 @@
             font-size: 14px;
             line-height: 20px;
             color: #333333;
+            padding-left: 10px;
         }
        
 
@@ -691,6 +692,9 @@
 
         .furniture_list {
             width: 200px;
+            .span{
+                padding-left: 10px;
+            }
         }
 
         .lighting_list {
@@ -710,8 +714,8 @@
         display: inline-block;
         display: flex;
         padding-top: 10px;
-        padding-left: 20px;
-        gap: 30px;
+        padding-left: 30px;
+        gap: 200px;
 
 
     }
@@ -737,8 +741,9 @@
     .furniture_images ul li .banner_1 .banner_1_text {
         text-align: right;
         position: absolute;
-        margin-left: 27%;
-        margin-top: -30%;
+       top: 100%;
+       left: 80%;
+       width: 200px;
 
         .p {
             font-family: $theme;
@@ -780,8 +785,9 @@
     .furniture_images ul li .banner_2_text {
         text-align: left;
         position: absolute;
-        margin-left: 3%;
-        margin-top: -10%;
+        top: 100%;
+       left: 20%;
+       width: 200px;    
 
     }
 
@@ -850,6 +856,10 @@
             line-height: 15px;
             color: #666666;
             padding-top: 20px;
+            &:hover{
+                cursor: pointer;
+                color: #336699;
+            }
         }
 
       
@@ -939,11 +949,13 @@
         display: flex;
         gap: 90px;
         padding-bottom: 20px;
+        padding-left: 10px;
     }
 
     .bottom {
-        gap: 60px;
+        gap: 50px;
         display: flex;
+        padding-left: 10px;
     }
     span{
         font-family: $theme;
@@ -958,6 +970,7 @@
         font-size: 14px;
         line-height: 15px;
         color: #666666;
+        
         
     }
 
@@ -1032,8 +1045,8 @@
 
 .pages{
     display: none;
-    width: 170px;
-    height: 400px;
+    width: 145px;
+    height: 420px;
     background-color: white;
     box-shadow: 0 4px 20px -8px rgba(0, 0, 0, .2);
     padding-left: 20px;

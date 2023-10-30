@@ -34,7 +34,7 @@
 
 #our_blog {
     margin-top: 50px;
-    
+
 
     .head_text {
         display: flex;
@@ -64,16 +64,96 @@
 
     .body_images {
         margin-top: 10px;
-        ul li {
-            display: flex;
-            display: inline;
+        display: inline;
+        display: flex;
+
+        .card_1 {
+
             margin-left: 20px;
+            width: "295px";
+            height: "190px";
+            text-align: center;
+
+            p {
+                font-family: $theme;
+                font-size: 14px;
+                font-weight: 700px;
+                color: #333333;
+
+                &:hover {
+                    cursor: pointer;
+                    color: #336699;
+                }
+            }
+        }
+
+        .card_2 {
+
+            margin-left: 20px;
+            width: "295px";
+            height: "190px";
+            text-align: center;
+
+            p {
+                font-family: $theme;
+                font-size: 14px;
+               
+                font-weight: 700px;
+                color: #333333;
+
+                &:hover {
+                    cursor: pointer;
+                    color: #336699;
+                }
+            }
+        }
+
+        .card_3 {
+
+            margin-left: 20px;
+            width: "295px";
+            height: "190px";
+            text-align: center;
+
+            p {
+                font-family: $theme;
+                font-size: 14px;
+                
+                font-weight: 700px;
+                color: #333333;
+
+                &:hover {
+                    cursor: pointer;
+                    color: #336699;
+                }
+            }
+        }
+
+        .card_4 {
+
+            margin-left: 20px;
+            width: "295px";
+            height: "190px";
+            text-align: center;
+
+            p {
+                font-family: $theme;
+                font-size: 14px;
+             
+                font-weight: 700px;
+                color: #333333;
+
+                &:hover {
+                    cursor: pointer;
+                    color: #336699;
+                }
+            }
         }
 
 
+
     }
-    .body_text{
-        
-    }
+
+    .body_text {}
 
 }

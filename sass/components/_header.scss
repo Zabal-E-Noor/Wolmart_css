@@ -150,6 +150,23 @@
     }
 
 
+
+
+    
+}
+
+.head_country {
+    font-family: $theme;
+    font-size: 11px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 17px;
+}
+
+// ==================
+//       MODAL
+// =================
+#registration_modal{
     .head_popup {
         margin-top: 50px;
 
@@ -416,99 +433,90 @@
                 }
             }
         }
-    }
-
-    .head_navtab .nav {
-        gap: 20px;
-        flex-wrap: nowrap;
-
-
-        button {
-            width: 50%;
-            color: #666;
-            font-weight: 900;
+        .head_navtab .nav {
+            gap: 20px;
+            flex-wrap: nowrap;
+    
+    
+            button {
+                width: 50%;
+                color: #666;
+                font-weight: 900;
+            }
+    
+            .nav-link.active {
+                color: #333333;
+                background-color: transparent;
+                border-color: transparent;
+                border-bottom: 2px solid #336699;
+            }
+    
         }
-
-        .nav-link.active {
-            color: #333333;
-            background-color: transparent;
-            border-color: transparent;
-            border-bottom: 2px solid #336699;
+    
+        .head_navtab .user_text {
+            font-family: $theme;
+            font-size: 14px;
+            font-weight: 400;
+            color: #666666;
+            line-height: 24px;
         }
-
-    }
-
-    .head_navtab .user_text {
-        font-family: $theme;
-        font-size: 14px;
-        font-weight: 400;
-        color: #666666;
-        line-height: 24px;
-    }
-
-    .head_navtab .checkbox_text {
-        font-family: $theme;
-        font-size: 14px;
-        font-weight: 400;
-        color: #666666;
-        line-height: 24px;
-        margin-left: 5px;
-        cursor: pointer;
-    }
-
-    .head_navtab .lost_password {
-        font-family: $theme;
-        font-size: 13px;
-        font-weight: 400;
-        color: #a94442;
-        line-height: 24px;
-        padding-left: 130px;
-        cursor: pointer;
-
-        &:hover {
-            text-decoration: underline;
+    
+        .head_navtab .checkbox_text {
+            font-family: $theme;
+            font-size: 14px;
+            font-weight: 400;
+            color: #666666;
+            line-height: 24px;
+            margin-left: 5px;
+            cursor: pointer;
         }
-
-
+    
+        .head_navtab .lost_password {
+            font-family: $theme;
+            font-size: 13px;
+            font-weight: 400;
+            color: #a94442;
+            line-height: 24px;
+            padding-left: 130px;
+            cursor: pointer;
+    
+            &:hover {
+                text-decoration: underline;
+            }
+    
+    
+        }
+    
+        .head_navtab .password_text {
+            font-family: $theme;
+            font-size: 14px;
+            font-weight: 400;
+            color: #666666;
+            line-height: 24px;
+        }
+    
+        input[type=text],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+    
+        input[type=submit] {
+            width: 100%;
+            height: 50px;
+            background-color: #336699;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+        }
     }
-
-    .head_navtab .password_text {
-        font-family: $theme;
-        font-size: 14px;
-        font-weight: 400;
-        color: #666666;
-        line-height: 24px;
-    }
-
-    input[type=text],
-    select {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-    }
-
-    input[type=submit] {
-        width: 100%;
-        height: 50px;
-        background-color: #336699;
-        color: white;
-        padding: 14px 20px;
-        margin: 8px 0;
-        border: none;
-        cursor: pointer;
-    }
-}
-
-.head_country {
-    font-family: $theme;
-    font-size: 11px;
-    font-weight: 400;
-    color: #333333;
-    line-height: 17px;
 }
 
 

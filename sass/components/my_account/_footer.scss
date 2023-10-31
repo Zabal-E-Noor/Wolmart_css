@@ -98,10 +98,9 @@
                 font-weight: 600;
                 color: #333333;
                 padding-top: 20px;
-
-                &:hover {
+                &:hover{
                     cursor: pointer;
-
+                  
                     text-decoration: underline;
                 }
             }
@@ -116,253 +115,196 @@
 
             .icon {
                 padding-top: 20px;
-
                 ul li {
                     gap: 10px;
                     display: flex;
                     display: inline;
                     font-size: 14px;
-
+                    
                     border-radius: 50%;
                     -webkit-border-radius: 50%;
                     -moz-border-radius: 50%;
                     -ms-border-radius: 50%;
                     -o-border-radius: 50%;
                 }
-
-                .facebook {
-                    padding: 7px 12px;
-                    background-color: #1B4F9B
-                }
-
-                .twitter {
-                    padding: 7px 10px;
-                    background-color: #00ADEF
-                }
-
-                .instagram {
-                    padding: 7px 10px;
-                    background-color: #CC0001
-                }
-
-                .youtube {
-                    padding: 7px 10px;
-                    background-color: #2C567E
-                }
-
-                .pinterest {
-                    padding: 7px 10px;
-                    background-color: #f96A02
-                }
+                .facebook{padding: 7px 12px;
+                    background-color: #1B4F9B}
+                .twitter{padding: 7px 10px;
+                    background-color: #00ADEF}
+                .instagram{padding: 7px 10px;
+                    background-color: #CC0001}
+                .youtube{padding: 7px 10px;
+                    background-color: #2C567E}
+                .pinterest{padding: 7px 10px;
+                    background-color: #f96A02}
             }
         }
     }
 }
-
 #footer_body {
-    .part_1 {
+    .part_1{
         display: flex;
         justify-content: space-between;
+       
 
-
-        .customer {
-            width: 290px;
-            height: 300px;
-
-            .topic {
-                font-family: $theme;
-                font-size: 14px;
-                font-weight: 600;
-                color: #333333;
-                padding-bottom: 5px;
-
-            }
-
-            ul li {
-                font-family: $theme;
-                font-size: 13px;
-                font-weight: 400;
-                color: #666666;
-                padding-top: 10px;
-            }
-
-        }
-
-        .account {
-            width: 290px;
-            height: 300px;
-
-            .topic {
-                font-family: $theme;
-                font-size: 14px;
-                font-weight: 600;
-                color: #333333;
-                padding-bottom: 5px;
-
-            }
-
-            ul li {
-                font-family: $theme;
-                font-size: 13px;
-                font-weight: 400;
-                color: #666666;
-                padding-top: 10px;
-            }
-        }
-
-        .company {
-            width: 290px;
-            height: 300px;
-
-            .topic {
-                font-family: $theme;
-                font-size: 14px;
-                font-weight: 600;
-                color: #333333;
-                padding-bottom: 5px;
-
-            }
-
-            ul li {
-                font-family: $theme;
-                font-size: 13px;
-                font-weight: 400;
-                color: #666666;
-                padding-top: 10px;
-            }
-        }
+    .customer{ width: 290px;
+        height: 300px;
+    .topic{
+        font-family: $theme;
+        font-size: 14px;
+        font-weight: 600;
+        color: #333333;
+        padding-bottom: 5px;
+        
     }
-
-}
-
-#footer_body {
-    .part_2 {
-        padding-top: 20px;
-
-        .topic {
+    ul li{
+        font-family: $theme;
+        font-size: 13px;
+        font-weight: 400;
+        color: #666666;
+        padding-top: 10px;
+    }
+    
+    }
+    .account{ width: 290px;
+        height: 300px;
+        .topic{
             font-family: $theme;
             font-size: 14px;
             font-weight: 600;
             color: #333333;
-            padding-bottom: 5px
+            padding-bottom: 5px;
+            
         }
-
-        ul li {
+        ul li{
             font-family: $theme;
             font-size: 13px;
             font-weight: 400;
             color: #666666;
             padding-top: 10px;
-
-
+        }}
+    .company{ width: 290px;
+        height: 300px;
+       
+        .topic{
+            font-family: $theme;
+            font-size: 14px;
+            font-weight: 600;
+            color: #333333;
+            padding-bottom: 5px;
+            
         }
-
-        .consumer_Electric {
-            padding-top: 20px;
-
-            ul li {
-                display: flex;
-                display: inline;
-                padding-top: 10px;
-                padding-left: 15px;
-
-                &:hover {
-                    cursor: pointer;
-                    color: #1363DF;
-                }
-            }
-        }
-
-        .clothing_Apparel {
-            padding-top: 20px;
-
-            ul li {
-                display: flex;
-                display: inline;
-                padding-left: 15px;
-                padding-top: 10px;
-
-                &:hover {
-                    cursor: pointer;
-                    color: #1363DF;
-                }
-            }
-        }
-
-        .Home_Garden {
-            padding-top: 20px;
-
-            ul li {
-                display: flex;
-                display: inline;
-                padding-left: 15px;
-                padding-top: 10px;
-
-                &:hover {
-                    cursor: pointer;
-                    color: #1363DF;
-                }
-            }
-        }
-
-        .Health_Beauty {
-            padding-top: 20px;
-
-            ul li {
-                display: flex;
-                display: inline;
-                padding-left: 15px;
-                padding-top: 10px;
-
-                &:hover {
-                    cursor: pointer;
-                    color: #1363DF;
-                }
-            }
-        }
-
-        .Jewelry_Watches {
-            padding-top: 20px;
-
-            ul li {
-                display: flex;
-                display: inline;
-                padding-left: 15px;
-                padding-top: 10px;
-
-                &:hover {
-                    cursor: pointer;
-                    color: #1363DF;
-                }
-            }
-        }
-
-        .Computer_Technologies {
-            padding-top: 20px;
-
-            ul li {
-                display: flex;
-                display: inline;
-                padding-left: 15px;
-
-                &:hover {
-                    cursor: pointer;
-                    color: #1363DF;
-                }
-            }
-        }
-
-    }
+        ul li{
+            font-family: $theme;
+            font-size: 13px;
+            font-weight: 400;
+            color: #666666;
+            padding-top: 10px;
+        }}
 }
 
+}
 #footer_body {
-    .part_3 {
-        display: flex;
-        justify-content: space-between;
-        font-family: $theme;
-        font-size: 13px;
-        font-weight: 400;
-        color: #666666;
-        padding-top: 10px
+    .part_2{
+        padding-top: 20px;
+        .topic{
+            font-family: $theme;
+            font-size: 14px;
+            font-weight: 600;
+            color: #333333;
+            padding-bottom: 5px
+
+        }
+        ul li{
+            font-family: $theme;
+            font-size: 13px;
+            font-weight: 400;
+            color: #666666;
+            padding-top: 10px;
+           
+           
+        }
+        .consumer_Electric{
+            padding-top: 20px;
+            ul li{
+                display: flex;
+                display: inline;
+                padding-top: 10px;
+                padding-left: 15px;
+                &:hover{
+                    cursor: pointer;
+                    color: #1363DF;
+                }
+            }
+        }
+        .clothing_Apparel{
+            padding-top: 20px;
+            ul li{
+                display: flex;
+                display: inline;
+                padding-left: 15px;
+                padding-top: 10px;
+                &:hover{
+                    cursor: pointer;
+                    color: #1363DF;
+                }
+            }
+        }
+        .Home_Garden{
+            padding-top: 20px;
+            ul li{
+                display: flex;
+                display: inline;
+                padding-left: 15px;
+                padding-top: 10px;
+                &:hover{
+                    cursor: pointer;
+                    color: #1363DF;
+                }
+            }
+        }
+        .Health_Beauty{
+            padding-top: 20px;
+            ul li{
+                display: flex;
+                display: inline;
+                padding-left: 15px;
+                padding-top: 10px;
+                &:hover{
+                    cursor: pointer;
+                    color: #1363DF;
+                }
+            }
+        } .Jewelry_Watches{
+            padding-top: 20px;
+            ul li{
+                display: flex;
+                display: inline;
+                padding-left: 15px;
+                padding-top: 10px;
+                &:hover{
+                    cursor: pointer;
+                    color: #1363DF;
+                }
+            }
+        } .Computer_Technologies{
+            padding-top: 20px;
+            ul li{
+                display: flex;
+                display: inline;
+                padding-left: 15px;
+                &:hover{
+                    cursor: pointer;
+                    color: #1363DF;
+                }  
+            }
+        }
+        
+    }
+}
+#footer_body {
+    .part_3{
+display: flex;
+justify-content: space-between;
     }
 }

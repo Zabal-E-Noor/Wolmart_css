@@ -4284,7 +4284,12 @@ a {
   justify-content: space-between;
 }
 
+#my_account .info_bar {
+  background-color: #EEEEEE;
+}
 #my_account .info_bar p {
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 34px;
@@ -6093,7 +6098,12 @@ a {
   justify-content: space-between;
 }
 
+#my_account .info_bar {
+  background-color: #EEEEEE;
+}
 #my_account .info_bar p {
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 34px;

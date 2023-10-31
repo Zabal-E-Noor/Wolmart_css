@@ -4,8 +4,7 @@
     height: 100%;
     z-index: 999999;
     background: white;
-     display: none;
-    
+     display: none;   
 @keyframes stageBackground {
     0%, 10%, 90%, 100% {
       background-color: #00B6BB;
@@ -15,17 +14,14 @@
       background-color: #0094bd;
     }
   }
-  
   @keyframes earthRotation {
     from {
       transform: rotate(0deg);
     }
-  
     to {
       transform: rotate(360deg);
     }
   }
-  
   @keyframes sunrise {
     0%, 10%, 90%, 100% {
       box-shadow: 0 0 0 25px #5ad6bd, 0 0 0 40px #4acead, 0 0 0 60px rgba(74, 206, 173, 0.6), 0 0 0 90px rgba(74, 206, 173, 0.3);

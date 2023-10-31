@@ -1,0 +1,249 @@
+#head_bar {
+
+    .head_1 {
+        background-color: #EEEEEE;
+
+        h1 {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            text-align: center;
+            font-family: $theme;
+            font-size: 34px;
+            font-weight: 700;
+            color: #333333;
+        }
+    }
+
+    .head_2 {
+        padding-top: 20px;
+        display: flex;
+        gap: 4px;
+
+        .hom {
+            text-align: center;
+            font-family: $theme;
+            font-size: 13px;
+            font-weight: 400;
+            color: #666666;
+
+            &:hover {
+                cursor: pointer;
+                color: #333333;
+            }
+
+        }
+
+        .acc {
+            text-align: center;
+            font-family: $theme;
+            font-size: 13px;
+            font-weight: 400;
+            color: #333333
+        }
+
+    }
+}
+
+#contact_body {
+    padding-top: 50px;
+
+    .contact_info {
+        text-align: center;
+
+        .ti {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            text-align: center;
+            font-family: $theme;
+            font-size: 24px;
+            font-weight: 700;
+            color: #333333;
+        }
+
+        .tii {
+            margin-top: 30px;
+            padding-bottom: 50px;
+            text-align: center;
+            font-family: $theme;
+            font-size: 14px;
+            font-weight: 400;
+            color: #666666;
+        }
+    }
+
+    .details {
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 50px;
+
+        .mail {
+            text-align: center;
+
+            i {
+                font-size: 52px;
+                margin-bottom: 20px;
+            }
+
+            span {
+                font-family: $theme;
+                font-size: 18px;
+                font-weight: 700;
+                color: #222222;
+
+            }
+
+            p {
+                font-family: $theme;
+                font-size: 14px;
+                font-weight: 400;
+                color: #666666;
+            }
+        }
+
+        .number {
+            text-align: center;
+
+            i {
+                font-size: 52px;
+                margin-bottom: 20px;
+            }
+
+            span {
+                font-family: $theme;
+                font-size: 18px;
+                font-weight: 700;
+                color: #222222;
+
+            }
+
+            p {
+                font-family: $theme;
+                font-size: 14px;
+                font-weight: 400;
+                color: #666666;
+            }
+        }
+
+        .adrss {
+            text-align: center;
+
+            i {
+                font-size: 52px;
+                margin-bottom: 20px;
+            }
+
+            span {
+                font-family: $theme;
+                font-size: 18px;
+                font-weight: 700;
+                color: #222222;
+
+            }
+
+            p {
+                font-family: $theme;
+                font-size: 14px;
+                font-weight: 400;
+                color: #666666;
+            }
+        }
+
+        .fax {
+            text-align: center;
+
+            i {
+                font-size: 52px;
+                margin-bottom: 20px;
+            }
+
+            span {
+                font-family: $theme;
+                font-size: 18px;
+                font-weight: 700;
+                color: #222222;
+
+            }
+
+            p {
+                font-family: $theme;
+                font-size: 14px;
+                font-weight: 400;
+                color: #666666;
+            }
+        }
+    }
+}
+
+#contact_body {
+  
+    .label {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+        font-family: $theme;
+        font-size: 20px;
+        font-weight: 700;
+        color: #222222;
+    }
+    .accordion{
+        padding-bottom: 30px;
+        .accordion-button{
+           
+            text-align: left;
+            font-family: $theme;
+            font-size: 15px;
+            font-weight: 600;
+            color: #222222;
+            &:hover{
+            color: #336699;
+            }
+
+        }
+    }
+    .contact_{
+        display: flex;
+        gap: 30px;
+        .col-lg-6{
+           h5{
+            padding-top: 22px;
+            padding-bottom: 15px;
+            text-align: left;
+            font-family: $theme;
+            font-size: 20px;
+            font-weight: 700;
+            color: #222222;
+           }
+           label{
+            font-family: $theme;
+                font-size: 14px;
+                font-weight: 400;
+                color: #666666
+           }
+           input{
+            width: 90%;
+            height: 35px;
+            margin-top: 15px;
+           }
+           .send{
+            font-family: $theme;
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 20px;
+            text-align: center;
+            width: 150px;
+            padding: 10px 5px;
+            background-color: #454545;
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            -o-border-radius: 3px;
+            color: azure;
+            &:hover{
+                background-color: #222222;
+            }
+}
+        }
+    }
+}

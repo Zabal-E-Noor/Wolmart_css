@@ -1,14 +1,11 @@
-@import '../components/home/preloader';
-@import '../components/home/header';
-@import '../components/home/megamenu';
-@import '../components/home/mainslider';
-@import '../components/home/popular';
-@import '../components/home/clothing';
-@import '../components/home/camera';
-@import '../components/home/garden';
-@import '../components/home/deals';
-@import '../components/home/clients+blog';
-@import '../components/home/footer';
-
-
-
+@import '../components/header';
+@import '../components/megamenu';
+@import '../components/mainslider';
+@import '../components/deals';
+@import '../components/popular';
+@import '../components/clothing';
+@import '../components/camera';
+@import '../components/garden';
+@import '../components/clients+blog';
+@import '../components/footer';
+@import '../components/my_accounts.scss'

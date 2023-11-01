@@ -1,0 +1,224 @@
+#vendor {
+    margin-bottom: 50px;
+    .direction {
+        margin-top: 20px;
+        display: flex;
+        gap: 5px;
+
+        h6 {
+            font-family: $theme;
+            font-size: 13px;
+            font-weight: 400px;
+            color: #727274;
+
+            &:hover {
+                cursor: pointer;
+                color: #336699;
+            }
+        }
+    }
+
+    .filter {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+
+        .left {
+            display: flex;
+            gap: 10px;
+
+            .txt {
+                padding-top: 8px;
+                font-family: $theme;
+                font-size: 14px;
+                font-weight: 400px;
+                color: #222222;
+            }
+
+            .option {
+                width: 80px;
+                gap: 5px;
+                padding: 7px 10px;
+                border: 2px solid #336699;
+                border-radius: 3px;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                -ms-border-radius: 3px;
+                -o-border-radius: 3px;
+                color: #336699;
+                text-align: center;
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: #336699;
+                    color: white;
+                }
+
+
+            }
+        }
+
+
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        margin-left: 65%;
+
+        gap: 7px;
+
+        i {
+            font-size: 20px;
+        }
+
+
+
+        .drop {
+            border: 1px solid #727274;
+            display: inline;
+            padding: 7px 10px;
+            gap: 10px;
+            font-family: $theme;
+            font-size: 15px;
+            font-weight: 400px;
+            color: #222222;
+        }
+    }
+
+    .avatar {
+        
+        margin-bottom: 30px;
+        width: 400px;
+        height: 263px;
+
+
+
+        .visit {
+            padding-bottom: 20px;
+            h6 {
+                padding-top: 20px;
+                padding-left: 20px;
+
+                &:hover {
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+            }
+
+        }
+
+       
+
+        .card_ {
+            position: relative;
+            border-radius: 10px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.08);
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            &:hover .circle_front{
+                top: 50%;
+            }
+
+            
+
+            img {
+                border-radius: 10px 10px 0px 0px;
+            }
+
+            .circle_back {
+                width: 82px;
+                height: 40px;
+                background-color: #FF9742;
+                border-radius: 10rem 10rem 0 0;
+                rotate: 180deg;
+                position: absolute;
+                top: 76%;
+                right: 10%;
+            }
+
+            .circle_front {
+                width: 86px;
+                height: 86px;
+                position: absolute;
+                top: 60%;
+                right: 9.5%;
+                transition: .5s;
+                -webkit-transition: .5s;
+                -moz-transition: .5s;
+                -ms-transition: .5s;
+                -o-transition: .5s;
+
+                img {
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                }
+
+            }
+
+            .card_txt {
+                position: absolute;
+                top: 25%;
+                left: 10%;
+
+                .vendor_number {
+                    font-family: $theme;
+                    font-size: 15px;
+                    font-weight: 400px;
+                    color: #ccd1ce;
+                    &:hover{
+                        cursor: pointer;
+                        color: #336699;
+                    }
+                }
+
+                .vendor_adress {
+                    margin-top: 20px;
+                    font-family: $theme;
+                    font-size: 13px;
+                    font-weight: 600px;
+                    color: #ccd1ce;
+                }
+            }
+
+            .vendor_status {
+                display: inline;
+                box-shadow: 0 0 25px -5px white;
+                position: absolute;
+                top: 5%;
+                right: 5%;
+                padding: 3px 10px;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                background-color: #1e8a48;
+                margin-top: 20px;
+                font-family: $theme;
+                font-size: 10px;
+                font-weight: 600px;
+                color: #ffffff;
+
+            }
+
+        }
+        .card_:hover .circle_front{
+            top: 55%;
+        }
+    }
+    .card_row_1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card_row_2{
+        display: flex;
+        justify-content: space-between;
+    }
+}

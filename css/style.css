@@ -25949,6 +25949,7 @@ a {
 }
 #fashion .fashion_body .content {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 #fashion .fashion_body .content .row_ {
   display: flex;
@@ -26025,4 +26026,35 @@ a {
   font-size: 13px;
   font-weight: 400;
   color: #333333;
+}
+#fashion .fashion_body .content .card_1 .status {
+  position: absolute;
+  top: 3%;
+  left: 5%;
+  z-index: 999;
+}
+#fashion .fashion_body .content .card_1 .status .hot {
+  font-size: 14px;
+  text-align: center;
+  width: 45px;
+  background-color: #799B5A;
+  color: white;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+#fashion .fashion_body .content .card_1 .status .discount {
+  margin-top: 5px;
+  font-size: 14px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #F77C29;
+  color: white;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion-Wolmart</title>
+    <link rel="icon" href="./images/assest/icon/tablogo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f59781e4f6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+</head>
+
+<body>
+
+
+    <!-- =====================
+     2. TOP BAR 
+========================== -->
+    <section>
+        <header id="header">
+            <div class="header_head">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="head_title">
+                                <p>WELCOME TO WOLMART STORE MESSAGE OR REMOVE IT!</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="head_right">
+
+                                <div class="head_country">
+
+                                    <ul>
+                                        <li class="usd">
+                                            <a href="#">USD <span class="down_arrow">
+                                                    <i class="fa-solid fa-angle-down"></i>
+                                                </span>
+                                            </a>
+                                            <div class="currrency_dropdown">
+                                                <div>
+                                                    <div><a href="">EUR</a></div>
+                                                    <div><a href="">USD</a></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <img class="uk_flag" width="14px" height="14px" class="ukk"
+                                            src="./images/assest/icon/ukk.png">
+                                        <li class="eng"> <a href="#">ENG
+                                                <span class="down_arrow"><i class="fa-solid fa-angle-down">
+                                                    </i>
+                                                </span>
+                                            </a>
+                                            <div class="country_dropdown">
+                                                <div>
+                                                    <div class="flag"><img class="eng_flag" width="14px" height="14px"
+                                                            class="uk" src="./images/assest/icon/ukk.png"> <a
+                                                            href="#">ENG</a></div>
+                                                    <div class="flag"> <img class="eng_flag" width="14px" height="14px"
+                                                            class="fraa" src="./images/assest/icon/fraa.png"> <a
+                                                            href="#"> FRA</a> </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="head_acc">
+                                    <ul>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#">My Account</a></li>
+                                        <span class="user"><i class="fa-solid fa-user"></i></span>
+                                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign In /
+                                                Register</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- =========================
+     TOP BAR End
+========================== -->
+
+    <!-- =========================
+    3 . SIGN_IN/UP MODLA 
+========================== -->
+    <!-- Modal -->
+    <section id="registration_modal">
+        <div class="modal fade head_popup" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <span class="exit_button"><button type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button></span>
+                    <div class="modal-body">
+                        <div class="head_navtab">
+                            <nav>
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                        aria-selected="true">SIGN IN</button>
+                                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-profile" type="button" role="tab"
+                                        aria-controls="nav-profile" aria-selected="false">SIGN UP</button>
+                                </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                    aria-labelledby="nav-home-tab" tabindex="0">
+                                    <div class="modal_form">
+                                        <form>
+                                            <span class="user_text"><label for="fname">
+                                                    Username or email address*</label></span><br>
+                                            <span class="user_name"><input type="text" id="fname" name="fname"
+                                                    value=""></span><br>
+                                            <span class="password_text"><label for="lname">Password *</label></span><br>
+                                            <span class="password"><input type="text" id="lname" name="lname"
+                                                    value=""></span><br>
+                                            <br>
+                                            <span><input type="checkbox" id="vehicle1" name="vehicle1" value=""><label
+                                                    for="fname">
+                                                    <span class="checkbox_text">Remember me*</span>
+                                                    <span class="lost_password">Lost your password?</span>
+                                                </label></span> <br>
+
+                                            <span class="submit_button"><input type="submit" value="Submit"></span>
+
+                                        </form>
+                                        <span class="social_text">
+                                            <p>Sign in with social account</p>
+                                        </span>
+                                        <span class="social_icon">
+                                            <span class="fb_icon"><i class="fa-brands fa-facebook-f"></i></span>
+                                            <span class="tw_icon"><i class="fa-brands fa-twitter"></i></span>
+                                            <span class="g_icon"><i class="fa-brands fa-google"></i><span>
+                                                </span>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                    aria-labelledby="nav-profile-tab" tabindex="0">
+                                    <div class="signup">
+                                        <form>
+                                            <span class="signup_label"><label for="fname">
+                                                    Your Email address *</label></span><br>
+                                            <span class="user_name"><input type="text" id="fname" name="fname"
+                                                    value=""></span><br>
+                                            <span class="passwor_label"><label for="lname">Password *</label></span><br>
+                                            <span class="password"><input type="text" id="lname" name="lname"
+                                                    value=""></span><br>
+                                            <br><span>
+                                                <p class="signup_text">Your personal data will be used to support your
+                                                    experience throughout this website, to manage access to your
+                                                    account, and for other purposes described in our <a href="#">privacy
+                                                        policy.</a></p>
+                                            </span> <br>
+                                            <a href="#">Signup as a vendor?</a><br>
+                                            <span class="privacy_policy">
+                                                <input type="checkbox" id="vehicle1" name="vehicle1" value=""><label
+                                                    for="fname">
+                                                    <span class="checkbox_text">I agree to the <a href="#">privacy
+                                                            policy.</a></span></span>
+                                            <br>
+                                            <span class="submit_button"><input type="submit" value="Submit"></span><br>
+                                            <span class="social_text">
+                                                <p>Sign in with social account</p>
+                                            </span>
+                                            <span class="social_icon">
+                                                <span class="fb_icon"><i class="fa-brands fa-facebook-f"></i></span>
+                                                <span class="tw_icon"><i class="fa-brands fa-twitter"></i></span>
+                                                <span class="g_icon"><i class="fa-brands fa-google"></i></span>
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </header>
+    </section>
+    <!-- =========================
+       MODAL End
+========================== -->
+    <!-- =========================
+     4. SEARCH MENU 
+========================== -->
+    <section>
+        <nav id="nav">
+            <div class="container">
+                <div class="nav_bar">
+                    <div class="col-lg-2">
+                        <span class="logo"><img width="144px" height="45px" src="./images/assest/icon/logo.png"></span>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="search_box">
+                            <div class="catagories">
+                                All Catagories <span class="arrow_down">
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </span>
+                                <span class="divider_one"></span>
+                                <div class="catagories_dropdown">
+                                    <ul>
+                                        <li> All Catagories</li>
+                                        <li> Fashion</li>
+                                        <li> Clothes</li>
+                                        <li> Hobbies</li>
+                                        <li> Lifestyle</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                            <div class="input">
+                                <input class="sub_input" type="text" placeholder="Search in..">
+                                <span class="magnifying-glass"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="call">
+                            <div class="telephone">
+                                <i class="fa-solid fa-phone-volume"></i></div>
+                            <div class="call_info">
+                                <div class="call_text">
+                                    <p>Live Chat or :</p>
+                                </div>
+                                <div><a href="tel:#" class="call_link">0(800)123-456</a></div>
+                            </div>
+                        </div>
+                        <span class="divider_two"></span>
+                        <div class="head_icon">
+                            <div class="col-lg-4 ">
+                                <div class="wishlist_button">
+                                    <span class="wishlist"><i class="fa-regular fa-heart"></i></span>
+                                    <p class="wishlist_text">Wishlist</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="compare_button">
+                                    <span class="compare"><i class="fa-solid fa-scale-balanced"></i></span>
+                                    <p class="compare_text">Compare</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                    <span class="cart"><span><i class="fa-solid fa-bag-shopping"></i></span></span>
+                                    <p class="cart_text">Cart</p>
+                                </div>
+                            </div>
+                            <!-- cart menu -->
+                            <!-- cart START -->
+                            <!-- cart menu -->
+
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                                aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <div id="offcanvasRightLabel">
+                                        SHOPPING CART</div>
+                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"> </button>
+                                </div>
+                                <hr class="divider">
+                                <div class="offcanvas-body">
+                                    No Products In The Cart.
+                                </div>
+                            </div>
+                            <!-- cart menu -->
+                            <!-- cart END  -->
+                            <!-- cart menu -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- =========================
+     SEARCH MENU  End
+ ========================== -->
+    <div id="divider">
+        <hr>
+    </div>
+    <!-- =========================
+     5. MEGA MENU
+ ========================== -->
+    <!-- =======INDEX======= -->
+    <!-- 1. FASHION[DROPDOWN] [457]-->
+    <!-- 2. HOME & GARDEN [DROPDOWN] [503]-->
+    <!-- 3. ELECTRONICS[DROPDOWN] [569]-->
+    <!-- 4. FURNITURE[DROPDOWN][637] -->
+    <!-- 5. SHOP[DROPDOWN][734] -->
+    <!-- 6. VENDOR[DROPDOWN] [800]-->
+    <!-- 7. BLOG [DROPDOWN][843] -->
+    <!-- 8. PAGES[DROPDOWN] [857]-->
+    <!-- ================== -->
+    <section>
+        <nav id="menu">
+            <div class="container">
+                <div class="menu_bar">
+                    <div class="browse_catagories">
+                        <div>
+                            <span class="catgory_bar"> <i class="fa-solid fa-bars"></i></span>
+                            <span class="browse_text">BROWSE CATAGORIES</span>
+                            <span class="arrow_down"><i class="fa-solid fa-angle-down"></i></span>
+                            <!-- 1. FASHION[DROPDOWN] -->
+                            <div class="drop_box">
+                                <ul>
+                                    <li class="fashion_menu">
+
+                                        <span><i class="fa-solid fa-shirt"></i>Fashion</span>
+
+                                        <div class="fashion">
+                                            <div class="women">
+                                                <span class="head">WOMEN</span>
+                                                <hr>
+                                                <ul>
+                                                    <li>New Arrivals</li>
+                                                    <li>Best Sellers</li>
+                                                    <li>Trending</li>
+                                                    <li>Clothing</li>
+                                                    <li>Shoes</li>
+                                                    <li>Shoes</li>
+                                                    <li>Accessories</li>
+                                                    <li>Jewlery & Watches</li>
+                                                </ul>
+                                            </div>
+                                            <div class="men">
+                                                <span class="head">MEN</span>
+                                                <hr>
+                                                <ul>
+                                                    <li>New Arrivals</li>
+                                                    <li>Best Sellers</li>
+                                                    <li>Trending</li>
+                                                    <li>Clothing</li>
+                                                    <li>Shoes</li>
+                                                    <li>Shoes</li>
+                                                    <li>Accessories</li>
+                                                    <li>Jewlery & Watches</li>
+                                                </ul>
+                                            </div>
+                                            <div class="fashion_image">
+                                                <img src="../wolmart/images/assest/menu/fashion.jpg">
+                                            </div>
+                                            <div class=" image_text">
+                                                <p>Get up to <span> 20% OFF</span></p>
+                                                <h5>HOT SALE</h5>
+                                                <h6>SHOP NOW <i class="fa-solid fa-arrow-right"></i></h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- 2. HOME & GARDEN [DROPDOWN] -->
+                                    <li class="home_menu"><span><i class="fa-solid fa-house"></i>Home & Garden</span>
+                                        <div class="garden">
+                                            <div class="garden_menu">
+                                                <div class="second_row">
+                                                    <div class="bedroom">
+                                                        <span>BEDROOM</span>
+                                                        <hr>
+                                                        <ul>
+                                                            <li>Beds, Frames & Bases</li>
+                                                            <li>Dressers</li>
+                                                            <li>Nightstands</li>
+                                                            <li>Kid's Beds & Headboards</li>
+                                                            <li>Armoires</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="office">
+                                                        <span>OFFICE</span>
+                                                        <hr>
+                                                        <ul>
+                                                            <li>Office Chairs</li>
+                                                            <li>Desks</li>
+                                                            <li>Bookcases</li>
+                                                            <li>File Cabinets</li>
+                                                            <li>Breakroom Tables</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="second_row">
+                                                    <div class="living_room">
+                                                        <span>LIVING ROOM</span>
+                                                        <hr>
+                                                        <ul>
+                                                            <li>Coffee Tables</li>
+                                                            <li>Chairs</li>
+                                                            <li>Tables</li>
+                                                            <li>Futons & Sofa Beds</li>
+                                                            <li>Cabinets & chests</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="kitchen">
+                                                        <span>KITCHEN & DINING</span>
+                                                        <hr>
+                                                        <ul>
+                                                            <li>Dining Sets</li>
+                                                            <li>Kitchen Storage Cabinets</li>
+                                                            <li>Bashers Racks</li>
+                                                            <li>Dining Chairs</li>
+                                                            <li>Dining Room Tables</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="garden_image">
+                                                <img src="../wolmart/images/assest/menu/garden.jpg">
+                                                <div class="garden_text">
+                                                    <h6>Restroom</h6>
+                                                    <h3>Furniture Sale</h3>
+                                                    <h4>Up to 25% OFF</h4>
+                                                    <p>SHOP NOW <i class="fa-solid fa-arrow-right"></i></p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <!-- 3. ELECTRONICS[DROPDOWN] -->
+                                    <li class="electronics_bar"><span><i class="fa-solid fa-tv"></i>Electronics</span>
+                                        <div class="electronics">
+                                            <div class="electronics_menu">
+                                                <div class="second_row">
+                                                    <div class="laptop">
+                                                        <span>LAPTOPS & COMPUTERS</span>
+                                                        <hr>
+                                                        <ul>
+                                                            <li>Desktop Computers</li>
+                                                            <li>Monitors</li>
+                                                            <li>Laptops</li>
+                                                            <li>Hard Drives & Storage</li>
+
+                                                        </ul>
+                                                    </div>
+                                                    <div class="camera">
+                                                        <span>DIGITAL CAMERAS</span>
+                                                        <hr>
+                                                        <ul>
+                                                            <li>Digital SLR Cameras</li>
+                                                            <li>Sports & Action Cameras</li>
+                                                            <li>Camera Lenses</li>
+                                                            <li>Photo Printer</li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="second_row">
+                                                    <div class="tv">
+                                                        <span>TV & VIDEO</span>
+                                                        <hr>
+                                                        <ul>
+                                                            <li>TVS</li>
+                                                            <li>Home Audio Speakers</li>
+                                                            <li>Projectors</li>
+                                                            <li>Media Streaming Devices</li>
+
+                                                        </ul>
+                                                    </div>
+                                                    <div class="phone">
+                                                        <span>CELL PHONES</span>
+                                                        <hr>
+                                                        <ul>
+                                                            <li>Carrier Phones </li>
+                                                            <li>Unlocked Phones</li>
+                                                            <li>Phone & Cellphone Cases</li>
+                                                            <li>Cellphone Chargers</li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="electronics_image">
+                                                <img src="../wolmart/images/assest/menu/electronics.jpg">
+                                                <div class="electronics_text">
+                                                    <h6>Deals Of The Week</h6>
+                                                    <h3>Save On Smart
+                                                        EarPhone</h3>
+                                                    <h4>25% OFF</h4>
+                                                    <div class="electronics_button">SHOP NOW </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </li>
+                                    <!-- 4. FURNITURE[DROPDOWN] -->
+                                    <li class="furniture_bar"> <span><i class="fa-solid fa-couch"></i>Furniture</span>
+                                        <div class="furniture">
+                                            <div class="furniture_menu">
+                                                <div class="furniture_list">
+                                                    <span>
+                                                        FURNITURE</span>
+                                                    <hr>
+                                                    <ul>
+                                                        <li>Sofas & Couches</li>
+                                                        <li>Armchairs</li>
+                                                        <li>Bed Frames</li>
+                                                        <li>Beside Tables</li>
+                                                        <li>Dressing Tables</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="lighting_list">
+                                                    <span>LIGHTING</span>
+                                                    <hr>
+                                                    <ul>
+                                                        <li>Light Bulbs</li>
+                                                        <li>Lamps</li>
+                                                        <li>Celling Lights</li>
+                                                        <li>Wall Lights</li>
+                                                        <li>Bathroom Lighting</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="accessories_list">
+                                                    <span>HOME ACCESSORIES</span>
+                                                    <hr>
+                                                    <ul>
+                                                        <li>Decorative Accessories</li>
+                                                        <li>Candals & Holders</li>
+                                                        <li>Home Fragrance</li>
+                                                        <li>Mirrors</li>
+                                                        <li>Clocks</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="outdoor_list">
+                                                    <span>GARDEN & OUTDOORS</span>
+                                                    <hr>
+                                                    <ul>
+                                                        <li>Garden Furniture</li>
+                                                        <li>Lawn Mowers</li>
+                                                        <li>Pressure Washers</li>
+                                                        <li>All Garden Tools</li>
+                                                        <li>Outdoor Dining</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="furniture_images">
+                                                <ul>
+                                                    <li>
+                                                        <div class="banner_1">
+                                                            <img
+                                                                src="../wolmart/images/assest/menu/furniture_banner_1.jpg">
+                                                            <div class="banner_1_text">
+                                                                <p>New Arrivals</p>
+                                                                <span>Amazing Sofa</span>
+                                                                <h6>Starting at $125.00</h6>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="banner_2">
+                                                            <img
+                                                                src="../wolmart/images/assest/menu/furniture_banner_2.jpg">
+                                                            <div class="banner_2_text">
+                                                                <p>Best Seller</p>
+                                                                <span>Chair & Lamp</span>
+                                                                <h6>From $165.00</h6>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                    <li><i class="fa-solid fa-heart-pulse"></i>Health & Beauty</li>
+                                    <li><i class="fa-solid fa-gift"></i>Gift Ideas</li>
+                                    <li><i class="fa-solid fa-gamepad"></i>Toy & Games</li>
+                                    <li><i class="fa-solid fa-bowl-rice"></i>Cooking</li>
+                                    <li><i class="fa-solid fa-mobile-screen"></i>Smart Phones</li>
+                                    <li><i class="fa-solid fa-camera"></i>Cameras & Photo</li>
+                                    <li><i class="fa-regular fa-gem"></i>Accessories</li>
+                                    <li>VIEW ALL CATEGORIES <i class="fa-solid fa-chevron-right"></i></li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="menu_list ">
+                        <ul>
+                            <li class="home">Home</li>
+                            <!-- 5. SHOP[DROPDOWN] -->
+                            <li class="top_bar">
+                                Shop
+
+                                <div class="shop_list">
+                                    <div class="shop_pages">
+                                        <span>SHOP PAGES</span>
+                                        <ul>
+                                            <li>Banner With Sidebar</li>
+                                            <li>Boxed Banner</li>
+                                            <li>Full Width Banner </li>
+                                            <li>Horizontal Filter<div class="hot">HOT</div>
+                                            </li>
+                                            <li>Off Canvas Sidebar<div class="new">NEW</div>
+                                            </li>
+                                            <li>Infinite Ajax Scroll</li>
+                                            <li>Right Sidebar</li>
+                                            <li>Full Width Sidebar</li>
+                                        </ul>
+                                    </div>
+                                    <div class="shop_layouts">
+                                        <span>SHOP LAYOUTS</span>
+                                        <ul>
+                                            <li>3 Columns Mode</li>
+                                            <li>4 Columns Mode</li>
+                                            <li>5 Columns Mode</li>
+                                            <li>6 Columns Mode</li>
+                                            <li>7 Columns Mode</li>
+                                            <li>8 Columns Mode</li>
+                                            <li>List Mode</li>
+                                            <li>List Mode With Sidebar</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product_pages">
+                                        <span>PRODUCT PAGES</span>
+                                        <ul>
+                                            <li>Variable Product</li>
+                                            <li>Featured & Sale</li>
+                                            <li>Data In Accordion</li>
+                                            <li>Data In Sections</li>
+                                            <li>Image Swatch</li>
+                                            <li>Extended Info</li>
+                                            <li>Without Sidebar</li>
+                                            <li>360 & Video<icon-new>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="product_layouts">
+                                        <span>PRODUCT LAYOUTS</span>
+                                        <ul>
+                                            <li>Default<icon-hot>
+                                            </li>
+                                            <li>Vertical Thumbs</li>
+                                            <li>Grid Images </li>
+                                            <li>Masonry</li>
+                                            <li>Gallery</li>
+                                            <li>Sticky Info</li>
+                                            <li>Sticky Thumbs</li>
+                                            <li>Sticky Both</li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <!-- 6. VENDOR[DROPDOWN] -->
+                            <li class="vendor_bar">Vendor
+                                <div class="vendor">
+                                    <div class="top">
+                                        <div class="dokan">
+                                            <span>DOKAN</span>
+                                            <ul>
+                                                <li>Store List</li>
+                                                <li>Store</li>
+                                                <li>Dashboard</li>
+                                            </ul>
+                                        </div>
+                                        <div class="wc_marketplace">
+                                            <span>WC MARKETPLACE</span>
+                                            <ul>
+                                                <li>Store List</li>
+                                                <li>Store</li>
+                                                <li>Dashboard</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+
+                                        <div class="wcfm"> <span>WCFM</span>
+                                            <ul>
+                                                <li>Store List</li>
+                                                <li>Store</li>
+                                                <li>Dashboard</li>
+                                            </ul>
+                                        </div>
+                                        <span></span>
+                                        <div class="wc_vendors">
+                                            <span>WC VENDORS</span>
+                                            <ul>
+                                                <li>Store List</li>
+                                                <li>Store</li>
+                                                <li>Dashboard</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- 7. BLOG [DROPDOWN] -->
+                            <li class="blog_bar">Blog
+                                <div class="blog">
+                                    <ul>
+                                        <li>Classic</li>
+                                        <li>Listing</li>
+                                        <li>Grid</li>
+                                        <li>Masonry</li>
+                                        <li>Mask</li>
+                                        <li>Single Post</li>
+                                    </ul>
+                                </div>
+
+                            </li>
+                            <!-- 8. PAGES[DROPDOWN] -->
+                            <li class="pages_bar">Pages
+                                <div class="pages">
+                                    <ul>
+                                        <li>About Us</li>
+                                        <li>Contact Us</li>
+                                        <li>Become A Vendor</li>
+                                        <li>FAQs</li>
+                                        <li>Error 404</li>
+                                        <li>Coming Soon</li>
+                                        <li>Wishlist</li>
+                                        <li>Cart</li>
+                                        <li>Checkout</li>
+                                        <li>Compare</li>
+                                        <li>My Account</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="top_bar">Elemets</li>
+                        </ul>
+                    </div>
+                    <div class=" menu_end">
+                        <ul>
+                            <li><span class="dot"><i class="fa-solid fa-location-dot"></i> Track Order</span> </li>
+                            <li><span class="tag"><i class="fa-solid fa-tag fa-flip-horizontal"></i> Daily Deals </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- ===============FASHION===================== -->
+    <section id="fashion">
+        <div class="container">
+            <div class="direction">
+                <p>Home</p>
+                <i class="fa-solid fa-angle-right" style="color: #7d7f82;"></i>
+                <p>Fashion</p>
+            </div>
+            <br>
+            <div class="fashion_body">
+                <div class="col-lg-2">
+                    <div class="filter">
+                        <h4>Filter:</h4>
+                        <p>Clean All</p>
+                    </div>
+                    <div class="catagory_head">
+                        <h5>All Catagories</h5>
+                        <i class="fa-solid fa-minus" style="color: #000000;"></i>
+
+                    </div>
+                    <hr>
+                    <div class="catagory">
+                        <ul>
+                            <li>Clothing</li>
+                            <li>Computers</li>
+                            <li>Electronics</li>
+                            <li>Fashion</li>
+                            <li>Furniture</li>
+                            <li>Games</li>
+                            <li>Kitchen</li>
+                            <li>Shoes</li>
+                            <li>Sports</li>
+                        </ul>
+                    </div>
+                    <div class="catagory_head">
+                        <h5>Prices</h5>
+                        <i class="fa-solid fa-minus" style="color: #000000;"></i>
+                    </div>
+                    <hr>
+                    <div class="price">
+                        <ul>
+                            <li>$10.00 - $50.00</li>
+                            <li>$50.00 - $100.00</li>
+                            <li>$100.00 - $500.00</li>
+                            <li class="limit">
+                                <input type="number" id="fname" name="fname" placeholder="$min">
+                                -
+                                <input type="number" id="fname" name="fname" placeholder="$max">
+                                <div class="go">Go</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catagory_head">
+                        <h5>Size</h5>
+                        <i class="fa-solid fa-minus" style="color: #000000;"></i>
+
+                    </div>
+                    <hr>
+                    <div class="size">
+                        <ul>
+                            <li><input type="checkbox" id="fashion" name="size" value="dress">
+                                <label for="vehicle1">Extra Large</label>
+                            </li>
+                            <li><input type="checkbox" id="fashion" name="size" value="dress">
+                                <label for="vehicle2"> Large</label>
+                            </li>
+                            <li> <input type="checkbox" id="fashion" name="size" value="dress">
+                                <label for="vehicle3">Medium</label>
+                            </li>
+                            <li> <input type="checkbox" id="fashion" name="size" value="dress">
+                                <label for="vehicle3">Small</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catagory_head">
+                        <h5>Brand</h5>
+                        <i class="fa-solid fa-minus" style="color: #000000;"></i>
+
+                    </div>
+                    <hr>
+                    <div class="brand">
+                        <ul>
+                            <li><input type="checkbox" id="fashion" name="brand" value="dress">
+                                <label for="vehicle1"> Elegant Auto Group</label>
+                            </li>
+                            <li><input type="checkbox" id="fashion" name="brand" value="dress">
+                                <label for="vehicle2"> Green Grass</label>
+                            </li>
+                            <li> <input type="checkbox" id="fashion" name="brand" value="dress">
+                                <label for="vehicle3"> NS8</label>
+                            </li>
+                            <li> <input type="checkbox" id="fashion" name="brand" value="dress">
+                                <label for="vehicle3"> Red</label>
+                            </li>
+                            <li> <input type="checkbox" id="fashion" name="brand" value="dress">
+                                <label for="vehicle3"> Sterling</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catagory_head">
+                        <h5>Colour</h5>
+                        <i class="fa-solid fa-minus" style="color: #000000;"></i>
+
+                    </div>
+                    <hr>
+                    <div class="shade">
+                        <ul>
+                            <li><input type="checkbox" id="fashion" name="colour" value="dress">
+                                <label for="vehicle1"> Black</label>
+                            </li>
+                            <li><input type="checkbox" id="fashion" name="colour" value="dress">
+                                <label for="vehicle2"> Blue</label>
+                            </li>
+                            <li> <input type="checkbox" id="fashion" name="colour" value="dress">
+                                <label for="vehicle3"> Brown</label>
+                            </li>
+                            <li> <input type="checkbox" id="fashion" name="colour" value="dress">
+                                <label for="vehicle3"> orange</label>
+                            </li>
+                            <li> <input type="checkbox" id="fashion" name="colour" value="dress">
+                                <label for="vehicle3"> pink</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="banner_top">
+                        <img width="100%" height="100%"
+                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/04/category-banner-1.jpg">
+                        <div class="banner_txt">
+                            <h2>Accessories Collection</h2>
+                            <span>SMART WATCHES</span><br>
+                            <div class="discover">DISCOVER NOW</div>
+                        </div>
+                    </div>
+                    <div class="sorting">
+                        <div class="left_">
+                            <p>Sort by:</p>
+                            <div class="sort_list">
+                                Default sorting
+                            </div>
+                        </div>
+                        <div class="right_">
+                            <div class="unit_list"> Show 9</div>
+                            <i class="fa-solid fa-cubes fa-xl" style="color: #252628;"></i>
+                            <i class="fa-solid fa-grip fa-xl" style="color: #2d2e2f;"></i>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="row_">
+                            <!-- 1 -->
+                            <div class="card_1">
+                                <div class="bottom_layer">
+                                    <img width="296px" height="344px"
+                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/sport-womens-wear-1-300x338.jpg">
+
+                                </div>
+
+                                <div class="top_layer">
+                                    <img width="296px" height="344px"
+                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/sport-womens-wear-2-300x338.jpg">
+                                    <div class="icons">
+                                        <ul>
+                                            <li><i class="fa-solid fa-bag-shopping fa-lg"></i> </li>
+                                            <li><i class="fa-regular fa-heart fa-lg"></i> </li>
+
+                                            <li><i class="fa-solid fa-magnifying-glass fa-lg"></i> </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card_text">
+                                    <p class="item_name"> Sports wear</p>
+                                    <div class="review">
+                                        <ul>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <p class="count">(0 reviews)</p>
+                                        </ul>
+                                    </div>
+                                    <div class="price">$25.68</div>
+                                </div>
+
+                            </div>
+                            <!-- 2 -->
+                            <div class="card_1">
+                                <div class="bottom_layer">
+                                    <img width="296px" height="344px"
+                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/Womens-Comforter-3-300x338.jpg">
+
+                                </div>
+
+                                <div class="top_layer">
+                                    <img width="296px" height="344px"
+                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/Womens-Comforter-2-300x338.jpg">
+                                    <div class="icons">
+                                        <ul>
+                                            <li><i class="fa-solid fa-bag-shopping fa-lg"></i> </li>
+                                            <li><i class="fa-regular fa-heart fa-lg"></i> </li>
+
+                                            <li><i class="fa-solid fa-magnifying-glass fa-lg"></i> </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card_text">
+                                    <p class="item_name"> Dog Beds</p>
+                                    <div class="review">
+                                        <ul>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <p class="count">(0 reviews)</p>
+                                        </ul>
+                                    </div>
+                                    <div class="price">$25.68</div>
+                                </div>
+
+                            </div>
+                            <!-- 3 -->
+                            <div class="card_1">
+                                <div class="bottom_layer">
+                                    <img width="296px" height="344px"
+                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/Casual-Dress-4-300x338.jpg">
+
+                                </div>
+
+                                <div class="top_layer">
+                                    <img width="296px" height="344px"
+                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/Casual-Dress-4-300x338.jpg">
+                                    <div class="icons">
+                                        <ul>
+                                            <li><i class="fa-solid fa-bag-shopping fa-lg"></i> </li>
+                                            <li><i class="fa-regular fa-heart fa-lg"></i> </li>
+
+                                            <li><i class="fa-solid fa-magnifying-glass fa-lg"></i> </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card_text">
+                                    <p class="item_name"> Summer dress</p>
+                                    <div class="review">
+                                        <ul>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <p class="count">(0 reviews)</p>
+                                        </ul>
+                                    </div>
+                                    <div class="price">$25.68</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row_">
+                            <!-- 4 -->
+                            <div class="card_1">
+                                <div class="bottom_layer">
+                                    <img width="296px" height="344px"
+                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/Best-Travel-Bag-3-300x338.jpg">
+
+                                </div>
+
+                                <div class="top_layer">
+                                    <img width="296px" height="344px"
+                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/Best-Travel-Bag-1-300x338.jpg">
+                                    <div class="icons">
+                                        <ul>
+                                            <li><i class="fa-solid fa-bag-shopping fa-lg"></i> </li>
+                                            <li><i class="fa-regular fa-heart fa-lg"></i> </li>
+
+                                            <li><i class="fa-solid fa-magnifying-glass fa-lg"></i> </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card_text">
+                                    <p class="item_name"> Best Travel Bag</p>
+                                    <div class="review">
+                                        <ul>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <p class="count">(0 reviews)</p>
+                                        </ul>
+                                    </div>
+                                    <div class="price">$25.68</div>
+                                </div>
+
+                            </div>
+                            <!-- 5 -->
+                            <div class="card_1">
+                                <div class="bottom_layer">
+                                    <img width="296px" height="344px"
+                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/classic-hat-3-300x338.jpg">
+
+                                </div>
+
+                                <div class="top_layer">
+                                    <img width="296px" height="344px"
+                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/classic-hat-1-300x338.jpg">
+                                    <div class="icons">
+                                        <ul>
+                                            <li><i class="fa-solid fa-bag-shopping fa-lg"></i> </li>
+                                            <li><i class="fa-regular fa-heart fa-lg"></i> </li>
+
+                                            <li><i class="fa-solid fa-magnifying-glass fa-lg"></i> </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card_text">
+                                    <p class="item_name"> Cowboy Hat</p>
+                                    <div class="review">
+                                        <ul>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <p class="count">(0 reviews)</p>
+                                        </ul>
+                                    </div>
+                                    <div class="price">$25.68</div>
+                                </div>
+
+                            </div>
+                            <!-- 6 -->
+                            <div class="card_1">
+                                <div class="bottom_layer">
+                                    <img width="296px" height="344px"
+                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/Coat-Pool-Comfort-Jacket-2-1-300x338.jpg">
+
+                                </div>
+
+                                <div class="top_layer">
+                                    <img width="296px" height="344px"
+                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/Coat-Pool-Comfort-Jacket-1-1-300x338.jpg">
+                                    <div class="icons">
+                                        <ul>
+                                            <li><i class="fa-solid fa-bag-shopping fa-lg"></i> </li>
+                                            <li><i class="fa-regular fa-heart fa-lg"></i> </li>
+
+                                            <li><i class="fa-solid fa-magnifying-glass fa-lg"></i> </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card_text">
+                                    <p class="item_name"> Harry Potter Jacket</p>
+                                    <div class="review">
+                                        <ul>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <p class="count">(0 reviews)</p>
+                                        </ul>
+                                    </div>
+                                    <div class="price">$25.68</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row_">
+                            <!-- 7 -->
+                            <div class="card_1">
+                                <div class="bottom_layer">
+                                    <img width="296px" height="344px"
+                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/comfortable-backpack-1-300x338.jpg">
+
+                                </div>
+
+                                <div class="top_layer">
+                                    <img width="296px" height="344px"
+                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/comfortable-backpack-2-300x338.jpg">
+                                    <div class="icons">
+                                        <ul>
+                                            <li><i class="fa-solid fa-bag-shopping fa-lg"></i> </li>
+                                            <li><i class="fa-regular fa-heart fa-lg"></i> </li>
+
+                                            <li><i class="fa-solid fa-magnifying-glass fa-lg"></i> </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card_text">
+                                    <p class="item_name">Travel Bag</p>
+                                    <div class="review">
+                                        <ul>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <p class="count">(0 reviews)</p>
+                                        </ul>
+                                    </div>
+                                    <div class="price">$25.68</div>
+                                </div>
+
+                            </div>
+                            <!-- 8 -->
+                            <div class="card_1">
+                                <div class="bottom_layer">
+                                    <img width="296px" height="344px"
+                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/fashion-blue-towel-2-300x338.jpg">
+
+                                </div>
+
+                                <div class="top_layer">
+                                    <img width="296px" height="344px"
+                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/fashion-blue-towel-1-300x338.jpg">
+                                    <div class="icons">
+                                        <ul>
+                                            <li><i class="fa-solid fa-bag-shopping fa-lg"></i> </li>
+                                            <li><i class="fa-regular fa-heart fa-lg"></i> </li>
+
+                                            <li><i class="fa-solid fa-magnifying-glass fa-lg"></i> </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card_text">
+                                    <p class="item_name"> Bulk Towels</p>
+                                    <div class="review">
+                                        <ul>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <p class="count">(0 reviews)</p>
+                                        </ul>
+                                    </div>
+                                    <div class="price">$25.68</div>
+                                </div>
+
+                            </div>
+                            <!-- 9 -->
+                            <div class="card_1">
+                                <div class="bottom_layer">
+                                    <img width="296px" height="344px"
+                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/mens-clothing-1-300x338.jpg">
+
+                                </div>
+
+                                <div class="top_layer">
+                                    <img width="296px" height="344px"
+                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/mens-clothing-2-300x338.jpg   ">
+                                    <div class="icons">
+                                        <ul>
+                                            <li><i class="fa-solid fa-bag-shopping fa-lg"></i> </li>
+                                            <li><i class="fa-regular fa-heart fa-lg"></i> </li>
+
+                                            <li><i class="fa-solid fa-magnifying-glass fa-lg"></i> </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card_text">
+                                    <p class="item_name"> English Coats</p>
+                                    <div class="review">
+                                        <ul>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <li><i class="fa-solid fa-star fa-2xs" style="color: #858585;"></i></li>
+                                            <p class="count">(0 reviews)</p>
+                                        </ul>
+                                    </div>
+                                    <div class="price">$25.68</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--===============FOOTER================-->
+    <section id="footer_head">
+        <div class="container">
+            <div class="bar">
+                <div class="col-lg-4">
+                    <div> <i class="fa-regular fa-envelope" style="color: #fcfcfd;"></i>
+                    </div>
+                    <div class="txt">
+                        <div class="t1">SUBSCRIBE TO OUR NEWSLETTER </div>
+                        <div class="t2">Get all the latest information on Events, Sales and
+                            Offers.</div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <input placeholder="Enter your email" class="input" name="email" type="email">
+                    <button class="button">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer_body">
+        <div class="container">
+            <div class="part_1">
+                <div class="links">
+                    <img width="144px" height="45px"
+                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2022/06/logo.png">
+                    <div class="t_i">Got Question? Call us 24/7</div>
+                    <div class="t_ii">1-800-570-7777</div>
+                    <div class="t_iii">Register now to get updates on pronot get up ions &
+                        coupons ster now toon.</div>
+                    <div class="icon">
+                        <ul>
+                            <li class="facebook"> <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></li>
+                            <li class="twitter"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></li>
+                            <li class="instagram"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></li>
+                            <li class="youtube"><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></li>
+                            <li class="pinterest"><i class="fa-brands fa-pinterest-p" style="color: #ffffff;"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="company">
+                    <div class="topic">COMPANY</div>
+                    <div>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Team Member</li>
+                            <li>Career</li>
+                            <li>Contact Us</li>
+                            <li>Affilate</li>
+                            <li>Order History</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="account">
+                    <div class="topic">MY ACCOUNT</div>
+                    <div>
+                        <ul>
+                            <li>Track My Order</li>
+                            <li>View Cart</li>
+                            <li>Sign In</li>
+                            <li>Help</li>
+                            <li>My Wishlist</li>
+                            <li>Privacy Policy</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="customer">
+                    <div class="topic">CUSTOMER SERVICE</div>
+                    <div>
+                        <ul>
+                            <li>Payment Methods</li>
+                            <li>Money-back guarantee!</li>
+                            <li>Products Returns</li>
+                            <li>Support Center</li>
+                            <li>Shipping</li>
+                            <li>Term and Conditions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="part_2">
+                <div class="consumer_Electric">
+                    <ul>
+                        <li class="topic"> Consumer Electric:</li>
+                        <li>TV Television</li>
+                        <li>Air Condition</li>
+                        <li>Refrigator</li>
+                        <li>Washing Machine</li>
+                        <li>Audio Speaker</li>
+                        <li>Security Camera</li>
+                        <li>View all</li>
+
+
+                    </ul>
+                </div>
+                <div class="clothing_Apparel">
+                    <ul>
+                        <li class="topic"> Clothing & Apparel:</li>
+                        <li> Men T-shirt</li>
+                        <li>Dresses</li>
+                        <li>Men's Sneaker</li>
+                        <li>Leather Backpack</li>
+                        <li> Watches</li>
+                        <li>Jeans</li>
+                        <li>Sunglasses</li>
+                        <li>Boots</li>
+                        <li>Rayban</li>
+                        <li>Accessories</li>
+
+                    </ul>
+                </div>
+                <div class="Home_Garden">
+                    <ul>
+                        <li class="topic">Home, Garden & Kitchen:</li>
+                        <li> Sofa</li>
+                        <li>Chair</li>
+                        <li>Bed Room</li>
+                        <li>Living Room</li>
+                        <li>Cookware</li>
+                        <li>Utensil</li>
+                        <li>Blender</li>
+                        <li>Garden Equipments</li>
+                        <li>Decor</li>
+                        <li>Library</li>
+
+                    </ul>
+                </div>
+                <div class="Health_Beauty">
+                    <ul>
+                        <li class="topic"> Health & Beauty:</li>
+                        <li>Skin Care</li>
+                        <li>Body Shower</li>
+                        <li>Makeup</li>
+                        <li>Hair Care</li>
+                        <li>Lipstick</li>
+                        <li>Perfume</li>
+                        <li>View all</li>
+
+
+
+                    </ul>
+                </div>
+                <div class="Jewelry_Watches">
+                    <ul>
+                        <li class="topic"> Jewelry & Watches:</li>
+                        <li>Necklace</li>
+                        <li>Pendant</li>
+                        <li>Diamond Ring</li>
+                        <li>Silver Earing</li>
+                        <li>Leather Watcher</li>
+                        <li>Rolex</li>
+                        <li>Gucci</li>
+                        <li>Australian Opal</li>
+                        <li>Ammolite</li>
+
+
+
+                    </ul>
+                </div>
+                <div class="Computer_Technologies">
+
+                    <ul>
+                        <li class="topic">Computer & Technologies:</li>
+                        <li> Laptop</li>
+                        <li>iMac</li>
+                        <li>Smartphone</li>
+                        <li>Tablet</li>
+                        <li>Apple</li>
+                        <li>Drone</li>
+                        <li>Wireless Speaker</li>
+                        <li> Game Controller</li>
+                        <li> View all</li>
+
+
+                    </ul>
+
+                </div>
+            </div>
+            <hr>
+            <div class="part_3">
+                <div class="left">Copyright © 2023 Wolmart Store. All Rights Reserved.</div>
+                <div class="right">We're using safe payment for <img
+                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/payment.png">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- scroll top -->
+
+    <!-- -========================== -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <script src="js/code.jquery.com_jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/slick.min.js"></script>
+</body>
+
+</html>

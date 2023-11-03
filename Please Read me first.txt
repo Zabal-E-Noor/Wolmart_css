@@ -1,7 +1,7 @@
 List of 20 pages available in the project:-
 sl  name          status
 
-1.  home          NOT FINISHED
+1.  home          FINISHED(slider needs to fix)
 2.  accounts      FINISHED
 3.  blog          FINISHED
 4.  contact       FINISHED
@@ -9,12 +9,12 @@ sl  name          status
 6.  wishlist      FINISHED
 7.  compare       FINISHED
 8.  vendor        FINISHED
-9.  shop          NOT FINISHED
-10. fashion       NOT FINISHED
-11. furniture     NOT FINISHED
-12. games         NOT FINISHED
-13. cooking       NOT FINISHED
-14. electronics   NOT FINISHED
+9.  shop          FINISHED
+10. fashion       FINISHED
+11. furniture     FINISHED
+12. games         FINISHED
+13. kitchen       FINISHED
+14. electronics   FINISHED
 15. clothing      NOT FINISHED
 16. cart          FINISHED
 17. error404      FINISHED

@@ -1,0 +1,200 @@
+#faq {
+    .heading {
+        background-color: #EEEEEE;
+        font-family: $theme;
+        font-size: 34px;
+        font-weight: 700;
+        color: #333333;
+        text-align: center;
+        padding: 50px 0px;
+    }
+
+    .direction {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        p {
+            font-family: $theme;
+            font-size: 13px;
+            font-weight: 400;
+            color: #999999;
+
+            &:hover {
+                cursor: pointer;
+                color: #333333;
+
+            }
+        }
+    }
+
+    .topic {
+        margin-top: 50px;
+        text-align: center;
+
+        .txt_1 {
+            font-family: $theme;
+            font-size: 24px;
+            font-weight: 700;
+            color: #333333;
+        }
+
+        .txt_2 {
+            font-family: $theme;
+            font-size: 13px;
+            font-weight: 500;
+            color: #666666;
+        }
+
+        .txt_3 {
+            margin-top: 50px;
+            margin-bottom: 20px;
+            font-family: $theme;
+            font-size: 20px;
+            font-weight: 700;
+            color: #333333;
+        }
+
+    }
+
+
+    .faq_content {
+
+
+        .shipping {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .payment {
+            margin-top: 50px;
+
+            .txt {
+                margin-bottom: 30px;
+                text-align: center;
+                font-family: $theme;
+                font-size: 20px;
+                font-weight: 700;
+                color: #333333;
+            }
+
+            .payment_body {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        .return{
+            margin-top: 50px;
+            margin-bottom: 30px;
+            .txt {
+                margin-bottom: 30px;
+                text-align: center;
+                font-family: $theme;
+                font-size: 20px;
+                font-weight: 700;
+                color: #333333;
+            }
+
+            .return_body {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .faq-drawer {
+            width: 600px;
+            margin-bottom: 30px;
+        }
+
+        .faq-drawer__content {
+            border: 1px solid #F5F5F5;
+
+            p {
+                text-align: left;
+                font-family: $theme;
+                font-size: 13px;
+                font-weight: 500;
+                color: #666666;
+                padding: 20px;
+            }
+        }
+
+        .faq-drawer__content-wrapper {
+            font-size: 1.25em;
+            line-height: 1.4em;
+            max-height: 0px;
+            overflow: hidden;
+            transition: 0.25s ease-in-out;
+        }
+
+        .faq-drawer__title {
+            cursor: pointer;
+            background-color: #F5F5F5;
+            display: block;
+            font-family: $theme;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 10px 20px;
+            position: relative;
+            margin-bottom: 0;
+            transition: all 0.25s ease-out;
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            -o-border-radius: 3px;
+        }
+
+        .faq-drawer__title::after {
+            border-style: solid;
+            border-width: 1px 1px 0 0;
+            content: " ";
+            display: inline-block;
+            float: right;
+            height: 7px;
+            left: 2px;
+            position: relative;
+            right: 20px;
+            top: 2px;
+            transform: rotate(135deg);
+            transition: 0.35s ease-in-out;
+            vertical-align: top;
+            width: 7px;
+        }
+
+        /* OPTIONAL HOVER STATE */
+        .faq-drawer__title:hover {
+            color: #336699;
+        }
+
+        .faq-drawer__trigger:checked+.faq-drawer__title+.faq-drawer__content-wrapper {
+            max-height: 350px;
+        }
+
+        .faq-drawer__trigger:checked+.faq-drawer__title::after {
+            transform: rotate(-45deg);
+            transition: 0.25s ease-in-out;
+        }
+
+        input[type="checkbox"] {
+            display: none;
+        }
+    }
+}

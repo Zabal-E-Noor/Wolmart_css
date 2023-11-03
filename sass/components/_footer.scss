@@ -163,6 +163,10 @@
         font-weight: 400;
         color: #666666;
         padding-top: 10px;
+        &:hover{
+            cursor: pointer;
+            color: #336699;
+        }
     }
     
     }
@@ -182,6 +186,10 @@
             font-weight: 400;
             color: #666666;
             padding-top: 10px;
+            &:hover{
+                cursor: pointer;
+                color: #336699;
+            }
         }}
     .company{ width: 290px;
         height: 300px;
@@ -200,6 +208,10 @@
             font-weight: 400;
             color: #666666;
             padding-top: 10px;
+            &:hover{
+                cursor: pointer;
+                color: #336699;
+            }
         }}
 }
 
@@ -221,6 +233,7 @@
             font-weight: 400;
             color: #666666;
             padding-top: 10px;
+            
            
            
         }

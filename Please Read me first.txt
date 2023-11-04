@@ -19,5 +19,5 @@ sl  name          status
 16. cart          FINISHED
 17. error404      FINISHED
 18. FAQ           FINISHED
-19. become vendor NOT FINISHED
+19. become vendor FINISHED
 20. about us      FINISHED

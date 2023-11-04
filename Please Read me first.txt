@@ -15,9 +15,9 @@ sl  name          status
 12. games         FINISHED
 13. kitchen       FINISHED
 14. electronics   FINISHED
-15. clothing      NOT FINISHED
+15. clothing      FINISHED
 16. cart          FINISHED
 17. error404      FINISHED
-18. FAQ           NOT FINISHED
+18. FAQ           FINISHED
 19. become vendor NOT FINISHED
-20. about us      NOT FINISHED
+20. about us      FINISHED

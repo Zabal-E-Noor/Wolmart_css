@@ -4031,6 +4031,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -4073,7 +4074,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -4084,6 +4084,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -5860,6 +5863,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -5902,7 +5906,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -5913,6 +5916,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -8007,6 +8013,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -8049,7 +8056,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -8060,6 +8066,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -8495,7 +8504,7 @@
   height: 35px;
   margin-top: 15px;
 }
-#contact_body .contact_ .col-lg-6 .send {
+#contact_body .contact_ .col-lg-6 .send a {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 600;
@@ -8511,7 +8520,7 @@
   -o-border-radius: 3px;
   color: azure;
 }
-#contact_body .contact_ .col-lg-6 .send:hover {
+#contact_body .contact_ .col-lg-6 .send a:hover {
   background-color: #222222;
 }
 
@@ -10045,6 +10054,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -10087,7 +10097,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -10098,6 +10107,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -12165,6 +12177,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -12207,7 +12220,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -12218,6 +12230,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -14287,6 +14302,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -14329,7 +14345,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -14340,6 +14355,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -14624,7 +14642,7 @@
   color: #666666;
   margin-top: 20px;
 }
-#wishlist .wish_body .body_content .go_shop {
+#wishlist .wish_body .body_content .go_shop a {
   width: 200px;
   height: 46px;
   margin-top: 20px;
@@ -14637,8 +14655,13 @@
   color: #ffffff;
   padding-top: 10px;
   background-color: #336699;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
-#wishlist .wish_body .body_content .go_shop:hover {
+#wishlist .wish_body .body_content .go_shop a:hover {
   cursor: pointer;
   background-color: #3C78B3;
 }
@@ -16173,6 +16196,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -16215,7 +16239,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -16226,6 +16249,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -16510,7 +16536,7 @@
   color: #666666;
   margin-top: 20px;
 }
-#compare .compare_body .body_content .go_shop {
+#compare .compare_body .body_content .go_shop a {
   width: 200px;
   height: 46px;
   margin-top: 20px;
@@ -16523,8 +16549,13 @@
   color: #ffffff;
   padding-top: 10px;
   background-color: #336699;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
-#compare .compare_body .body_content .go_shop:hover {
+#compare .compare_body .body_content .go_shop a:hover {
   cursor: pointer;
   background-color: #3C78B3;
 }
@@ -18059,6 +18090,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -18101,7 +18133,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -18112,6 +18143,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -18407,7 +18441,7 @@
 #cart .return i {
   font-size: 80px;
 }
-#cart .return .shop {
+#cart .return .shop a {
   padding: 10px;
   margin: 30px auto;
   text-align: center;
@@ -18423,7 +18457,7 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-#cart .return .shop:hover {
+#cart .return .shop a:hover {
   cursor: pointer;
   filter: brightness(130%);
   -webkit-filter: brightness(130%);
@@ -19959,6 +19993,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -20001,7 +20036,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -20012,6 +20046,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -21973,6 +22010,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -22015,7 +22053,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -22026,6 +22063,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -22318,7 +22358,7 @@
   font-weight: 400px;
   color: #999999;
 }
-#error .error_body .back {
+#error .error_body .back a {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 700px;
@@ -22335,7 +22375,7 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-#error .error_body .back:hover {
+#error .error_body .back a:hover {
   cursor: pointer;
   filter: brightness(90%);
   -webkit-filter: brightness(90%);
@@ -23871,6 +23911,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -23913,7 +23954,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -23924,6 +23964,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -24318,25 +24361,25 @@
   font-weight: 600;
   color: white;
 }
-#fashion .fashion_body .banner_top .banner_txt .discover {
+#fashion .fashion_body .banner_top .banner_txt .discover a {
   text-align: center;
   display: inline-block;
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 600;
   color: white;
   background-color: #333333;
-  padding: 10px;
+  padding: 5px 15px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-#fashion .fashion_body .banner_top .banner_txt .discover:hover {
+#fashion .fashion_body .banner_top .banner_txt .discover a:hover {
   cursor: pointer;
-  filter: brightness(150%);
-  -webkit-filter: brightness(150%);
+  filter: brightness(105%);
+  -webkit-filter: brightness(105%);
 }
 #fashion .fashion_body .sorting {
   margin-top: 20px;
@@ -26035,6 +26078,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -26077,7 +26121,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -26088,6 +26131,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -26482,7 +26528,7 @@
   font-weight: 600;
   color: white;
 }
-#electonics .electonics_body .banner_top .banner_txt .discover {
+#electonics .electonics_body .banner_top .banner_txt .discover a {
   text-align: center;
   display: inline-block;
   font-family: "Poppins", sans-serif;
@@ -26497,7 +26543,7 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-#electonics .electonics_body .banner_top .banner_txt .discover:hover {
+#electonics .electonics_body .banner_top .banner_txt .discover a:hover {
   cursor: pointer;
   filter: brightness(150%);
   -webkit-filter: brightness(150%);
@@ -27346,6 +27392,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -27388,7 +27435,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -27399,6 +27445,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -29510,6 +29559,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -29552,7 +29602,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -29563,6 +29612,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -29957,7 +30009,7 @@
   font-weight: 600;
   color: white;
 }
-#furniture .furniture_body .banner_top .banner_txt .discover {
+#furniture .furniture_body .banner_top .banner_txt .discover a {
   text-align: center;
   display: inline-block;
   font-family: "Poppins", sans-serif;
@@ -29972,7 +30024,7 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-#furniture .furniture_body .banner_top .banner_txt .discover:hover {
+#furniture .furniture_body .banner_top .banner_txt .discover a:hover {
   cursor: pointer;
   filter: brightness(150%);
   -webkit-filter: brightness(150%);
@@ -31674,6 +31726,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -31716,7 +31769,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -31727,6 +31779,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -32121,7 +32176,7 @@
   font-weight: 600;
   color: white;
 }
-#kitchen .kitchen_body .banner_top .banner_txt .discover {
+#kitchen .kitchen_body .banner_top .banner_txt .discover a {
   text-align: center;
   display: inline-block;
   font-family: "Poppins", sans-serif;
@@ -32136,7 +32191,7 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-#kitchen .kitchen_body .banner_top .banner_txt .discover:hover {
+#kitchen .kitchen_body .banner_top .banner_txt .discover a:hover {
   cursor: pointer;
   filter: brightness(150%);
   -webkit-filter: brightness(150%);
@@ -33838,6 +33893,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -33880,7 +33936,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -33891,6 +33946,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -34285,7 +34343,7 @@
   font-weight: 600;
   color: white;
 }
-#fashion .fashion_body .banner_top .banner_txt .discover {
+#fashion .fashion_body .banner_top .banner_txt .discover a {
   text-align: center;
   display: inline-block;
   font-family: "Poppins", sans-serif;
@@ -34300,7 +34358,7 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-#fashion .fashion_body .banner_top .banner_txt .discover:hover {
+#fashion .fashion_body .banner_top .banner_txt .discover a:hover {
   cursor: pointer;
   filter: brightness(150%);
   -webkit-filter: brightness(150%);
@@ -36002,6 +36060,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -36044,7 +36103,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -36055,6 +36113,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -36449,7 +36510,7 @@
   font-weight: 600;
   color: white;
 }
-#clothing .clothing_body .banner_top .banner_txt .discover {
+#clothing .clothing_body .banner_top .banner_txt .discover a {
   text-align: center;
   display: inline-block;
   font-family: "Poppins", sans-serif;
@@ -36464,7 +36525,7 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-#clothing .clothing_body .banner_top .banner_txt .discover:hover {
+#clothing .clothing_body .banner_top .banner_txt .discover a:hover {
   cursor: pointer;
   filter: brightness(150%);
   -webkit-filter: brightness(150%);
@@ -38166,6 +38227,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -38208,7 +38270,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -38219,6 +38280,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -40151,6 +40215,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -40193,7 +40258,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -40204,6 +40268,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -42318,6 +42385,7 @@
 #footer_head {
   background-color: #336699;
   height: 110px;
+  margin-top: 20px;
 }
 #footer_head .bar {
   margin-bottom: 90px;
@@ -42360,7 +42428,6 @@
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  color: #ffffff;
   border: none;
   background-color: #1363DF;
   text-decoration: none;
@@ -42371,6 +42438,9 @@
   border-radius: 0.5em;
   margin-left: 20px;
   cursor: pointer;
+}
+#footer_head .bar .col-lg-6 .button a {
+  color: #ffffff;
 }
 #footer_head .bar .col-lg-6 .button:hover {
   background-color: #1A73E8;
@@ -42671,7 +42741,7 @@
   font-weight: 400;
   color: #666666;
 }
-#become_vendor .segment_1 .left .learn {
+#become_vendor .segment_1 .left .learn a {
   display: inline;
   padding: 15px 25px;
   font-family: "Poppins", sans-serif;
@@ -42690,7 +42760,7 @@
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
 }
-#become_vendor .segment_1 .left .learn:hover {
+#become_vendor .segment_1 .left .learn a:hover {
   cursor: pointer;
   background-color: #333333;
   color: white;
@@ -42920,7 +42990,7 @@
   font-weight: 600;
   color: white;
 }
-#end_banner .end_text p {
+#end_banner .end_text p a {
   display: inline;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
@@ -42934,7 +43004,7 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-#end_banner .end_text p:hover {
+#end_banner .end_text p a:hover {
   cursor: pointer;
   color: #336699;
   background-color: white;

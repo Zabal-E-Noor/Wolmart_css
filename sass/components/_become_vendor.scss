@@ -62,7 +62,7 @@
                 color: #666666;
             }
 
-            .learn {
+            .learn a{
                 display: inline;
                 padding: 15px 25px;
                 font-family: $theme;
@@ -372,7 +372,7 @@
             color: white;
         }
 
-        p {
+        p a{
             display: inline;
             font-family: $theme;
             font-size: 15px;
@@ -391,13 +391,6 @@
                 color: #336699;
                 background-color: white;
             }
-
-
-
-
-
         }
-
-
     }
 }

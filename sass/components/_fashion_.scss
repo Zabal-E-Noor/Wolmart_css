@@ -186,15 +186,15 @@
                     color: white;
                 }
 
-                .discover {
+                .discover a{
                     text-align: center;
                     display: inline-block;
                     font-family: $theme;
-                    font-size: 15px;
+                    font-size: 12px;
                     font-weight: 600;
                     color: white;
                     background-color: #333333;
-                    padding: 10px;
+                    padding: 5px 15px;
                     border-radius: 5px;
                     -webkit-border-radius: 5px;
                     -moz-border-radius: 5px;
@@ -203,9 +203,9 @@
 
                     &:hover {
                         cursor: pointer;
-                        filter: brightness(150%);
-                        -webkit-filter: brightness(150%);
-                    }
+                        filter: brightness(105%);
+                        -webkit-filter: brightness(105%);
+}
                 }
 
             }

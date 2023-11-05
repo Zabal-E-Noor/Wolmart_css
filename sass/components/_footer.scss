@@ -1,6 +1,7 @@
 #footer_head {
     background-color: #336699;
     height: 110px;
+    margin-top: 20px;
 
     .bar {
         margin-bottom: 90px;
@@ -52,8 +53,7 @@
             .button {
                 font-family: $theme;
                 font-size: 16px;
-                font-weight: 600;
-                color: #ffffff;
+                font-weight: 600;  
                 border: none;
                 background-color: #1363DF;
                 text-decoration: none;
@@ -64,9 +64,10 @@
                 border-radius: .5em;
                 margin-left: 20px;
                 cursor: pointer;
-
+                a{
+                    color: #ffffff;
+                }
                 &:hover {
-
                     background-color: #1A73E8;
                 }
             }

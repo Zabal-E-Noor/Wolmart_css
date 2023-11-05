@@ -16,27 +16,6 @@ function offZoom(e) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $(function () {
     $('.slider').slick({
         dots: true,
@@ -46,23 +25,6 @@ $(function () {
         adaptiveHeight: true
     });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

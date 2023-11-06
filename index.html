@@ -12,8 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/f59781e4f6.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -247,95 +248,98 @@
         <nav id="nav">
             <div class="container">
                 <div class="nav_bar">
-                    <div class="col-lg-2">
-                        <span class="logo"><img width="144px" height="45px" src="./images/assest/icon/logo.png"></span>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="search_box">
-                            <div class="catagories">
-                                All Catagories <span class="arrow_down">
-                                    <i class="fa-solid fa-angle-down"></i>
-                                </span>
-                                <span class="divider_one"></span>
-                                <div class="catagories_dropdown">
-                                    <ul>
-                                        <li> All Catagories</li>
-                                        <li><a href="fashion.html">Fashion</a></li>
-                                        <li><a href="clothing.html">Clothes</a></li>
-                                        <li><a href="games.html">Hobbies</a></li>
-                                        <li> Lifestyle</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-
-                            <div class="input">
-                                <input class="sub_input" type="text" placeholder="Search in..">
-                                <span class="magnifying-glass"><i class="fa-solid fa-magnifying-glass"></i></span>
-                            </div>
-
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <span class="logo"><img width="144px" height="45px"
+                                    src="./images/assest/icon/logo.png"></span>
                         </div>
-
-
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="call">
-                            <div class="telephone">
-                                <i class="fa-solid fa-phone-volume"></i></div>
-                            <div class="call_info">
-                                <div class="call_text">
-                                    <p>Live Chat or :</p>
-                                </div>
-                                <div><a href="tel:#" class="call_link">0(800)123-456</a></div>
-                            </div>
-                        </div>
-                        <span class="divider_two"></span>
-                        <div class="head_icon">
-                            <div class="col-lg-4 ">
-                                <div class="wishlist_button">
-                                    <span class="wishlist"><a href="wishlist.html"><i
-                                                class="fa-regular fa-heart"></i></a> </span>
-                                    <p class="wishlist_text"> <a href="wishlist.html">Wishlist</a></p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="compare_button">
-                                    <span class="compare"><a href="compare.html"><i
-                                                class="fa-solid fa-scale-balanced"></i></a></span>
-                                    <p class="compare_text"><a href="compare.html">Compare</a> </p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
-                                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                                    <span class="cart">
-                                        <span>
-                                           <i class="fa-solid fa-bag-shopping"></i>
-                                        </span>
+                        <div class="col-lg-6">
+                            <div class="search_box">
+                                <div class="catagories">
+                                    All Catagories <span class="arrow_down">
+                                        <i class="fa-solid fa-angle-down"></i>
                                     </span>
-                                    <p class="cart_text"> Cart</p>
+                                    <span class="divider_one"></span>
+                                    <div class="catagories_dropdown">
+                                        <ul>
+                                            <li> All Catagories</li>
+                                            <li><a href="fashion.html">Fashion</a></li>
+                                            <li><a href="clothing.html">Clothes</a></li>
+                                            <li><a href="games.html">Hobbies</a></li>
+                                            <li> Lifestyle</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                            <!-- cart menu -->
-                            <!-- cart START -->
-                            <!-- cart menu -->
 
-                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
-                                aria-labelledby="offcanvasRightLabel">
-                                <div class="offcanvas-header">
-                                    <div id="offcanvasRightLabel">
-                                        SHOPPING CART</div>
-                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                        aria-label="Close"> </button>
+
+                                <div class="input">
+                                    <input class="sub_input" type="text" placeholder="Search in..">
+                                    <span class="magnifying-glass"><i class="fa-solid fa-magnifying-glass"></i></span>
                                 </div>
-                                <hr class="divider">
-                                <div class="offcanvas-body">
-                                    No Products In The Cart.
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="call">
+                                <div class="telephone">
+                                    <i class="fa-solid fa-phone-volume"></i></div>
+                                <div class="call_info">
+                                    <div class="call_text">
+                                        <p>Live Chat or :</p>
+                                    </div>
+                                    <div><a href="tel:#" class="call_link">0(800)123-456</a></div>
                                 </div>
                             </div>
-                            <!-- cart menu -->
-                            <!-- cart END  -->
-                            <!-- cart menu -->
+                            <span class="divider_two"></span>
+                            <div class="head_icon">
+                                <div class="col-lg-4 ">
+                                    <div class="wishlist_button">
+                                        <span class="wishlist"><a href="wishlist.html"><i
+                                                    class="fa-regular fa-heart"></i></a> </span>
+                                        <p class="wishlist_text"> <a href="wishlist.html">Wishlist</a></p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="compare_button">
+                                        <span class="compare"><a href="compare.html"><i
+                                                    class="fa-solid fa-scale-balanced"></i></a></span>
+                                        <p class="compare_text"><a href="compare.html">Compare</a> </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                        <span class="cart">
+                                            <span>
+                                                <i class="fa-solid fa-bag-shopping"></i>
+                                            </span>
+                                        </span>
+                                        <p class="cart_text"> Cart</p>
+                                    </div>
+                                </div>
+                                <!-- cart menu -->
+                                <!-- cart START -->
+                                <!-- cart menu -->
+
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                                    aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <div id="offcanvasRightLabel">
+                                            SHOPPING CART</div>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"> </button>
+                                    </div>
+                                    <hr class="divider">
+                                    <div class="offcanvas-body">
+                                        No Products In The Cart.
+                                    </div>
+                                </div>
+                                <!-- cart menu -->
+                                <!-- cart END  -->
+                                <!-- cart menu -->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -376,8 +380,8 @@
                                     <li class="fashion_menu">
 
                                         <span><a href="fashion.html"><i class="fa-solid fa-shirt">
-                                            
-                                        </i>Fashion</a> </span>
+
+                                                </i>Fashion</a> </span>
 
                                         <div class="fashion">
                                             <div class="women">
@@ -417,7 +421,8 @@
                                         </div>
                                     </li>
                                     <!-- 2. HOME & GARDEN [DROPDOWN] -->
-                                    <li class="home_menu"><span> <a href="furniture.html"> <i class="fa-solid fa-house"></i>Home & Garden</a></span>
+                                    <li class="home_menu"><span> <a href="furniture.html"> <i
+                                                    class="fa-solid fa-house"></i>Home & Garden</a></span>
                                         <div class="garden">
                                             <div class="garden_menu">
                                                 <div class="second_row">
@@ -428,7 +433,8 @@
                                                             <li><a href="furniture.html"> Beds, Frames & Bases</a></li>
                                                             <li><a href="furniture.html">Dressers</a></li>
                                                             <li><a href="furniture.html">Nightstands</a></li>
-                                                            <li><a href="furniture.html">Kid's Beds & Headboards</a></li>
+                                                            <li><a href="furniture.html">Kid's Beds & Headboards</a>
+                                                            </li>
                                                             <li><a href="furniture.html">Armoires</a></li>
                                                         </ul>
                                                     </div>
@@ -483,7 +489,8 @@
                                         </div>
                                     </li>
                                     <!-- 3. ELECTRONICS[DROPDOWN] -->
-                                    <li class="electronics_bar"><a href="electronics.html"><i class="fa-solid fa-tv"></i>Electronics</a> 
+                                    <li class="electronics_bar"><a href="electronics.html"><i
+                                                class="fa-solid fa-tv"></i>Electronics</a>
                                         <div class="electronics">
                                             <div class="electronics_menu">
                                                 <div class="second_row">
@@ -494,7 +501,8 @@
                                                             <li><a href="electronics.html">Desktop Computers</a></li>
                                                             <li><a href="electronics.html">Monitors</a></li>
                                                             <li><a href="electronics.html">Laptops</a></li>
-                                                            <li><a href="electronics.html">Hard Drives & Storage</a></li>
+                                                            <li><a href="electronics.html">Hard Drives & Storage</a>
+                                                            </li>
 
                                                         </ul>
                                                     </div>
@@ -503,7 +511,8 @@
                                                         <hr>
                                                         <ul>
                                                             <li><a href="electronics.html">Digital SLR Cameras</a></li>
-                                                            <li><a href="electronics.html">Sports & Action Cameras</a></li>
+                                                            <li><a href="electronics.html">Sports & Action Cameras</a>
+                                                            </li>
                                                             <li><a href="electronics.html">Camera Lenses</a></li>
                                                             <li><a href="electronics.html">Photo Printe</a>r</li>
 
@@ -518,7 +527,8 @@
                                                             <li><a href="electronics.html">TVS</a></li>
                                                             <li><a href="electronics.html">Home Audio Speakers</a></li>
                                                             <li><a href="electronics.html">Projectors</a></li>
-                                                            <li><a href="electronics.html">Media Streaming Devices</a></li>
+                                                            <li><a href="electronics.html">Media Streaming Devices</a>
+                                                            </li>
 
                                                         </ul>
                                                     </div>
@@ -528,7 +538,8 @@
                                                         <ul>
                                                             <li><a href="electronics.html">Carrier Phone</a>s </li>
                                                             <li><a href="electronics.html">Unlocked Phones</a></li>
-                                                            <li><a href="electronics.html">Phone & Cellphone Cases</a></li>
+                                                            <li><a href="electronics.html">Phone & Cellphone Cases</a>
+                                                            </li>
                                                             <li><a href="electronics.html">Cellphone Charger</a>s</li>
 
                                                         </ul>
@@ -629,14 +640,18 @@
                                         </div>
 
                                     </li>
-                                    <li><i class="fa-solid fa-heart-pulse"></i><a href="fashion.html">Health & Beauty</a> </li>
+                                    <li><i class="fa-solid fa-heart-pulse"></i><a href="fashion.html">Health &
+                                            Beauty</a> </li>
                                     <li><i class="fa-solid fa-gift"></i><a href="shop.html">Gift Ideas</a></li>
                                     <li><i class="fa-solid fa-gamepad"></i><a href="games.html">Toy & Games</a></li>
                                     <li><i class="fa-solid fa-bowl-rice"></i><a href="kitchen.html">Cooking</a></li>
-                                    <li><i class="fa-solid fa-mobile-screen"></i><a href="electronics.html">Smart Phones</a> </li>
-                                    <li><i class="fa-solid fa-camera"></i><a href="electronics.html">Cameras & Photo</a> </li>
+                                    <li><i class="fa-solid fa-mobile-screen"></i><a href="electronics.html">Smart
+                                            Phones</a> </li>
+                                    <li><i class="fa-solid fa-camera"></i><a href="electronics.html">Cameras & Photo</a>
+                                    </li>
                                     <li><i class="fa-regular fa-gem"></i><a href="shop.html"> Accessories</a></li>
-                                    <li><a href="shop.html"> ALL CATEGORIES <i class="fa-solid fa-chevron-right"></i></a></li>
+                                    <li><a href="shop.html"> ALL CATEGORIES <i
+                                                class="fa-solid fa-chevron-right"></i></a></li>
 
                                 </ul>
                             </div>
@@ -809,20 +824,57 @@
     <!-- =========================
          6 MAIN SLIDER
 ========================== -->
-    <section>
+    <section id="main_slider">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/07/slide1.jpg"
-                        class=" w-100" alt="...">
+                <div class="carousel-item slide_1 active">
+                    <div class="container">
+                            <div class="shoes">
+                                <img
+                                    src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/shoes.png">
+                            </div>
+                             <div class="txt_1">
+                                <h4>Custom Men's</h4>
+                                <h6>RUNNING SHOES</h6>
+                                <span>Sale up to 30% OFF</span>
+                                <br>
+                                <div class="shop"><a href="shop.html">SHOP NOW</a> </i></div>
+                             </div>
+                        
+                       
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/slide-2.jpg"
-                        class=" w-100" alt="...">
+                <div class="carousel-item slide_2">
+                    <div class="container">
+                        <div class="men">
+                            <img
+                                src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/men.png">
+                        </div>
+                        <div class="txt_2">
+                            <h4>Mountain-Climbing</h4>
+                            <h6>Hot & Packback</h6>
+                            <span>Only until the end of this week.</span>
+                            <br>
+                            <div class="shop"><a href="shop.html">SHOP NOW</a> </i></div>
+                         </div>
+                    
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/slide-3.jpg"
-                        class="inline-block h-120 w-100" alt="...">
+                <div class="carousel-item slide_3">
+                    <div class="container">
+                        <div class="skate">
+                            <img
+                                src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/skate.png">
+                        </div>
+                         <div class="txt_1">
+                            <h4>TOP WEEKLY SELLER</h4>
+                            <h6>TRENDING COLLECTION</h6>
+                            <span>ROLLER-SKATE</span>
+                            <br>
+                            <div class="shop"><a href="shop.html">SHOP NOW</a> </i></div>
+                         </div>
+                    
+                    </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -1018,6 +1070,7 @@
                     </div>
                     <!-- slide 2 -->
                 </div>
+
                 <div class="col-lg-3">
                     <div class="best_seller">
                         <div class="head">
@@ -1536,8 +1589,8 @@
                             <div class="text_1">NATURAL PROCESS</div>
                             <div class="text_2">Cosmetic Makeup</div>
                             <div class="text_3">Professional</div>
-                            <div class="text_4"><a href="fashion.html">SHOP NOW</a> <i class="fa-solid fa-arrow-right-long"
-                                    style="color: #ffff;"></i></div>
+                            <div class="text_4"><a href="fashion.html">SHOP NOW</a> <i
+                                    class="fa-solid fa-arrow-right-long" style="color: #ffff;"></i></div>
                         </div>
                     </div>
                     <div class="right_">
@@ -1548,8 +1601,8 @@
                                 TRENDING NOW</div>
                             <div class="text_2">Women’s Lifestyle</div>
                             <div class="text_3">Collection</div>
-                            <div class="text_4"><a href="clothing.html">SHOP NOW</a> <i class="fa-solid fa-arrow-right-long"
-                                    style="color: #333333;"></i></div>
+                            <div class="text_4"><a href="clothing.html">SHOP NOW</a> <i
+                                    class="fa-solid fa-arrow-right-long" style="color: #333333;"></i></div>
                         </div>
 
                     </div>
@@ -1570,317 +1623,335 @@
             </div>
             <hr>
             <div class="body">
-                <div class="col-lg-3">
-                    <div class="side_banner">
-                        <img
-                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/04/banner-4.jpg">
-                        <div class="text_">
-                            <div class="t_1">Weekend Sale</div>
-                            <hr class="dash">
-                            <div class="t_2">NEW ARRIVALS</div>
-                            <div class="t_3">Collection</div>
-                            <div class="shop_now"><a href="shop.html">SHOP NOW</a></div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="side_banner">
+                            <img
+                                src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/04/banner-4.jpg">
+                            <div class="text_">
+                                <div class="t_1">Weekend Sale</div>
+                                <hr class="dash">
+                                <div class="t_2">NEW ARRIVALS</div>
+                                <div class="t_3">Collection</div>
+                                <div class="shop_now"><a href="shop.html">SHOP NOW</a></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- ========================1=====ITEM================================ -->
-                <div class="col-lg-9">
-                    <div class="catalouge">
-                        <div class="row-1">
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/mens-clothing-2-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
+                    <!-- ========================1=====ITEM================================ -->
+                    <div class="col-lg-9">
+                        <div class="catalouge">
+                            <div class="row-1">
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/mens-clothing-2-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/mens-clothing-1-300x338.jpg">
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/mens-clothing-1-300x338.jpg">
 
 
-                                </div>
-                                <div class="item_text">
-                                    <div class="t_i"> Men's Clothing</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
                                     </div>
-                                    <div class="t_iii">$23.99</div>
+                                    <div class="item_text">
+                                        <div class="t_i"> Men's Clothing</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
+                                    </div>
+
+                                </div>
+                                <!-- ===============2===============ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/womens-fashion-handbag-4-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/womens-fashion-handbag-1-300x338.jpg">
+
+
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="t_i">Women’s Fashion Handbag</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
+                                    </div>
+
+                                </div>
+                                <!-- ===============3===============ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/sport-womens-wear-1-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/sport-womens-wear-2-300x338.jpg">
+
+
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="t_i"> Black Winter Skating</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
+                                    </div>
+
+                                </div>
+                                <!-- ===============4===============ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/black-winter-skating-2-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/black-winter-skating-1-300x338.jpg">
+
+
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="t_i"> Sport Women’s Wear</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
+                                    </div>
+
                                 </div>
 
                             </div>
-                            <!-- ===============2===============ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/womens-fashion-handbag-4-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
+                            <div class="row-2">
+                                <!-- ================5==============ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/Best-Travel-Bag-1-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/Best-Travel-Bag-3-300x338.jpg ">
+
+
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="t_i"> Best Travel Bag</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
+                                    </div>
+
+                                </div>
+                                <!-- ===================6===========ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/gray-leather-shoes-3-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/gray-leather-shoes-1-300x338.jpg">
+
+
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="t_i"> Gray Leather Shoes</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
+                                    </div>
+
+                                </div>
+                                <!-- ================7==============ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/mens-black-wrist-watch-2-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/mens-black-wrist-watch-1-300x338.jpg">
+
+
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="t_i">Men’s Black Wrist Watch</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
+                                    </div>
+
+                                </div>
+                                <!-- ====================8==========ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/Casual-Dress-4-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/Casual-Dress-2-300x338.jpg">
+
+
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="t_i">Women’s Summer Casual Dress</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
                                     </div>
                                 </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/womens-fashion-handbag-1-300x338.jpg">
-
-
-                                </div>
-                                <div class="item_text">
-                                    <div class="t_i">Women’s Fashion Handbag</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
-                                    </div>
-                                    <div class="t_iii">$23.99</div>
-                                </div>
-
-                            </div>
-                            <!-- ===============3===============ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/sport-womens-wear-1-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/sport-womens-wear-2-300x338.jpg">
-
-
-                                </div>
-                                <div class="item_text">
-                                    <div class="t_i"> Black Winter Skating</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
-                                    </div>
-                                    <div class="t_iii">$23.99</div>
-                                </div>
-
-                            </div>
-                            <!-- ===============4===============ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/black-winter-skating-2-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/black-winter-skating-1-300x338.jpg">
-
-
-                                </div>
-                                <div class="item_text">
-                                    <div class="t_i"> Sport Women’s Wear</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
-                                    </div>
-                                    <div class="t_iii">$23.99</div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                        <div class="row-2">
-                            <!-- ================5==============ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/Best-Travel-Bag-1-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/Best-Travel-Bag-3-300x338.jpg ">
-
-
-                                </div>
-                                <div class="item_text">
-                                    <div class="t_i"> Best Travel Bag</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
-                                    </div>
-                                    <div class="t_iii">$23.99</div>
-                                </div>
-
-                            </div>
-                            <!-- ===================6===========ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/gray-leather-shoes-3-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/gray-leather-shoes-1-300x338.jpg">
-
-
-                                </div>
-                                <div class="item_text">
-                                    <div class="t_i"> Gray Leather Shoes</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
-                                    </div>
-                                    <div class="t_iii">$23.99</div>
-                                </div>
-
-                            </div>
-                            <!-- ================7==============ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/mens-black-wrist-watch-2-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/mens-black-wrist-watch-1-300x338.jpg">
-
-
-                                </div>
-                                <div class="item_text">
-                                    <div class="t_i">Men’s Black Wrist Watch</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
-                                    </div>
-                                    <div class="t_iii">$23.99</div>
-                                </div>
-
-                            </div>
-                            <!-- ====================8==========ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/Casual-Dress-4-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/Casual-Dress-2-300x338.jpg">
-
-
-                                </div>
-                                <div class="item_text">
-                                    <div class="t_i">Women’s Summer Casual Dress</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
-                                    </div>
-                                    <div class="t_iii">$23.99</div>
-                                </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <!-- ========================
     Consumer Electric
@@ -1895,317 +1966,336 @@
             </div>
             <hr>
             <div class="body">
-                <div class="col-lg-3">
-                    <div class="side_banner">
-                        <img
-                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/banner-7.jpg">
-                        <div class="text_">
-                            <div class="t_1">New Collection</div>
-                            <hr class="dash">
-                            <div class="t_2">TOP CAMERA</div>
-                            <div class="t_3">MIRRORLESS</div>
-                            <div class="shop_now"><a href="electronics.html"> SHOP NOW</a></div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="side_banner">
+                            <img
+                                src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/banner-7.jpg">
+                            <div class="text_">
+                                <div class="t_1">New Collection</div>
+                                <hr class="dash">
+                                <div class="t_2">TOP CAMERA</div>
+                                <div class="t_3">MIRRORLESS</div>
+                                <div class="shop_now"><a href="electronics.html"> SHOP NOW</a></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- ========================1=====ITEM================================ -->
-                <div class="col-lg-9">
-                    <div class="catalouge">
-                        <div class="row-1">
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/professional-pixel-camera-2-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
+                    <!-- ========================1=====ITEM================================ -->
+                    <div class="col-lg-9">
+                        <div class="catalouge">
+                            <div class="row-1">
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/professional-pixel-camera-2-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/professional-pixel-camera-1-300x338.jpg">
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/professional-pixel-camera-1-300x338.jpg">
 
 
-                                </div>
-                                <div class="item_text">
-                                    <div class="t_i"> Professinoal Pixel Camera</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
                                     </div>
-                                    <div class="t_iii">$23.99</div>
+                                    <div class="item_text">
+                                        <div class="t_i"> Professinoal Pixel Camera</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
+                                    </div>
+
+                                </div>
+                                <!-- ===============2===============ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/wash-machine-2-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/wash-machine-1-300x338.jpg">
+
+
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="t_i">Wash Machine</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
+                                    </div>
+
+                                </div>
+                                <!-- ===============3===============ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/hd-television-2-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/hd-television-1-300x338.jpg">
+
+
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="t_i"> HD Television</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
+                                    </div>
+
+                                </div>
+                                <!-- ===============4===============ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/data-transformer-tool-2-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/data-transformer-tool-1-300x338.jpg">
+
+
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="t_i"> Sport Women’s Wear</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
+                                    </div>
+
                                 </div>
 
                             </div>
-                            <!-- ===============2===============ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/wash-machine-2-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
+                            <div class="row-2">
+                                <!-- ================5==============ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/latest-speaker-1-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/wash-machine-1-300x338.jpg">
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/latest-speaker-2-300x338.jpg ">
 
 
-                                </div>
-                                <div class="item_text">
-                                    <div class="t_i">Wash Machine</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
                                     </div>
-                                    <div class="t_iii">$23.99</div>
-                                </div>
-
-                            </div>
-                            <!-- ===============3===============ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/hd-television-2-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
+                                    <div class="item_text">
+                                        <div class="t_i"> Data Transformer Tool</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
                                     </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/hd-television-1-300x338.jpg">
-
 
                                 </div>
-                                <div class="item_text">
-                                    <div class="t_i"> HD Television</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
+                                <!-- ===================6===========ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/security-guard-2-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <div class="t_iii">$23.99</div>
-                                </div>
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/security-guard-1-300x338.jpg">
 
-                            </div>
-                            <!-- ===============4===============ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/data-transformer-tool-2-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
+
                                     </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/data-transformer-tool-1-300x338.jpg">
-
-
-                                </div>
-                                <div class="item_text">
-                                    <div class="t_i"> Sport Women’s Wear</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
+                                    <div class="item_text">
+                                        <div class="t_i"> Security Guard</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
                                     </div>
-                                    <div class="t_iii">$23.99</div>
+
                                 </div>
-
-                            </div>
-
-                        </div>
-                        <div class="row-2">
-                            <!-- ================5==============ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/latest-speaker-1-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
+                                <!-- ================7==============ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/usb-receipt-1-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/latest-speaker-2-300x338.jpg ">
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/usb-receipt-2-300x338.jpg">
 
 
-                                </div>
-                                <div class="item_text">
-                                    <div class="t_i"> Data Transformer Tool</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
                                     </div>
-                                    <div class="t_iii">$23.99</div>
-                                </div>
-
-                            </div>
-                            <!-- ===================6===========ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/security-guard-2-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
+                                    <div class="item_text">
+                                        <div class="t_i">USB Receipt</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
                                     </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/security-guard-1-300x338.jpg">
-
 
                                 </div>
-                                <div class="item_text">
-                                    <div class="t_i"> Security Guard</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
+                                <!-- ====================8==========ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/usb-receipt-2-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <div class="t_iii">$23.99</div>
-                                </div>
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/multi-functional-apple-iphone-3-300x338.jpg">
 
-                            </div>
-                            <!-- ================7==============ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/usb-receipt-1-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
+
                                     </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/usb-receipt-2-300x338.jpg">
-
-
-                                </div>
-                                <div class="item_text">
-                                    <div class="t_i">USB Receipt</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
+                                    <div class="item_text">
+                                        <div class="t_i">Women’s Summer Casual Dress</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
                                     </div>
-                                    <div class="t_iii">$23.99</div>
-                                </div>
-
-                            </div>
-                            <!-- ====================8==========ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/usb-receipt-2-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/multi-functional-apple-iphone-3-300x338.jpg">
-
 
                                 </div>
-                                <div class="item_text">
-                                    <div class="t_i">Women’s Summer Casual Dress</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
-                                    </div>
-                                    <div class="t_iii">$23.99</div>
-                                </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <!-- ==================sub banner ================-->
     <section id="sub_banner">
@@ -2248,318 +2338,337 @@
             </div>
             <hr>
             <div class="body">
-                <div class="col-lg-3">
-                    <div class="side_banner">
-                        <img
-                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/04/banner-9.jpg">
-                        <div class="text_">
-                            <div class="t_1">
-                                Deals And Promotions</div>
-                            <hr class="dash">
-                            <div class="t_2">TRENDING</div>
-                            <div class="t_3">House Utensil</div>
-                            <div class="shop_now"><a href="kitchen.html">SHOP NOW</a></div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="side_banner">
+                            <img
+                                src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/04/banner-9.jpg">
+                            <div class="text_">
+                                <div class="t_1">
+                                    Deals And Promotions</div>
+                                <hr class="dash">
+                                <div class="t_2">TRENDING</div>
+                                <div class="t_3">House Utensil</div>
+                                <div class="shop_now"><a href="kitchen.html">SHOP NOW</a></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- ========================1=====ITEM================================ -->
-                <div class="col-lg-9">
-                    <div class="catalouge">
-                        <div class="row-1">
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/home-sofa-2-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
+                    <!-- ========================1=====ITEM================================ -->
+                    <div class="col-lg-9">
+                        <div class="catalouge">
+                            <div class="row-1">
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/home-sofa-2-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/home-sofa-1-300x338.jpg">
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/home-sofa-1-300x338.jpg">
 
 
-                                </div>
-                                <div class="item_text">
-                                    <div class="t_i"> Home Sofa</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
                                     </div>
-                                    <div class="t_iii">$23.99</div>
+                                    <div class="item_text">
+                                        <div class="t_i"> Home Sofa</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
+                                    </div>
+
+                                </div>
+                                <!-- ===============2===============ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/kitchen-table-1-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/kitchen-table-2-300x338.jpg">
+
+
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="t_i">Kitchen Table</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
+                                    </div>
+
+                                </div>
+                                <!-- ===============3===============ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/table-lamp-2-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/table-lamp-2-300x338.jpg">
+
+
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="t_i">Table Lamp</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
+                                    </div>
+
+                                </div>
+                                <!-- ===============4===============ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/latest-chair-1-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/latest-chair-4-300x338.jpg">
+
+
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="t_i"> Latest Chair</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
+                                    </div>
+
                                 </div>
 
                             </div>
-                            <!-- ===============2===============ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/kitchen-table-1-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
+                            <div class="row-2">
+                                <!-- ================5==============ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/electric-rice-cooker-2-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/kitchen-table-2-300x338.jpg">
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/electric-rice-cooker-1-300x338.jpg">
 
 
-                                </div>
-                                <div class="item_text">
-                                    <div class="t_i">Kitchen Table</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
                                     </div>
-                                    <div class="t_iii">$23.99</div>
-                                </div>
-
-                            </div>
-                            <!-- ===============3===============ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/table-lamp-2-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
+                                    <div class="item_text">
+                                        <div class="t_i"> Electric Rice-Cooker</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
                                     </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/table-lamp-2-300x338.jpg">
-
 
                                 </div>
-                                <div class="item_text">
-                                    <div class="t_i">Table Lamp</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
+                                <!-- ===================6===========ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/kitchen-cooker-3-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <div class="t_iii">$23.99</div>
-                                </div>
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/kitchen-cooker-1-300x338.jpg">
 
-                            </div>
-                            <!-- ===============4===============ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/latest-chair-1-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
+
                                     </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/latest-chair-4-300x338.jpg">
-
-
-                                </div>
-                                <div class="item_text">
-                                    <div class="t_i"> Latest Chair</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
+                                    <div class="item_text">
+                                        <div class="t_i"> Kitchen Cooker</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
                                     </div>
-                                    <div class="t_iii">$23.99</div>
+
                                 </div>
-
-                            </div>
-
-                        </div>
-                        <div class="row-2">
-                            <!-- ================5==============ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/electric-rice-cooker-2-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
+                                <!-- ================7==============ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/electric-frying-pan-2-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/electric-rice-cooker-1-300x338.jpg">
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/electric-frying-pan-1-300x338.jpg">
 
 
-                                </div>
-                                <div class="item_text">
-                                    <div class="t_i"> Electric Rice-Cooker</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
                                     </div>
-                                    <div class="t_iii">$23.99</div>
-                                </div>
-
-                            </div>
-                            <!-- ===================6===========ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/kitchen-cooker-3-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
+                                    <div class="item_text">
+                                        <div class="t_i">Electric Frying Pan</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
                                     </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/kitchen-cooker-1-300x338.jpg">
-
 
                                 </div>
-                                <div class="item_text">
-                                    <div class="t_i"> Kitchen Cooker</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
+                                <!-- ====================8==========ITEM================== -->
+                                <div class="item">
+                                    <div class="top-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/automatic-crusher-1-300x338.jpg">
+                                        <div class="floating_icons">
+                                            <ul>
+                                                <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
+                                                <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i>
+                                                </li>
+                                                <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <div class="t_iii">$23.99</div>
-                                </div>
+                                    <div class="bottom-layer">
+                                        <img width="216px" height="244px"
+                                            src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/automatic-crusher-2-300x338.jpg">
 
-                            </div>
-                            <!-- ================7==============ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/electric-frying-pan-2-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
+
                                     </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/electric-frying-pan-1-300x338.jpg">
-
-
-                                </div>
-                                <div class="item_text">
-                                    <div class="t_i">Electric Frying Pan</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
+                                    <div class="item_text">
+                                        <div class="t_i">Automatic Crusher</div>
+                                        <div class="t_ii">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
+                                                <li class="review">(2 reviews)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="t_iii">$23.99</div>
                                     </div>
-                                    <div class="t_iii">$23.99</div>
-                                </div>
-
-                            </div>
-                            <!-- ====================8==========ITEM================== -->
-                            <div class="item">
-                                <div class="top-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/automatic-crusher-1-300x338.jpg">
-                                    <div class="floating_icons">
-                                        <ul>
-                                            <li><i class="fa-solid fa-bag-shopping" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-heart" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-scale-balanced" style="color: azure;"></i></li>
-                                            <li><i class="fa-solid fa-magnifying-glass" style="color: azure;"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="bottom-layer">
-                                    <img width="216px" height="244px"
-                                        src="https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/automatic-crusher-2-300x338.jpg">
-
 
                                 </div>
-                                <div class="item_text">
-                                    <div class="t_i">Automatic Crusher</div>
-                                    <div class="t_ii">
-                                        <ul>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li><i class="fa-solid fa-star" style="color: #F77C29"></i></li>
-                                            <li class="review">(2 reviews)</li>
-                                        </ul>
-                                    </div>
-                                    <div class="t_iii">$23.99</div>
-                                </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <!-- ========================
    Home Garden & Kitchen
@@ -2698,18 +2807,20 @@
     <section id="footer_head">
         <div class="container">
             <div class="bar">
-                <div class="col-lg-4">
-                    <div> <i class="fa-regular fa-envelope" style="color: #fcfcfd;"></i></div>
-                    <div class="txt">
-                        <div class="t1">SUBSCRIBE TO OUR NEWSLETTER </div>
-                        <div class="t2">Get all the latest information on Events, Sales and Offers.</div>
+                
+                    <div class="col-lg-4">
+                        <div> <i class="fa-regular fa-envelope" style="color: #fcfcfd;"></i></div>
+                        <div class="txt">
+                            <div class="t1">SUBSCRIBE TO OUR NEWSLETTER </div>
+                            <div class="t2">Get all the latest information on Events, Sales and Offers.</div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <input placeholder="Enter your email" class="input" name="email" type="email">
-                    <button class="button"><a href="accounts.html">Subscribe</a></button>
-                </div>
-            </div> 
+                    <div class="col-lg-6">
+                        <input placeholder="Enter your email" class="input" name="email" type="email">
+                        <button class="button"><a href="accounts.html">Subscribe</a></button>
+                    </div>
+          
+            </div>
         </div>
     </section>
     <section id="footer_body">
@@ -2882,15 +2993,14 @@
         </div>
     </section>
     <!-- scroll top -->
-
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i
+            class="fas fa-chevron-up"></i></a>
     <!-- -========================== -->
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/code.jquery.com_jquery-1.12.4.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/slick.min.js"></script>
 </body>
 

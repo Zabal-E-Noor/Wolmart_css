@@ -1,25 +1,282 @@
 #main_slider {
-    .carousel-inner {
-        .carousel-item {
-            background-image: url('/images/background/slide1.jpg');
+    .carousel-item.slide_1 {
+        background-image: url(https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/07/slide1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 520px;
+        position: relative;
 
-            .slide_1 {
+        .shoes {
+            position: absolute;
+            z-index: 555;
+            top: 100px;
+            left: 390px;
+        }
+
+        .txt_1 {
+            position: absolute;
+            z-index: 555;
+            top: 100px;
+            right: 280px;
+            text-align: right;
+
+            h4 {
+                font-family: $theme;
+                font-size: 40px;
+                font-weight: 600;
+                color: #666666;
+            }
+
+            h6 {
+                font-family: $theme;
+                font-size: 50px;
+                font-weight: 700;
+                color: #333333;
+            }
+
+            span {
+                font-family: $theme;
+                font-size: 25px;
+                font-weight: 600;
+                color: #f77c29;
+                line-height: 50px;
+            }
+
+            .shop a {
+
+                font-family: $theme;
+                font-size: 14px;
+                line-height: 50px;
+                font-weight: 600;
+                color: #333333;
+                border: 2px solid #333333;
                 display: inline;
-                display: flex;
+                padding: 10px 25px;
+                border-radius: 3px;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                -ms-border-radius: 3px;
+                -o-border-radius: 3px;
 
-                img {
-                    position: relative;
-                    display: inline;
+                &:hover {
+                    cursor: pointer;
+                    color: white;
+                    background-color: #333333;
                 }
 
-                .shoes {
-                    img {
+                transition: all .3s;
+                -webkit-transition: all .3s;
+                -moz-transition: all .3s;
+                -ms-transition: all .3s;
+                -o-transition: all .3s;
+            }
+        }
+    }
 
-                        position: absolute;
-                        display: inline-block;
-                        right: 0;
-                    }
+    .carousel-item.slide_2 {
+        background-image: url(https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/slide-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 520px;
+
+        .men {
+            position: absolute;
+            z-index: 555;
+            top: 0px;
+            right: 200px;
+        }
+
+        .txt_2 {
+            position: absolute;
+            z-index: 555;
+            top: 100px;
+            left: 380px;
+            text-align: left;
+
+            h4 {
+                font-family: $theme;
+                font-size: 40px;
+                font-weight: 600;
+                color: #666666;
+            }
+
+            h6 {
+                font-family: $theme;
+                font-size: 50px;
+                font-weight: 700;
+                color: #333333;
+            }
+
+            span {
+                font-family: $theme;
+                font-size: 25px;
+                font-weight: 600;
+                color: #f77c29;
+                line-height: 50px;
+            }
+
+            .shop a {
+
+                font-family: $theme;
+                font-size: 14px;
+                line-height: 100px;
+                font-weight: 600;
+                color: #333333;
+                border: 2px solid #333333;
+                display: inline;
+                padding: 10px 25px;
+                border-radius: 3px;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                -ms-border-radius: 3px;
+                -o-border-radius: 3px;
+
+                &:hover {
+                    cursor: pointer;
+                    color: white;
+                    background-color: #333333;
                 }
+
+                transition: all .3s;
+                -webkit-transition: all .3s;
+                -moz-transition: all .3s;
+                -ms-transition: all .3s;
+                -o-transition: all .3s;
+            }
+        }
+
+        .txt_2 {
+            position: absolute;
+            z-index: 555;
+            top: 100px;
+            left: 380px;
+            text-align: left;
+
+            h4 {
+                font-family: $theme;
+                font-size: 40px;
+                font-weight: 600;
+                color: #666666;
+            }
+
+            h6 {
+                font-family: $theme;
+                font-size: 50px;
+                font-weight: 700;
+                color: #333333;
+            }
+
+            span {
+                font-family: $theme;
+                font-size: 25px;
+                font-weight: 600;
+                color: #f77c29;
+                line-height: 50px;
+            }
+
+            .shop a {
+
+                font-family: $theme;
+                font-size: 14px;
+                line-height: 100px;
+                font-weight: 600;
+                color: #333333;
+                border: 2px solid #333333;
+                display: inline;
+                padding: 10px 25px;
+                border-radius: 3px;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                -ms-border-radius: 3px;
+                -o-border-radius: 3px;
+
+                &:hover {
+                    cursor: pointer;
+                    color: white;
+                    background-color: #333333;
+                }
+
+                transition: all .3s;
+                -webkit-transition: all .3s;
+                -moz-transition: all .3s;
+                -ms-transition: all .3s;
+                -o-transition: all .3s;
+            }
+        }
+    }
+
+    .carousel-item.slide_3 {
+        background-image: url(https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/slide-3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 520px;
+
+        .skate {
+            position: absolute;
+            z-index: 555;
+            top: 50px;
+            left: 390px;
+        }
+
+        .txt_1 {
+            position: absolute;
+            z-index: 555;
+            top: 100px;
+            right: 280px;
+            text-align: right;
+
+            h4 {
+                font-family: $theme;
+                font-size: 22px;
+                font-weight: 600;
+                color: #666666;
+            }
+
+            h6 {
+                font-family: $theme;
+                font-size: 40px;
+                font-weight: 700;
+                color: #333333;
+            }
+
+            span {
+                font-family: $theme;
+                font-size: 45px;
+                font-weight: 600;
+                color: #f77c29;
+                line-height: 50px;
+            }
+
+            .shop a {
+
+                font-family: $theme;
+                font-size: 14px;
+                line-height: 100px;
+                font-weight: 600;
+                color: #333333;
+                border: 2px solid #333333;
+                display: inline;
+                padding: 10px 25px;
+                border-radius: 3px;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                -ms-border-radius: 3px;
+                -o-border-radius: 3px;
+
+                &:hover {
+                    cursor: pointer;
+                    color: white;
+                    background-color: #333333;
+                }
+
+                transition: all .3s;
+                -webkit-transition: all .3s;
+                -moz-transition: all .3s;
+                -ms-transition: all .3s;
+                -o-transition: all .3s;
             }
         }
     }
@@ -279,7 +536,7 @@
         gap: 20px;
 
         .deal_megaSlide {
-        
+
 
             #slider {
                 position: relative;
@@ -1065,7 +1322,7 @@
 
             }
 
-            .text_2 a{
+            .text_2 a {
                 font-family: $theme;
                 font-size: 16px;
                 font-weight: 600;
@@ -1152,7 +1409,7 @@
 
             }
 
-            .text_2 a{
+            .text_2 a {
                 font-family: $theme;
                 font-size: 16px;
                 font-weight: 600;
@@ -1239,7 +1496,7 @@
 
             }
 
-            .text_2 a{
+            .text_2 a {
                 font-family: $theme;
                 font-size: 16px;
                 font-weight: 600;
@@ -1326,7 +1583,7 @@
 
             }
 
-            .text_2 a{
+            .text_2 a {
                 font-family: $theme;
                 font-size: 16px;
                 font-weight: 600;
@@ -1413,7 +1670,7 @@
 
             }
 
-            .text_2 a{
+            .text_2 a {
                 font-family: $theme;
                 font-size: 16px;
                 font-weight: 600;
@@ -1500,7 +1757,7 @@
 
             }
 
-            .text_2 a{
+            .text_2 a {
                 font-family: $theme;
                 font-size: 16px;
                 font-weight: 600;
@@ -1675,20 +1932,19 @@
                         margin-bottom: 15px;
                     }
 
-                    .text_4 {
+                    .text_4 a {
                         font-family: $theme;
                         font-size: 14px;
                         font-weight: 600px;
                         line-height: 14px;
                         color: #ffffff;
 
-                        a {
-                            &:hover {
-                                cursor: pointer;
-                                text-decoration: underline white 3px;
+                        &:hover {
+                            cursor: pointer;
+                            text-decoration: underline white 3px;
 
-                            }
                         }
+
                     }
                 }
 
@@ -1958,7 +2214,7 @@
                 color: #333333;
             }
 
-            .shop_now a{
+            .shop_now a {
                 margin-top: 20px;
                 width: 90px;
                 text-align: center;
@@ -2583,7 +2839,7 @@
 
     }
 
-    .shop_now a{
+    .shop_now a {
         margin-left: 430px;
         height: 40px;
         width: 150px;
@@ -2599,7 +2855,7 @@
         -moz-border-radius: 3px;
         -ms-border-radius: 3px;
         -o-border-radius: 3px;
-        color:azure ;
+        color: azure;
 
         &:hover {
             cursor: pointer;
@@ -2689,7 +2945,7 @@
                 color: #333333;
             }
 
-            .shop_now a{
+            .shop_now a {
                 margin-top: 20px;
                 width: 90px;
                 text-align: center;
@@ -3105,3 +3361,9 @@
 }
 
 // ============================================================================================================//
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}

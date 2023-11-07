@@ -88,10 +88,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -110,6 +113,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -437,6 +441,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -459,6 +464,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -504,6 +510,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -585,6 +592,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -694,11 +702,13 @@
 
 #menu .menu_bar {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   margin-top: -30px;
 }
 #menu .container .menu_bar .browse_catagories {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   width: 240px;
   height: 50px;
@@ -729,6 +739,7 @@
 }
 #menu .menu_bar .menu_list {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
@@ -738,6 +749,7 @@
 }
 #menu .menu_bar .menu_list ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding: 10px 10px 11px 10px;
   cursor: pointer;
@@ -760,6 +772,7 @@
 }
 #menu .menu_bar .menu_end {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -771,6 +784,7 @@
 #menu .menu_bar .menu_end ul li {
   transform: translate(100px);
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 0px;
   transition-duration: 0.5s;
@@ -844,6 +858,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .browse_catagories .fashion {
   display: none;
@@ -972,6 +987,7 @@
 #menu .garden .garden_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .garden .garden_menu .second_row ul li {
   border-bottom: none;
@@ -1075,6 +1091,7 @@
 #menu .electronics .electronics_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .electronics .electronics_menu .second_row ul li {
   border-bottom: none;
@@ -1202,6 +1219,7 @@
 #menu .furniture_menu {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -1239,6 +1257,7 @@
 #menu .furniture_images ul {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 30px;
   gap: 200px;
@@ -1326,6 +1345,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .shop_list {
   display: none;
@@ -1435,6 +1455,7 @@
 #menu .top {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -1446,6 +1467,7 @@
 #menu .bottom {
   gap: 50px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 #menu .bottom a:hover {
@@ -1552,6 +1574,7 @@
   background-position: center;
   height: 520px;
   position: relative;
+  width: 100%;
 }
 #main_slider .carousel-item.slide_1 .shoes {
   position: absolute;
@@ -1616,6 +1639,7 @@
   background-size: cover;
   background-position: center;
   height: 520px;
+  width: 100%;
 }
 #main_slider .carousel-item.slide_2 .men {
   position: absolute;
@@ -1674,63 +1698,13 @@
   color: white;
   background-color: #333333;
 }
-#main_slider .carousel-item.slide_2 .txt_2 {
-  position: absolute;
-  z-index: 555;
-  top: 100px;
-  left: 380px;
-  text-align: left;
-}
-#main_slider .carousel-item.slide_2 .txt_2 h4 {
-  font-family: "Poppins", sans-serif;
-  font-size: 40px;
-  font-weight: 600;
-  color: #666666;
-}
-#main_slider .carousel-item.slide_2 .txt_2 h6 {
-  font-family: "Poppins", sans-serif;
-  font-size: 50px;
-  font-weight: 700;
-  color: #333333;
-}
-#main_slider .carousel-item.slide_2 .txt_2 span {
-  font-family: "Poppins", sans-serif;
-  font-size: 25px;
-  font-weight: 600;
-  color: #f77c29;
-  line-height: 50px;
-}
-#main_slider .carousel-item.slide_2 .txt_2 .shop a {
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  line-height: 100px;
-  font-weight: 600;
-  color: #333333;
-  border: 2px solid #333333;
-  display: inline;
-  padding: 10px 25px;
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-}
-#main_slider .carousel-item.slide_2 .txt_2 .shop a:hover {
-  cursor: pointer;
-  color: white;
-  background-color: #333333;
-}
 #main_slider .carousel-item.slide_3 {
   background-image: url(https://d-themes.com/wordpress/wolmart/demo-1/wp-content/uploads/sites/4/2021/03/slide-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 520px;
+  width: 100%;
 }
 #main_slider .carousel-item.slide_3 .skate {
   position: absolute;
@@ -1794,10 +1768,11 @@
   margin-top: 40px;
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   padding-left: 60px;
   padding-right: 60px;
   gap: 4%;
-  display: flex;
   width: 100%;
   height: 100px;
   border: 1px solid #EDF0F5;
@@ -1824,19 +1799,27 @@
 #deals .shipping {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   padding-left: 20px;
 }
 #deals .payment {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 #deals .garuntee {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 #deals .support {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #deals_banner {
@@ -1848,6 +1831,8 @@
   margin-top: 100px;
   display: inline;
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-left: 10px;
 }
 #deals_banner .left img:hover {
@@ -1937,9 +1922,15 @@
   padding-top: 5px;
 }
 
+@media screen and (min-width: 767) {
+  #hot_deals {
+    display: none;
+  }
+}
 #hot_deals .main_body {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
 }
 #hot_deals .left_body {
@@ -2156,6 +2147,7 @@
 }
 #hotdeal .dealMega_main .deal_megaSlideText .ratings li {
   display: flex;
+  flex-wrap: wrap;
   display: inline;
 }
 #hotdeal .dealMega_main .deal_megaSlideText .ratings .reviews {
@@ -2178,6 +2170,7 @@
 }
 #hotdeal .dealMega_main .deal_megaSlideText .size ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
@@ -2264,6 +2257,7 @@
 }
 #hotdeal .dealMega_main .deal_megaSlideText .social ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline;
   flex-wrap: nowrap;
 }
@@ -2425,6 +2419,8 @@
 }
 #hotdeal .best_seller .body .kitchen_cooker {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-bottom: 30px;
   margin-top: 30px;
 }
@@ -2459,6 +2455,8 @@
 }
 #hotdeal .best_seller .body .kitchen_cooker .text_1 .star {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   font-size: 11px;
 }
 #hotdeal .best_seller .body .kitchen_cooker .text_1 .h5 {
@@ -2471,6 +2469,8 @@
 }
 #hotdeal .best_seller .body .camera {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-bottom: 30px;
 }
 #hotdeal .best_seller .body .camera .item_1 .behind {
@@ -2504,6 +2504,8 @@
 }
 #hotdeal .best_seller .body .camera .text_1 .star {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   font-size: 11px;
 }
 #hotdeal .best_seller .body .camera .text_1 .h5 {
@@ -2516,6 +2518,8 @@
 }
 #hotdeal .best_seller .body .wear {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-bottom: 30px;
 }
 #hotdeal .best_seller .body .wear .item_1 .behind {
@@ -2546,6 +2550,8 @@
 }
 #hotdeal .best_seller .body .wear .text_1 .star {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   font-size: 11px;
 }
 #hotdeal .best_seller .body .wear .text_1 .h5 {
@@ -2564,6 +2570,8 @@
 }
 #top_catagories .catalouge {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 #top_catagories h3 {
@@ -3032,6 +3040,8 @@
 }
 #popular_department .head {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 #popular_department .head .t_1 {
@@ -3123,6 +3133,8 @@
 #popular_department .body .banner_ {
   margin-top: 50px;
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 #popular_department .body .banner_ .left_ {
@@ -3215,6 +3227,7 @@
 }
 #popular_department .body .row_1 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 #popular_department .body .row_1 .item_frame .body_text .product_name {
@@ -3235,6 +3248,8 @@
 }
 #popular_department .body .row_1 .item_frame .body_text .rating ul li {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   display: inline-block;
   font-size: 12px;
 }
@@ -3259,6 +3274,8 @@
 #popular_department .body .row_2 {
   margin-top: 50px;
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 #popular_department .body .row_2 .body_text .product_name {
@@ -3279,6 +3296,8 @@
 }
 #popular_department .body .row_2 .body_text .rating ul li {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   display: inline-block;
   font-size: 12px;
 }
@@ -3306,6 +3325,8 @@
 }
 #Clothing_Apparel .head {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 #Clothing_Apparel .head .head_name {
@@ -3390,9 +3411,13 @@
 #Clothing_Apparel .body {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 #Clothing_Apparel .catalouge .row-1 {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 #Clothing_Apparel .catalouge .row-1 .item {
@@ -3455,6 +3480,8 @@
 }
 #Clothing_Apparel .catalouge .row-1 .item_text .t_ii ul li {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   display: inline;
   font-size: 13px;
 }
@@ -3470,6 +3497,8 @@
 #Clothing_Apparel .catalouge .row-2 {
   margin-top: 20px;
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 #Clothing_Apparel .catalouge .row-2 .item {
@@ -3532,6 +3561,8 @@
 }
 #Clothing_Apparel .catalouge .row-2 .item_text .t_ii ul li {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   display: inline;
   font-size: 13px;
 }
@@ -3550,6 +3581,7 @@
 }
 #Consumer_Electric .head {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 #Consumer_Electric .head .head_name {
@@ -3634,9 +3666,11 @@
 #Consumer_Electric .body {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
 }
 #Consumer_Electric .catalouge .row-1 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 #Consumer_Electric .catalouge .row-1 .item {
@@ -3699,6 +3733,7 @@
 }
 #Consumer_Electric .catalouge .row-1 .item_text .t_ii ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline;
   font-size: 13px;
 }
@@ -3714,6 +3749,7 @@
 #Consumer_Electric .catalouge .row-2 {
   margin-top: 20px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 #Consumer_Electric .catalouge .row-2 .item {
@@ -3776,6 +3812,7 @@
 }
 #Consumer_Electric .catalouge .row-2 .item_text .t_ii ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline;
   font-size: 13px;
 }
@@ -3803,6 +3840,7 @@
 #sub_banner .front_text {
   position: absolute;
   display: flex;
+  flex-wrap: wrap;
   padding: 30px;
   top: 18%;
   margin-left: 50px;
@@ -3829,6 +3867,7 @@
 }
 #sub_banner .front_text .info .bottom {
   display: flex;
+  flex-wrap: wrap;
 }
 #sub_banner .front_text .info .bottom .use {
   font-family: "Poppins", sans-serif;
@@ -3883,6 +3922,7 @@
 }
 #Garden .head {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 #Garden .head .head_name {
@@ -3967,9 +4007,11 @@
 #Garden .body {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
 }
 #Garden .catalouge .row-1 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 #Garden .catalouge .row-1 .item {
@@ -4032,6 +4074,7 @@
 }
 #Garden .catalouge .row-1 .item_text .t_ii ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline;
   font-size: 13px;
 }
@@ -4047,6 +4090,7 @@
 #Garden .catalouge .row-2 {
   margin-top: 20px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 #Garden .catalouge .row-2 .item {
@@ -4109,6 +4153,7 @@
 }
 #Garden .catalouge .row-2 .item_text .t_ii ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline;
   font-size: 13px;
 }
@@ -4134,12 +4179,14 @@
 }
 #our_clients .body_ .top_row {
   display: flex;
+  flex-wrap: wrap;
 }
 #our_clients .body_ .top_row li {
   border: 2px solid #F7F7F7;
 }
 #our_clients .body_ .bottom_row {
   display: flex;
+  flex-wrap: wrap;
 }
 #our_clients .body_ .bottom_row li {
   border: 2px solid #F7F7F7;
@@ -4151,6 +4198,7 @@
 }
 #our_blog .head_text {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 #our_blog .head_text .left {
@@ -4175,6 +4223,7 @@
   margin-top: 10px;
   display: inline;
   display: flex;
+  flex-wrap: wrap;
 }
 #our_blog .body_images .card_1 {
   margin-left: 20px;
@@ -4638,10 +4687,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -4660,6 +4712,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -4987,6 +5040,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -5009,6 +5063,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -5054,6 +5109,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -5135,6 +5191,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -5244,11 +5301,13 @@
 
 #menu .menu_bar {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   margin-top: -30px;
 }
 #menu .container .menu_bar .browse_catagories {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   width: 240px;
   height: 50px;
@@ -5279,6 +5338,7 @@
 }
 #menu .menu_bar .menu_list {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
@@ -5288,6 +5348,7 @@
 }
 #menu .menu_bar .menu_list ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding: 10px 10px 11px 10px;
   cursor: pointer;
@@ -5310,6 +5371,7 @@
 }
 #menu .menu_bar .menu_end {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -5321,6 +5383,7 @@
 #menu .menu_bar .menu_end ul li {
   transform: translate(100px);
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 0px;
   transition-duration: 0.5s;
@@ -5394,6 +5457,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .browse_catagories .fashion {
   display: none;
@@ -5522,6 +5586,7 @@
 #menu .garden .garden_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .garden .garden_menu .second_row ul li {
   border-bottom: none;
@@ -5625,6 +5690,7 @@
 #menu .electronics .electronics_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .electronics .electronics_menu .second_row ul li {
   border-bottom: none;
@@ -5752,6 +5818,7 @@
 #menu .furniture_menu {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -5789,6 +5856,7 @@
 #menu .furniture_images ul {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 30px;
   gap: 200px;
@@ -5876,6 +5944,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .shop_list {
   display: none;
@@ -5985,6 +6054,7 @@
 #menu .top {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -5996,6 +6066,7 @@
 #menu .bottom {
   gap: 50px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 #menu .bottom a:hover {
@@ -6788,10 +6859,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -6810,6 +6884,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -7137,6 +7212,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -7159,6 +7235,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -7204,6 +7281,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -7285,6 +7363,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -7394,11 +7473,13 @@
 
 #menu .menu_bar {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   margin-top: -30px;
 }
 #menu .container .menu_bar .browse_catagories {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   width: 240px;
   height: 50px;
@@ -7429,6 +7510,7 @@
 }
 #menu .menu_bar .menu_list {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
@@ -7438,6 +7520,7 @@
 }
 #menu .menu_bar .menu_list ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding: 10px 10px 11px 10px;
   cursor: pointer;
@@ -7460,6 +7543,7 @@
 }
 #menu .menu_bar .menu_end {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -7471,6 +7555,7 @@
 #menu .menu_bar .menu_end ul li {
   transform: translate(100px);
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 0px;
   transition-duration: 0.5s;
@@ -7544,6 +7629,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .browse_catagories .fashion {
   display: none;
@@ -7672,6 +7758,7 @@
 #menu .garden .garden_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .garden .garden_menu .second_row ul li {
   border-bottom: none;
@@ -7775,6 +7862,7 @@
 #menu .electronics .electronics_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .electronics .electronics_menu .second_row ul li {
   border-bottom: none;
@@ -7902,6 +7990,7 @@
 #menu .furniture_menu {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -7939,6 +8028,7 @@
 #menu .furniture_images ul {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 30px;
   gap: 200px;
@@ -8026,6 +8116,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .shop_list {
   display: none;
@@ -8135,6 +8226,7 @@
 #menu .top {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -8146,6 +8238,7 @@
 #menu .bottom {
   gap: 50px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 #menu .bottom a:hover {
@@ -8829,10 +8922,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -8851,6 +8947,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -9178,6 +9275,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -9200,6 +9298,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -9245,6 +9344,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -9326,6 +9426,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -9435,11 +9536,13 @@
 
 #menu .menu_bar {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   margin-top: -30px;
 }
 #menu .container .menu_bar .browse_catagories {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   width: 240px;
   height: 50px;
@@ -9470,6 +9573,7 @@
 }
 #menu .menu_bar .menu_list {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
@@ -9479,6 +9583,7 @@
 }
 #menu .menu_bar .menu_list ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding: 10px 10px 11px 10px;
   cursor: pointer;
@@ -9501,6 +9606,7 @@
 }
 #menu .menu_bar .menu_end {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -9512,6 +9618,7 @@
 #menu .menu_bar .menu_end ul li {
   transform: translate(100px);
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 0px;
   transition-duration: 0.5s;
@@ -9585,6 +9692,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .browse_catagories .fashion {
   display: none;
@@ -9713,6 +9821,7 @@
 #menu .garden .garden_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .garden .garden_menu .second_row ul li {
   border-bottom: none;
@@ -9816,6 +9925,7 @@
 #menu .electronics .electronics_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .electronics .electronics_menu .second_row ul li {
   border-bottom: none;
@@ -9943,6 +10053,7 @@
 #menu .furniture_menu {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -9980,6 +10091,7 @@
 #menu .furniture_images ul {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 30px;
   gap: 200px;
@@ -10067,6 +10179,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .shop_list {
   display: none;
@@ -10176,6 +10289,7 @@
 #menu .top {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -10187,6 +10301,7 @@
 #menu .bottom {
   gap: 50px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 #menu .bottom a:hover {
@@ -10952,10 +11067,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -10974,6 +11092,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -11301,6 +11420,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -11323,6 +11443,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -11368,6 +11489,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -11449,6 +11571,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -11558,11 +11681,13 @@
 
 #menu .menu_bar {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   margin-top: -30px;
 }
 #menu .container .menu_bar .browse_catagories {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   width: 240px;
   height: 50px;
@@ -11593,6 +11718,7 @@
 }
 #menu .menu_bar .menu_list {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
@@ -11602,6 +11728,7 @@
 }
 #menu .menu_bar .menu_list ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding: 10px 10px 11px 10px;
   cursor: pointer;
@@ -11624,6 +11751,7 @@
 }
 #menu .menu_bar .menu_end {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -11635,6 +11763,7 @@
 #menu .menu_bar .menu_end ul li {
   transform: translate(100px);
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 0px;
   transition-duration: 0.5s;
@@ -11708,6 +11837,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .browse_catagories .fashion {
   display: none;
@@ -11836,6 +11966,7 @@
 #menu .garden .garden_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .garden .garden_menu .second_row ul li {
   border-bottom: none;
@@ -11939,6 +12070,7 @@
 #menu .electronics .electronics_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .electronics .electronics_menu .second_row ul li {
   border-bottom: none;
@@ -12066,6 +12198,7 @@
 #menu .furniture_menu {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -12103,6 +12236,7 @@
 #menu .furniture_images ul {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 30px;
   gap: 200px;
@@ -12190,6 +12324,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .shop_list {
   display: none;
@@ -12299,6 +12434,7 @@
 #menu .top {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -12310,6 +12446,7 @@
 #menu .bottom {
   gap: 50px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 #menu .bottom a:hover {
@@ -13077,10 +13214,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -13099,6 +13239,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -13426,6 +13567,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -13448,6 +13590,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -13493,6 +13636,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -13574,6 +13718,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -13683,11 +13828,13 @@
 
 #menu .menu_bar {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   margin-top: -30px;
 }
 #menu .container .menu_bar .browse_catagories {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   width: 240px;
   height: 50px;
@@ -13718,6 +13865,7 @@
 }
 #menu .menu_bar .menu_list {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
@@ -13727,6 +13875,7 @@
 }
 #menu .menu_bar .menu_list ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding: 10px 10px 11px 10px;
   cursor: pointer;
@@ -13749,6 +13898,7 @@
 }
 #menu .menu_bar .menu_end {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -13760,6 +13910,7 @@
 #menu .menu_bar .menu_end ul li {
   transform: translate(100px);
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 0px;
   transition-duration: 0.5s;
@@ -13833,6 +13984,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .browse_catagories .fashion {
   display: none;
@@ -13961,6 +14113,7 @@
 #menu .garden .garden_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .garden .garden_menu .second_row ul li {
   border-bottom: none;
@@ -14064,6 +14217,7 @@
 #menu .electronics .electronics_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .electronics .electronics_menu .second_row ul li {
   border-bottom: none;
@@ -14191,6 +14345,7 @@
 #menu .furniture_menu {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -14228,6 +14383,7 @@
 #menu .furniture_images ul {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 30px;
   gap: 200px;
@@ -14315,6 +14471,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .shop_list {
   display: none;
@@ -14424,6 +14581,7 @@
 #menu .top {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -14435,6 +14593,7 @@
 #menu .bottom {
   gap: 50px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 #menu .bottom a:hover {
@@ -14971,10 +15130,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -14993,6 +15155,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -15320,6 +15483,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -15342,6 +15506,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -15387,6 +15552,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -15468,6 +15634,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -15577,11 +15744,13 @@
 
 #menu .menu_bar {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   margin-top: -30px;
 }
 #menu .container .menu_bar .browse_catagories {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   width: 240px;
   height: 50px;
@@ -15612,6 +15781,7 @@
 }
 #menu .menu_bar .menu_list {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
@@ -15621,6 +15791,7 @@
 }
 #menu .menu_bar .menu_list ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding: 10px 10px 11px 10px;
   cursor: pointer;
@@ -15643,6 +15814,7 @@
 }
 #menu .menu_bar .menu_end {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -15654,6 +15826,7 @@
 #menu .menu_bar .menu_end ul li {
   transform: translate(100px);
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 0px;
   transition-duration: 0.5s;
@@ -15727,6 +15900,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .browse_catagories .fashion {
   display: none;
@@ -15855,6 +16029,7 @@
 #menu .garden .garden_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .garden .garden_menu .second_row ul li {
   border-bottom: none;
@@ -15958,6 +16133,7 @@
 #menu .electronics .electronics_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .electronics .electronics_menu .second_row ul li {
   border-bottom: none;
@@ -16085,6 +16261,7 @@
 #menu .furniture_menu {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -16122,6 +16299,7 @@
 #menu .furniture_images ul {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 30px;
   gap: 200px;
@@ -16209,6 +16387,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .shop_list {
   display: none;
@@ -16318,6 +16497,7 @@
 #menu .top {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -16329,6 +16509,7 @@
 #menu .bottom {
   gap: 50px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 #menu .bottom a:hover {
@@ -16865,10 +17046,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -16887,6 +17071,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -17214,6 +17399,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -17236,6 +17422,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -17281,6 +17468,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -17362,6 +17550,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -17471,11 +17660,13 @@
 
 #menu .menu_bar {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   margin-top: -30px;
 }
 #menu .container .menu_bar .browse_catagories {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   width: 240px;
   height: 50px;
@@ -17506,6 +17697,7 @@
 }
 #menu .menu_bar .menu_list {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
@@ -17515,6 +17707,7 @@
 }
 #menu .menu_bar .menu_list ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding: 10px 10px 11px 10px;
   cursor: pointer;
@@ -17537,6 +17730,7 @@
 }
 #menu .menu_bar .menu_end {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -17548,6 +17742,7 @@
 #menu .menu_bar .menu_end ul li {
   transform: translate(100px);
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 0px;
   transition-duration: 0.5s;
@@ -17621,6 +17816,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .browse_catagories .fashion {
   display: none;
@@ -17749,6 +17945,7 @@
 #menu .garden .garden_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .garden .garden_menu .second_row ul li {
   border-bottom: none;
@@ -17852,6 +18049,7 @@
 #menu .electronics .electronics_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .electronics .electronics_menu .second_row ul li {
   border-bottom: none;
@@ -17979,6 +18177,7 @@
 #menu .furniture_menu {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -18016,6 +18215,7 @@
 #menu .furniture_images ul {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 30px;
   gap: 200px;
@@ -18103,6 +18303,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .shop_list {
   display: none;
@@ -18212,6 +18413,7 @@
 #menu .top {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -18223,6 +18425,7 @@
 #menu .bottom {
   gap: 50px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 #menu .bottom a:hover {
@@ -18768,10 +18971,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -18790,6 +18996,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -19117,6 +19324,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -19139,6 +19347,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -19184,6 +19393,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -19265,6 +19475,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -19374,11 +19585,13 @@
 
 #menu .menu_bar {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   margin-top: -30px;
 }
 #menu .container .menu_bar .browse_catagories {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   width: 240px;
   height: 50px;
@@ -19409,6 +19622,7 @@
 }
 #menu .menu_bar .menu_list {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
@@ -19418,6 +19632,7 @@
 }
 #menu .menu_bar .menu_list ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding: 10px 10px 11px 10px;
   cursor: pointer;
@@ -19440,6 +19655,7 @@
 }
 #menu .menu_bar .menu_end {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -19451,6 +19667,7 @@
 #menu .menu_bar .menu_end ul li {
   transform: translate(100px);
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 0px;
   transition-duration: 0.5s;
@@ -19524,6 +19741,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .browse_catagories .fashion {
   display: none;
@@ -19652,6 +19870,7 @@
 #menu .garden .garden_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .garden .garden_menu .second_row ul li {
   border-bottom: none;
@@ -19755,6 +19974,7 @@
 #menu .electronics .electronics_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .electronics .electronics_menu .second_row ul li {
   border-bottom: none;
@@ -19882,6 +20102,7 @@
 #menu .furniture_menu {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -19919,6 +20140,7 @@
 #menu .furniture_images ul {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 30px;
   gap: 200px;
@@ -20006,6 +20228,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .shop_list {
   display: none;
@@ -20115,6 +20338,7 @@
 #menu .top {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -20126,6 +20350,7 @@
 #menu .bottom {
   gap: 50px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 #menu .bottom a:hover {
@@ -20785,10 +21010,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -20807,6 +21035,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -21134,6 +21363,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -21156,6 +21386,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -21201,6 +21432,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -21282,6 +21514,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -21391,11 +21624,13 @@
 
 #menu .menu_bar {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   margin-top: -30px;
 }
 #menu .container .menu_bar .browse_catagories {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   width: 240px;
   height: 50px;
@@ -21426,6 +21661,7 @@
 }
 #menu .menu_bar .menu_list {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
@@ -21435,6 +21671,7 @@
 }
 #menu .menu_bar .menu_list ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding: 10px 10px 11px 10px;
   cursor: pointer;
@@ -21457,6 +21694,7 @@
 }
 #menu .menu_bar .menu_end {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -21468,6 +21706,7 @@
 #menu .menu_bar .menu_end ul li {
   transform: translate(100px);
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 0px;
   transition-duration: 0.5s;
@@ -21541,6 +21780,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .browse_catagories .fashion {
   display: none;
@@ -21669,6 +21909,7 @@
 #menu .garden .garden_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .garden .garden_menu .second_row ul li {
   border-bottom: none;
@@ -21772,6 +22013,7 @@
 #menu .electronics .electronics_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .electronics .electronics_menu .second_row ul li {
   border-bottom: none;
@@ -21899,6 +22141,7 @@
 #menu .furniture_menu {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -21936,6 +22179,7 @@
 #menu .furniture_images ul {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 30px;
   gap: 200px;
@@ -22023,6 +22267,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .shop_list {
   display: none;
@@ -22132,6 +22377,7 @@
 #menu .top {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -22143,6 +22389,7 @@
 #menu .bottom {
   gap: 50px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 #menu .bottom a:hover {
@@ -22686,10 +22933,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -22708,6 +22958,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -23035,6 +23286,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -23057,6 +23309,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -23102,6 +23355,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -23183,6 +23437,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -23292,11 +23547,13 @@
 
 #menu .menu_bar {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   margin-top: -30px;
 }
 #menu .container .menu_bar .browse_catagories {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   width: 240px;
   height: 50px;
@@ -23327,6 +23584,7 @@
 }
 #menu .menu_bar .menu_list {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
@@ -23336,6 +23594,7 @@
 }
 #menu .menu_bar .menu_list ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding: 10px 10px 11px 10px;
   cursor: pointer;
@@ -23358,6 +23617,7 @@
 }
 #menu .menu_bar .menu_end {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -23369,6 +23629,7 @@
 #menu .menu_bar .menu_end ul li {
   transform: translate(100px);
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 0px;
   transition-duration: 0.5s;
@@ -23442,6 +23703,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .browse_catagories .fashion {
   display: none;
@@ -23570,6 +23832,7 @@
 #menu .garden .garden_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .garden .garden_menu .second_row ul li {
   border-bottom: none;
@@ -23673,6 +23936,7 @@
 #menu .electronics .electronics_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .electronics .electronics_menu .second_row ul li {
   border-bottom: none;
@@ -23800,6 +24064,7 @@
 #menu .furniture_menu {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -23837,6 +24102,7 @@
 #menu .furniture_images ul {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 30px;
   gap: 200px;
@@ -23924,6 +24190,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .shop_list {
   display: none;
@@ -24033,6 +24300,7 @@
 #menu .top {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -24044,6 +24312,7 @@
 #menu .bottom {
   gap: 50px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 #menu .bottom a:hover {
@@ -24853,10 +25122,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -24875,6 +25147,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -25202,6 +25475,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -25224,6 +25498,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -25269,6 +25544,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -25350,6 +25626,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -25459,11 +25736,13 @@
 
 #menu .menu_bar {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   margin-top: -30px;
 }
 #menu .container .menu_bar .browse_catagories {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   width: 240px;
   height: 50px;
@@ -25494,6 +25773,7 @@
 }
 #menu .menu_bar .menu_list {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
@@ -25503,6 +25783,7 @@
 }
 #menu .menu_bar .menu_list ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding: 10px 10px 11px 10px;
   cursor: pointer;
@@ -25525,6 +25806,7 @@
 }
 #menu .menu_bar .menu_end {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -25536,6 +25818,7 @@
 #menu .menu_bar .menu_end ul li {
   transform: translate(100px);
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 0px;
   transition-duration: 0.5s;
@@ -25609,6 +25892,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .browse_catagories .fashion {
   display: none;
@@ -25737,6 +26021,7 @@
 #menu .garden .garden_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .garden .garden_menu .second_row ul li {
   border-bottom: none;
@@ -25840,6 +26125,7 @@
 #menu .electronics .electronics_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .electronics .electronics_menu .second_row ul li {
   border-bottom: none;
@@ -25967,6 +26253,7 @@
 #menu .furniture_menu {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -26004,6 +26291,7 @@
 #menu .furniture_images ul {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 30px;
   gap: 200px;
@@ -26091,6 +26379,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .shop_list {
   display: none;
@@ -26200,6 +26489,7 @@
 #menu .top {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -26211,6 +26501,7 @@
 #menu .bottom {
   gap: 50px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 #menu .bottom a:hover {
@@ -27020,10 +27311,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -27042,6 +27336,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -27369,6 +27664,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -27391,6 +27687,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -27436,6 +27733,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -27517,6 +27815,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -28334,10 +28633,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -28356,6 +28658,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -28683,6 +28986,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -28705,6 +29009,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -28750,6 +29055,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -28831,6 +29137,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -28940,11 +29247,13 @@
 
 #menu .menu_bar {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   margin-top: -30px;
 }
 #menu .container .menu_bar .browse_catagories {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   width: 240px;
   height: 50px;
@@ -28975,6 +29284,7 @@
 }
 #menu .menu_bar .menu_list {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
@@ -28984,6 +29294,7 @@
 }
 #menu .menu_bar .menu_list ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding: 10px 10px 11px 10px;
   cursor: pointer;
@@ -29006,6 +29317,7 @@
 }
 #menu .menu_bar .menu_end {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -29017,6 +29329,7 @@
 #menu .menu_bar .menu_end ul li {
   transform: translate(100px);
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 0px;
   transition-duration: 0.5s;
@@ -29090,6 +29403,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .browse_catagories .fashion {
   display: none;
@@ -29218,6 +29532,7 @@
 #menu .garden .garden_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .garden .garden_menu .second_row ul li {
   border-bottom: none;
@@ -29321,6 +29636,7 @@
 #menu .electronics .electronics_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .electronics .electronics_menu .second_row ul li {
   border-bottom: none;
@@ -29448,6 +29764,7 @@
 #menu .furniture_menu {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -29485,6 +29802,7 @@
 #menu .furniture_images ul {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 30px;
   gap: 200px;
@@ -29572,6 +29890,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .shop_list {
   display: none;
@@ -29681,6 +30000,7 @@
 #menu .top {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -29692,6 +30012,7 @@
 #menu .bottom {
   gap: 50px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 #menu .bottom a:hover {
@@ -30501,10 +30822,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -30523,6 +30847,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -30850,6 +31175,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -30872,6 +31198,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -30917,6 +31244,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -30998,6 +31326,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -31107,11 +31436,13 @@
 
 #menu .menu_bar {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   margin-top: -30px;
 }
 #menu .container .menu_bar .browse_catagories {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   width: 240px;
   height: 50px;
@@ -31142,6 +31473,7 @@
 }
 #menu .menu_bar .menu_list {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
@@ -31151,6 +31483,7 @@
 }
 #menu .menu_bar .menu_list ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding: 10px 10px 11px 10px;
   cursor: pointer;
@@ -31173,6 +31506,7 @@
 }
 #menu .menu_bar .menu_end {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -31184,6 +31518,7 @@
 #menu .menu_bar .menu_end ul li {
   transform: translate(100px);
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 0px;
   transition-duration: 0.5s;
@@ -31257,6 +31592,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .browse_catagories .fashion {
   display: none;
@@ -31385,6 +31721,7 @@
 #menu .garden .garden_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .garden .garden_menu .second_row ul li {
   border-bottom: none;
@@ -31488,6 +31825,7 @@
 #menu .electronics .electronics_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .electronics .electronics_menu .second_row ul li {
   border-bottom: none;
@@ -31615,6 +31953,7 @@
 #menu .furniture_menu {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -31652,6 +31991,7 @@
 #menu .furniture_images ul {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 30px;
   gap: 200px;
@@ -31739,6 +32079,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .shop_list {
   display: none;
@@ -31848,6 +32189,7 @@
 #menu .top {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -31859,6 +32201,7 @@
 #menu .bottom {
   gap: 50px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 #menu .bottom a:hover {
@@ -32668,10 +33011,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -32690,6 +33036,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -33017,6 +33364,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -33039,6 +33387,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -33084,6 +33433,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -33165,6 +33515,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -33274,11 +33625,13 @@
 
 #menu .menu_bar {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   margin-top: -30px;
 }
 #menu .container .menu_bar .browse_catagories {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   width: 240px;
   height: 50px;
@@ -33309,6 +33662,7 @@
 }
 #menu .menu_bar .menu_list {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
@@ -33318,6 +33672,7 @@
 }
 #menu .menu_bar .menu_list ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding: 10px 10px 11px 10px;
   cursor: pointer;
@@ -33340,6 +33695,7 @@
 }
 #menu .menu_bar .menu_end {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -33351,6 +33707,7 @@
 #menu .menu_bar .menu_end ul li {
   transform: translate(100px);
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 0px;
   transition-duration: 0.5s;
@@ -33424,6 +33781,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .browse_catagories .fashion {
   display: none;
@@ -33552,6 +33910,7 @@
 #menu .garden .garden_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .garden .garden_menu .second_row ul li {
   border-bottom: none;
@@ -33655,6 +34014,7 @@
 #menu .electronics .electronics_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .electronics .electronics_menu .second_row ul li {
   border-bottom: none;
@@ -33782,6 +34142,7 @@
 #menu .furniture_menu {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -33819,6 +34180,7 @@
 #menu .furniture_images ul {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 30px;
   gap: 200px;
@@ -33906,6 +34268,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .shop_list {
   display: none;
@@ -34015,6 +34378,7 @@
 #menu .top {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -34026,6 +34390,7 @@
 #menu .bottom {
   gap: 50px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 #menu .bottom a:hover {
@@ -34835,10 +35200,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -34857,6 +35225,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -35184,6 +35553,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -35206,6 +35576,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -35251,6 +35622,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -35332,6 +35704,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -35441,11 +35814,13 @@
 
 #menu .menu_bar {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   margin-top: -30px;
 }
 #menu .container .menu_bar .browse_catagories {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   width: 240px;
   height: 50px;
@@ -35476,6 +35851,7 @@
 }
 #menu .menu_bar .menu_list {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
@@ -35485,6 +35861,7 @@
 }
 #menu .menu_bar .menu_list ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding: 10px 10px 11px 10px;
   cursor: pointer;
@@ -35507,6 +35884,7 @@
 }
 #menu .menu_bar .menu_end {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -35518,6 +35896,7 @@
 #menu .menu_bar .menu_end ul li {
   transform: translate(100px);
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 0px;
   transition-duration: 0.5s;
@@ -35591,6 +35970,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .browse_catagories .fashion {
   display: none;
@@ -35719,6 +36099,7 @@
 #menu .garden .garden_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .garden .garden_menu .second_row ul li {
   border-bottom: none;
@@ -35822,6 +36203,7 @@
 #menu .electronics .electronics_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .electronics .electronics_menu .second_row ul li {
   border-bottom: none;
@@ -35949,6 +36331,7 @@
 #menu .furniture_menu {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -35986,6 +36369,7 @@
 #menu .furniture_images ul {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 30px;
   gap: 200px;
@@ -36073,6 +36457,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .shop_list {
   display: none;
@@ -36182,6 +36567,7 @@
 #menu .top {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -36193,6 +36579,7 @@
 #menu .bottom {
   gap: 50px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 #menu .bottom a:hover {
@@ -37002,10 +37389,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -37024,6 +37414,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -37351,6 +37742,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -37373,6 +37765,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -37418,6 +37811,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -37499,6 +37893,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -37608,11 +38003,13 @@
 
 #menu .menu_bar {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   margin-top: -30px;
 }
 #menu .container .menu_bar .browse_catagories {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   width: 240px;
   height: 50px;
@@ -37643,6 +38040,7 @@
 }
 #menu .menu_bar .menu_list {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
@@ -37652,6 +38050,7 @@
 }
 #menu .menu_bar .menu_list ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding: 10px 10px 11px 10px;
   cursor: pointer;
@@ -37674,6 +38073,7 @@
 }
 #menu .menu_bar .menu_end {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -37685,6 +38085,7 @@
 #menu .menu_bar .menu_end ul li {
   transform: translate(100px);
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 0px;
   transition-duration: 0.5s;
@@ -37758,6 +38159,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .browse_catagories .fashion {
   display: none;
@@ -37886,6 +38288,7 @@
 #menu .garden .garden_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .garden .garden_menu .second_row ul li {
   border-bottom: none;
@@ -37989,6 +38392,7 @@
 #menu .electronics .electronics_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .electronics .electronics_menu .second_row ul li {
   border-bottom: none;
@@ -38116,6 +38520,7 @@
 #menu .furniture_menu {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -38153,6 +38558,7 @@
 #menu .furniture_images ul {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 30px;
   gap: 200px;
@@ -38240,6 +38646,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .shop_list {
   display: none;
@@ -38349,6 +38756,7 @@
 #menu .top {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -38360,6 +38768,7 @@
 #menu .bottom {
   gap: 50px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 #menu .bottom a:hover {
@@ -38990,10 +39399,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -39012,6 +39424,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -39339,6 +39752,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -39361,6 +39775,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -39406,6 +39821,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -39487,6 +39903,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -39596,11 +40013,13 @@
 
 #menu .menu_bar {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   margin-top: -30px;
 }
 #menu .container .menu_bar .browse_catagories {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   width: 240px;
   height: 50px;
@@ -39631,6 +40050,7 @@
 }
 #menu .menu_bar .menu_list {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
@@ -39640,6 +40060,7 @@
 }
 #menu .menu_bar .menu_list ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding: 10px 10px 11px 10px;
   cursor: pointer;
@@ -39662,6 +40083,7 @@
 }
 #menu .menu_bar .menu_end {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -39673,6 +40095,7 @@
 #menu .menu_bar .menu_end ul li {
   transform: translate(100px);
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 0px;
   transition-duration: 0.5s;
@@ -39746,6 +40169,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .browse_catagories .fashion {
   display: none;
@@ -39874,6 +40298,7 @@
 #menu .garden .garden_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .garden .garden_menu .second_row ul li {
   border-bottom: none;
@@ -39977,6 +40402,7 @@
 #menu .electronics .electronics_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .electronics .electronics_menu .second_row ul li {
   border-bottom: none;
@@ -40104,6 +40530,7 @@
 #menu .furniture_menu {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -40141,6 +40568,7 @@
 #menu .furniture_images ul {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 30px;
   gap: 200px;
@@ -40228,6 +40656,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .shop_list {
   display: none;
@@ -40337,6 +40766,7 @@
 #menu .top {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -40348,6 +40778,7 @@
 #menu .bottom {
   gap: 50px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 #menu .bottom a:hover {
@@ -40805,6 +41236,7 @@
 }
 #about_us .segment_1 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 50px;
   /* OPTIONAL HOVER STATE */
@@ -40894,6 +41326,7 @@
 #about_us .segment_2 {
   margin-top: 50px;
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: space-evenly;
 }
@@ -40919,9 +41352,11 @@
 #about_us .segment_3 {
   margin-top: 100px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 #about_us .segment_3 img {
+  width: 100%;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -40975,6 +41410,7 @@
 #about_us .segment_4 .award {
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -41012,6 +41448,7 @@
 }
 #about_us .segment_5 .leader {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -41160,10 +41597,13 @@
 }
 #header .head_right {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 #header .head_country ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-right: 2px solid #ccc;
   padding-right: 15px;
@@ -41182,6 +41622,7 @@
 }
 #header .head_acc ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 11px;
@@ -41509,6 +41950,7 @@
 }
 #nav .nav_bar {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 #nav .col-lg-5 {
@@ -41531,6 +41973,7 @@
   border-width: 2px;
   margin-left: 0px;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -41576,6 +42019,7 @@
   padding-top: 15px;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
 }
 #nav .catagories .arrow_down {
   padding-left: 20px;
@@ -41657,6 +42101,7 @@
 }
 #nav .head_icon {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 0px;
 }
@@ -41766,11 +42211,13 @@
 
 #menu .menu_bar {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   margin-top: -30px;
 }
 #menu .container .menu_bar .browse_catagories {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   width: 240px;
   height: 50px;
@@ -41801,6 +42248,7 @@
 }
 #menu .menu_bar .menu_list {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
@@ -41810,6 +42258,7 @@
 }
 #menu .menu_bar .menu_list ul li {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding: 10px 10px 11px 10px;
   cursor: pointer;
@@ -41832,6 +42281,7 @@
 }
 #menu .menu_bar .menu_end {
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -41843,6 +42293,7 @@
 #menu .menu_bar .menu_end ul li {
   transform: translate(100px);
   display: flex;
+  flex-wrap: wrap;
   display: inline-block;
   padding-left: 0px;
   transition-duration: 0.5s;
@@ -41916,6 +42367,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .browse_catagories .fashion {
   display: none;
@@ -42044,6 +42496,7 @@
 #menu .garden .garden_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .garden .garden_menu .second_row ul li {
   border-bottom: none;
@@ -42147,6 +42600,7 @@
 #menu .electronics .electronics_menu .second_row {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .electronics .electronics_menu .second_row ul li {
   border-bottom: none;
@@ -42274,6 +42728,7 @@
 #menu .furniture_menu {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -42311,6 +42766,7 @@
 #menu .furniture_images ul {
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   padding-left: 30px;
   gap: 200px;
@@ -42398,6 +42854,7 @@
   display: block;
   visibility: visible;
   display: flex;
+  flex-wrap: wrap;
 }
 #menu .shop_list {
   display: none;
@@ -42507,6 +42964,7 @@
 #menu .top {
   display: inline;
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -42518,6 +42976,7 @@
 #menu .bottom {
   gap: 50px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 10px;
 }
 #menu .bottom a:hover {

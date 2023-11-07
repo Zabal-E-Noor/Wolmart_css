@@ -6,6 +6,7 @@
         background-position: center;
         height: 520px;
         position: relative;
+        width: 100%;
 
         .shoes {
             position: absolute;
@@ -15,11 +16,11 @@
         }
 
         .txt_1 {
-            position: absolute;
-            z-index: 555;
-            top: 100px;
-            right: 280px;
-            text-align: right;
+                position: absolute;
+                z-index: 555;
+                top: 100px;
+                right: 280px;
+                text-align: right;
 
             h4 {
                 font-family: $theme;
@@ -80,6 +81,7 @@
         background-size: cover;
         background-position: center;
         height: 520px;
+        width: 100%;
 
         .men {
             position: absolute;
@@ -88,64 +90,7 @@
             right: 200px;
         }
 
-        .txt_2 {
-            position: absolute;
-            z-index: 555;
-            top: 100px;
-            left: 380px;
-            text-align: left;
-
-            h4 {
-                font-family: $theme;
-                font-size: 40px;
-                font-weight: 600;
-                color: #666666;
-            }
-
-            h6 {
-                font-family: $theme;
-                font-size: 50px;
-                font-weight: 700;
-                color: #333333;
-            }
-
-            span {
-                font-family: $theme;
-                font-size: 25px;
-                font-weight: 600;
-                color: #f77c29;
-                line-height: 50px;
-            }
-
-            .shop a {
-
-                font-family: $theme;
-                font-size: 14px;
-                line-height: 100px;
-                font-weight: 600;
-                color: #333333;
-                border: 2px solid #333333;
-                display: inline;
-                padding: 10px 25px;
-                border-radius: 3px;
-                -webkit-border-radius: 3px;
-                -moz-border-radius: 3px;
-                -ms-border-radius: 3px;
-                -o-border-radius: 3px;
-
-                &:hover {
-                    cursor: pointer;
-                    color: white;
-                    background-color: #333333;
-                }
-
-                transition: all .3s;
-                -webkit-transition: all .3s;
-                -moz-transition: all .3s;
-                -ms-transition: all .3s;
-                -o-transition: all .3s;
-            }
-        }
+      
 
         .txt_2 {
             position: absolute;
@@ -213,6 +158,7 @@
         background-size: cover;
         background-position: center;
         height: 520px;
+        width: 100%;
 
         .skate {
             position: absolute;
@@ -290,10 +236,11 @@
         margin-top: 40px;
         display: inline-block;
         display: flex;
+        flex-wrap: wrap;
+        flex-wrap: wrap;
         padding-left: 60px;
         padding-right: 60px;
         gap: 4%;
-        display: flex;
         width: 100%;
         height: 100px;
         border: 1px solid #EDF0F5;
@@ -325,22 +272,30 @@
     .shipping {
         display: inline-block;
         display: flex;
+        flex-wrap: wrap;
+        flex-wrap: wrap;
         padding-left: 20px;
     }
 
     .payment {
         display: inline-block;
         display: flex;
+        flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 
     .garuntee {
         display: inline-block;
         display: flex;
+        flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 
     .support {
         display: inline-block;
         display: flex;
+        flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 }
 
@@ -353,6 +308,8 @@
         margin-top: 100px;
         display: inline;
         display: flex;
+        flex-wrap: wrap;
+        flex-wrap: wrap;
         margin-left: 10px;
     }
 
@@ -468,10 +425,17 @@
 
 }
 
+@media screen and (min-width:767) {
+    #hot_deals {
+        display: none;
+    }
+}
+
 #hot_deals {
     .main_body {
         display: inline-block;
         display: flex;
+        flex-wrap: wrap;
         gap: 25px;
     }
 
@@ -531,6 +495,7 @@
 
     .dealMega_main {
         display: flex;
+
         padding: 20px;
 
         gap: 20px;
@@ -652,6 +617,7 @@
 
             .single_productSlide {
                 display: flex;
+
                 align-items: start;
                 gap: 10px;
 
@@ -662,6 +628,7 @@
                     margin-bottom: 0;
                     margin-left: 0;
                     display: flex;
+
                     flex-direction: column;
                     gap: 20px;
                 }
@@ -730,6 +697,7 @@
 
                 li {
                     display: flex;
+                    flex-wrap: wrap;
                     display: inline;
 
                 }
@@ -762,6 +730,7 @@
 
                 ul li {
                     display: flex;
+                    flex-wrap: wrap;
                     display: inline;
                     font-family: $theme;
                     font-size: 12px;
@@ -872,6 +841,7 @@
 
                 ul li {
                     display: flex;
+                    flex-wrap: wrap;
                     display: inline;
                     flex-wrap: nowrap;
                 }
@@ -1062,6 +1032,8 @@
 
         .kitchen_cooker {
             display: flex;
+            flex-wrap: wrap;
+            flex-wrap: wrap;
             margin-bottom: 30px;
             margin-top: 30px;
 
@@ -1104,6 +1076,8 @@
 
                 .star {
                     display: flex;
+                    flex-wrap: wrap;
+                    flex-wrap: wrap;
                     font-size: 11px;
                 }
 
@@ -1120,6 +1094,8 @@
 
         .camera {
             display: flex;
+            flex-wrap: wrap;
+            flex-wrap: wrap;
             margin-bottom: 30px;
 
             .item_1 {
@@ -1161,6 +1137,8 @@
 
                 .star {
                     display: flex;
+                    flex-wrap: wrap;
+                    flex-wrap: wrap;
                     font-size: 11px;
                 }
 
@@ -1177,6 +1155,8 @@
 
         .wear {
             display: flex;
+            flex-wrap: wrap;
+            flex-wrap: wrap;
             margin-bottom: 30px;
 
             .item_1 {
@@ -1214,6 +1194,8 @@
 
                 .star {
                     display: flex;
+                    flex-wrap: wrap;
+                    flex-wrap: wrap;
                     font-size: 11px;
                 }
 
@@ -1238,6 +1220,8 @@
 
     .catalouge {
         display: flex;
+        flex-wrap: wrap;
+        flex-wrap: wrap;
         justify-content: space-between;
 
 
@@ -1784,6 +1768,8 @@
 
     .head {
         display: flex;
+        flex-wrap: wrap;
+        flex-wrap: wrap;
         justify-content: space-between;
 
         .t_1 {
@@ -1894,6 +1880,8 @@
             margin-top: 50px;
 
             display: flex;
+            flex-wrap: wrap;
+            flex-wrap: wrap;
             justify-content: space-between;
 
             //    left side
@@ -2020,6 +2008,7 @@
 
     .body .row_1 {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
 
         .item_frame {
@@ -2044,6 +2033,8 @@
 
                     ul li {
                         display: flex;
+                        flex-wrap: wrap;
+                        flex-wrap: wrap;
                         display: inline-block;
                         font-size: 12px;
 
@@ -2079,6 +2070,8 @@
     .body .row_2 {
         margin-top: 50px;
         display: flex;
+        flex-wrap: wrap;
+        flex-wrap: wrap;
         justify-content: space-between;
 
         .body_text {
@@ -2102,6 +2095,8 @@
 
                 ul li {
                     display: flex;
+                    flex-wrap: wrap;
+                    flex-wrap: wrap;
                     display: inline-block;
                     font-size: 12px;
 
@@ -2142,6 +2137,8 @@
 
     .head {
         display: flex;
+        flex-wrap: wrap;
+        flex-wrap: wrap;
         justify-content: space-between;
 
         .head_name {
@@ -2243,11 +2240,15 @@
     .body {
         display: inline;
         display: flex;
+        flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 
     .catalouge {
         .row-1 {
             display: flex;
+            flex-wrap: wrap;
+            flex-wrap: wrap;
             justify-content: space-between;
 
             .item {
@@ -2326,6 +2327,8 @@
                     ul li {
 
                         display: flex;
+                        flex-wrap: wrap;
+                        flex-wrap: wrap;
                         display: inline;
                         font-size: 13px;
 
@@ -2348,6 +2351,8 @@
         .row-2 {
             margin-top: 20px;
             display: flex;
+            flex-wrap: wrap;
+            flex-wrap: wrap;
             justify-content: space-between;
 
             .item {
@@ -2426,6 +2431,8 @@
                     ul li {
 
                         display: flex;
+                        flex-wrap: wrap;
+                        flex-wrap: wrap;
                         display: inline;
                         font-size: 13px;
 
@@ -2454,6 +2461,7 @@
 
     .head {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
 
         .head_name {
@@ -2555,11 +2563,13 @@
     .body {
         display: inline;
         display: flex;
+        flex-wrap: wrap;
     }
 
     .catalouge {
         .row-1 {
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
 
             .item {
@@ -2638,6 +2648,7 @@
                     ul li {
 
                         display: flex;
+                        flex-wrap: wrap;
                         display: inline;
                         font-size: 13px;
 
@@ -2660,6 +2671,7 @@
         .row-2 {
             margin-top: 20px;
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
 
             .item {
@@ -2738,6 +2750,7 @@
                     ul li {
 
                         display: flex;
+                        flex-wrap: wrap;
                         display: inline;
                         font-size: 13px;
 
@@ -2778,6 +2791,7 @@
     .front_text {
         position: absolute;
         display: flex;
+        flex-wrap: wrap;
         padding: 30px;
         top: 18%;
         margin-left: 50px;
@@ -2808,6 +2822,7 @@
 
             .bottom {
                 display: flex;
+                flex-wrap: wrap;
 
                 .use {
                     font-family: $theme;
@@ -2873,6 +2888,7 @@
 
     .head {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
 
         .head_name {
@@ -2974,11 +2990,13 @@
     .body {
         display: inline;
         display: flex;
+        flex-wrap: wrap;
     }
 
     .catalouge {
         .row-1 {
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
 
             .item {
@@ -3057,6 +3075,7 @@
                     ul li {
 
                         display: flex;
+                        flex-wrap: wrap;
                         display: inline;
                         font-size: 13px;
 
@@ -3079,6 +3098,7 @@
         .row-2 {
             margin-top: 20px;
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
 
             .item {
@@ -3157,6 +3177,7 @@
                     ul li {
 
                         display: flex;
+                        flex-wrap: wrap;
                         display: inline;
                         font-size: 13px;
 
@@ -3195,6 +3216,7 @@
 
         .top_row {
             display: flex;
+            flex-wrap: wrap;
 
             li {
                 border: 2px solid #F7F7F7;
@@ -3205,6 +3227,7 @@
 
         .bottom_row {
             display: flex;
+            flex-wrap: wrap;
 
             li {
                 border: 2px solid #F7F7F7;
@@ -3221,6 +3244,7 @@
 
     .head_text {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
 
         .left {
@@ -3249,6 +3273,7 @@
         margin-top: 10px;
         display: inline;
         display: flex;
+        flex-wrap: wrap;
 
         .card_1 {
 

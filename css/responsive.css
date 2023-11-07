@@ -1,7 +1,448 @@
-/* @media (min-width: 1400px){}
+@media (min-width: 1400px) {}
 
-@media (min-width: 1200px) and (max-width:1399 ) { }
-@media (min-width: 992px) and (max-width:1199 ) { }
-@media (min-width: 786px) and (max-width:991 ) { }
-@media (min-width: 576px) and (max-width:767 ) { } */
+@media (min-width: 1200px) and (max-width:1399px) {}
 
+@media (min-width: 992px) and (max-width:1199px) {}
+
+@media (min-width: 786px) and (max-width:991px) {}
+
+@media (min-width: 576.98px) and (max-width:767px) {}
+
+@media (max-width: 575.98px) {
+    #header {
+        display: none;
+    }
+
+    #menu .menu_bar .menu_list {
+        display: none;
+    }
+
+    #menu .menu_bar .menu_end {
+        display: none;
+    }
+
+    #nav .nav_bar .col-lg-4 {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories {
+        margin-top: 30px;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .fashion_menu .fashion {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .home_menu .garden {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .electronics_bar .electronics {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .furniture_bar .furniture {
+        display: none;
+    }
+
+    #nav .nav_bar .search_box .input .sub_input {
+        width: 150px;
+    }
+
+    #nav .nav_bar .search_box {
+        width: 360px;
+    }
+
+    #hotdeal {
+        display: none;
+    }
+
+    #main_slider {
+        width: 390px;
+    }
+
+    #main_slider .carousel-inner .carousel-item {
+        background-size: auto;
+        height: 350px;
+        width: 400px;
+        overflow: hidden;
+    }
+
+    #main_slider .carousel-inner .carousel-item .shoes {
+        transform: scale(.5);
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5);
+        -ms-transform: scale(.5);
+        -o-transform: scale(.5);
+        position: absolute;
+        z-index: 555;
+        top: 50px;
+        left: 0px;
+        margin-left: -70px;
+    }
+
+    #main_slider .carousel-inner .carousel-item .txt_1 {
+        transform: scale(.7);
+        -webkit-transform: scale(.7);
+        -moz-transform: scale(.7);
+        -ms-transform: scale(.7);
+        -o-transform: scale(.7);
+        position: absolute;
+        z-index: 555;
+        top: 40px;
+        right: 0px;
+        text-align: right;
+        margin-right: -30px;
+    }
+
+    #main_slider .carousel-inner .carousel-item .men {
+        transform: scale(.6);
+        -webkit-transform: scale(.6);
+        -moz-transform: scale(.6);
+        -ms-transform: scale(.6);
+        -o-transform: scale(.6);
+        position: absolute;
+        z-index: 555;
+        top: -120px;
+        right: 0px;
+        margin-right: -170px;
+    }
+
+    #main_slider .carousel-inner .carousel-item .txt_2 {
+        transform: scale(.5);
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5);
+        -ms-transform: scale(.5);
+        -o-transform: scale(.5);
+        position: absolute;
+        z-index: 555;
+        top: 10px;
+        left: 0px;
+        margin-left: -90px;
+        text-align: right;
+    }
+
+    #main_slider .carousel-inner .carousel-item .skate {
+        transform: scale(.5);
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5);
+        -ms-transform: scale(.5);
+        -o-transform: scale(.5);
+        position: absolute;
+        z-index: 555;
+        top: -50px;
+        left: -60px;
+
+
+    }
+
+    #main_slider .carousel-inner .carousel-item .txt_3 {
+        transform: scale(.6);
+        -webkit-transform: scale(.6);
+        -moz-transform: scale(.6);
+        -ms-transform: scale(.6);
+        -o-transform: scale(.6);
+        position: absolute;
+        z-index: 555;
+        top: 50px;
+        right: 0px;
+        text-align: right;
+        margin-right: 0px;
+    }
+
+    #deals {
+        width: 385px;
+    }
+
+    #deals .perks {
+
+        padding: 20px 30px !important;
+
+    }
+
+    #deals .perks .payment {
+        display: none;
+
+    }
+
+    #deals .perks .garuntee {
+        display: none;
+
+    }
+
+    #deals .perks .support {
+        display: none;
+    }
+
+    #deals_banner .banner {
+        position: relative;
+        margin-bottom: 230px;
+    }
+
+    #deals_banner .banner .left {
+        z-index: 999;
+        position: absolute;
+        top: -80px;
+        left: -133px;
+        transform: scale(.6);
+        -webkit-transform: scale(.6);
+        -moz-transform: scale(.6);
+        -ms-transform: scale(.6);
+        -o-transform: scale(.6);
+    }
+
+    #deals_banner .banner .right {
+        z-index: 999;
+        position: absolute;
+        top: 50px;
+        left: -133px;
+        transform: scale(.6);
+        -webkit-transform: scale(.6);
+        -moz-transform: scale(.6);
+        -ms-transform: scale(.6);
+        -o-transform: scale(.6);
+    }
+
+    #top_catagories {
+        display: none;
+    }
+
+    #popular_department .body .row_1 {
+        flex-direction: column;
+    }
+
+    #popular_department .body .row_1 .item_frame {
+        width: 220px;
+        margin-left: 60px;
+    }
+
+    #popular_department .head {
+        width: 450px;
+        margin-left: -40px;
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+    }
+
+    #popular_department .body .row_2 {
+        flex-direction: column;
+    }
+
+    #popular_department .body .row_2 .item_frame {
+        width: 220px;
+        margin-left: 60px;
+    }
+
+    #popular_department .body .banner_ .left_ {
+        margin-left: -125px;
+        transform: scale(.6);
+        -webkit-transform: scale(.6);
+        -moz-transform: scale(.6);
+        -ms-transform: scale(.6);
+        -o-transform: scale(.6);
+    }
+
+    #popular_department .body .banner_ .right_ {
+        margin-left: -125px;
+        margin-top: -60px;
+        transform: scale(.6);
+        -webkit-transform: scale(.6);
+        -moz-transform: scale(.6);
+        -ms-transform: scale(.6);
+        -o-transform: scale(.6);
+    }
+
+    #Clothing_Apparel .head {
+        width: 450px;
+        margin-left: -40px;
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+        align-items: center;
+    }
+
+    #Clothing_Apparel .body .side_banner {
+        margin-left: 20px;
+        transform: scale(.9);
+        -webkit-transform: scale(.9);
+        -moz-transform: scale(.9);
+        -ms-transform: scale(.9);
+        -o-transform: scale(.9);
+    }
+
+
+    #Clothing_Apparel .body .catalouge .row-1 {
+        flex-direction: column;
+    }
+
+    #Clothing_Apparel .body .catalouge .row-1 .item {
+        width: 220px;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+
+    #Clothing_Apparel .body .catalouge .row-2 {
+        flex-direction: column;
+    }
+
+    #Clothing_Apparel .body .catalouge .row-2 .item {
+        width: 220px;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+
+
+    #Consumer_Electric .head {
+        width: 450px;
+        margin-left: -40px;
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+        align-items: center;
+    }
+
+    #Consumer_Electric .body .side_banner {
+        margin-left: 20px;
+        transform: scale(.9);
+        -webkit-transform: scale(.9);
+        -moz-transform: scale(.9);
+        -ms-transform: scale(.9);
+        -o-transform: scale(.9);
+    }
+
+    #Consumer_Electric .body .catalouge .row-1 {
+        flex-direction: column;
+    }
+
+    #Consumer_Electric .body .catalouge .row-1 .item {
+        width: 220px;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+
+    #Consumer_Electric .body .catalouge .row-2 {
+        flex-direction: column;
+    }
+
+    #Consumer_Electric .body .catalouge .row-2 .item {
+        width: 220px;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+
+    #sub_banner {
+        margin-top: -80px;
+        margin-left: -190px;
+        transform: scale(.5);
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5);
+        -ms-transform: scale(.5);
+        -o-transform: scale(.5);
+    }
+
+    #Garden .head {
+        width: 450px;
+        margin-left: -40px;
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+        align-items: center;
+    }
+
+    #Garden .body .side_banner {
+        margin-left: 20px;
+        transform: scale(.9);
+        -webkit-transform: scale(.9);
+        -moz-transform: scale(.9);
+        -ms-transform: scale(.9);
+        -o-transform: scale(.9);
+    }
+
+    #Garden .body .catalouge .row-1 {
+        flex-direction: column;
+    }
+
+    #Garden .body .catalouge .row-1 .item {
+        width: 220px;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+
+    #Garden .body .catalouge .row-2 {
+        flex-direction: column;
+    }
+
+    #Garden .body .catalouge .row-2 .item {
+        width: 220px;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+
+    #our_clients .head_ {
+        width: 370px;
+        text-align: center;
+
+    }
+
+    #our_clients .body_ {
+        margin-top: -30px;
+        margin-left: -30px;
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+    }
+    #our_blog{
+        margin-top: -20px;
+    }
+    #our_blog .head_text {
+        margin-top: -30px;
+        width: 450px;
+        margin-left: -40px;
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+        align-items: center;
+    }
+    #footer_body .part_1{
+        height: 250px;
+        flex-direction: column;
+    }
+    #footer_body .part_2{
+        flex-direction: column;
+    } #footer_body .part_3{
+        flex-direction: column;
+    } 
+    #footer_head .col-lg-4{
+        margin-left: -40px;
+       transform: scale(.8);
+       -webkit-transform: scale(.8);
+       -moz-transform: scale(.8);
+       -ms-transform: scale(.8);
+       -o-transform: scale(.8);
+}
+    #footer_head .col-lg-6{
+        display: none;
+    }
+    #footer_body .part_1 .company{
+        margin-top: 50px;
+    }
+    #footer_body .part_2{
+        display: none;
+    }
+
+    #footer_body .part_3{
+        margin-top: 580px;
+    }
+}

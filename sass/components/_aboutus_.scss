@@ -61,11 +61,12 @@
 
     .segment_1 {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         margin-bottom: 50px;
 
         img {
-            border-radius: 10px;
+            border-radius: 10px;    
             -webkit-border-radius: 10px;
             -moz-border-radius: 10px;
             -ms-border-radius: 10px;
@@ -163,6 +164,7 @@
     .segment_2 {
         margin-top: 50px;
         display: flex;
+        flex-wrap: wrap;
         text-align: center;
         justify-content: space-evenly;
 
@@ -192,9 +194,11 @@
     .segment_3 {
         margin-top: 100px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
 
         img {
+            width: 100%;
             border-radius: 10px;
             -webkit-border-radius: 10px;
             -moz-border-radius: 10px;
@@ -256,6 +260,7 @@
         .award {
             text-align: center;
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-evenly;
             align-items: center;
 
@@ -300,6 +305,7 @@
 
         .leader {
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-evenly;
             align-items: center;
         }

@@ -87,6 +87,8 @@
 
     .head_right {
         display: flex;
+        flex-wrap: wrap;
+        flex-wrap: wrap;
         gap: 10px;
 
     }
@@ -94,6 +96,7 @@
 
     .head_country ul {
         display: flex;  
+        flex-wrap: wrap;
         gap: 20px;
         border-right: 2px solid #ccc;
         padding-right: 15px;
@@ -119,6 +122,7 @@
 
     .head_acc ul {
         display: flex;
+        flex-wrap: wrap;
         gap: 20px;
         font-family: $theme;
         font-size: 11px;
@@ -518,6 +522,7 @@
 
     .nav_bar {
         display: flex;
+        flex-wrap: wrap;
         padding-top: 20px;
     }
 
@@ -533,6 +538,8 @@
     .col-lg-4 {
         padding-left: 15px;
         display: flex;
+       
+        
     }
 
     .col-lg-6 {
@@ -546,6 +553,7 @@
         border-width: 2px;
         margin-left: 0px;
         display: flex;
+        flex-wrap: wrap;
         border-radius: 3px;
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
@@ -602,6 +610,7 @@
         padding-top: 15px;
         cursor: pointer;
         display: flex;
+        flex-wrap: wrap;
 
 
     }
@@ -635,6 +644,7 @@
     .call {
         padding-top: 15px;
         display: flex;
+      
     }
 
 
@@ -704,6 +714,7 @@
 
     .head_icon {
         display: flex;
+        flex-wrap: wrap;
         padding-top: 10px;
         padding-left: 0px;
 

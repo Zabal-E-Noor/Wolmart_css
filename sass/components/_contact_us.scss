@@ -176,7 +176,7 @@
 }
 
 #contact_body {
-  
+
     .label {
         padding-top: 20px;
         padding-bottom: 10px;
@@ -186,64 +186,73 @@
         font-weight: 700;
         color: #222222;
     }
-    .accordion{
+
+    .accordion {
         padding-bottom: 30px;
-        .accordion-button{
-           
+
+        .accordion-button {
+
             text-align: left;
             font-family: $theme;
             font-size: 15px;
             font-weight: 600;
             color: #222222;
-            &:hover{
-            color: #336699;
+
+            &:hover {
+                color: #336699;
             }
 
         }
     }
-    .contact_{
+
+    .contact_ {
         display: flex;
         gap: 30px;
-        .col-lg-6{
-           h5{
-            padding-top: 22px;
-            padding-bottom: 15px;
-            text-align: left;
-            font-family: $theme;
-            font-size: 20px;
-            font-weight: 700;
-            color: #222222;
-           }
-           label{
-            font-family: $theme;
+
+        .col-lg-6 {
+            h5 {
+                padding-top: 22px;
+                padding-bottom: 15px;
+                text-align: left;
+                font-family: $theme;
+                font-size: 20px;
+                font-weight: 700;
+                color: #222222;
+            }
+
+            label {
+                font-family: $theme;
                 font-size: 14px;
                 font-weight: 400;
                 color: #666666
-           }
-           input{
-            width: 90%;
-            height: 35px;
-            margin-top: 15px;
-           }
-           .send a{
-            font-family: $theme;
-            font-size: 14px;
-            font-weight: 600;
-            margin-top: 20px;
-            text-align: center;
-            width: 150px;
-            padding: 10px 5px;
-            background-color: #454545;
-            border-radius: 3px;
-            -webkit-border-radius: 3px;
-            -moz-border-radius: 3px;
-            -ms-border-radius: 3px;
-            -o-border-radius: 3px;
-            color: azure;
-            &:hover{
-                background-color: #222222;
             }
-}
+
+            input {
+                width: 90%;
+                height: 35px;
+                margin-top: 15px;
+            }
+
+            .send a {
+                font-family: $theme;
+                font-size: 14px;
+                font-weight: 600;
+                margin-top: 20px;
+                text-align: center;
+                width: 150px;
+                padding: 10px 5px;
+                background-color: #454545;
+                border-radius: 3px;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                -ms-border-radius: 3px;
+                -o-border-radius: 3px;
+                color: azure;
+
+                &:hover {
+                    background-color: #222222;
+                }
+            }
         }
     }
 }

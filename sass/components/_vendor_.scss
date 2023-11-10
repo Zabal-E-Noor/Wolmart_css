@@ -216,10 +216,12 @@
     }
     .card_row_1{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
     .card_row_2{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
 }

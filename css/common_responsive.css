@@ -1,0 +1,460 @@
+@media (min-width: 1400px) { }
+
+@media (min-width: 1200px) and (max-width:1399.98px) {
+
+    #header .header_head .col-lg-5 .head_right .head_country {
+        display: none;
+    }
+
+    #menu .menu_bar .menu_end {
+        display: none;
+    }
+    
+    #nav .nav_bar .col-lg-4{
+        display: none;
+    }
+
+    #nav .nav_bar .col-lg-4 .call {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories {
+        margin-top: 30px;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .fashion_menu .fashion {
+        display: block;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .home_menu .garden {
+        display: block;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .electronics_bar .electronics {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .furniture_bar .furniture {
+        display: block;
+    }
+
+    #nav .nav_bar .search_box .input .sub_input {
+        width: 400px;
+    }
+
+    #nav .nav_bar .search_box {
+        width: 600px;
+        margin-left: 80px;
+    }
+
+/* ====================fotter=================== */
+
+    #footer_body .part_1 {
+        height: 250px;
+        flex-wrap: wrap;
+    }
+    #footer_head .bar{
+        margin-left: 200px;
+        transform: scale(1.3);
+        -webkit-transform: scale(1.3);
+        -moz-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        -o-transform: scale(1.3);
+}
+    #footer_body .part_2 {
+        flex-wrap: wrap;
+    }
+
+    #footer_body .part_3 {
+        flex-wrap: wrap;
+    }
+
+    #footer_head .col-lg-4 {
+        margin-left: -40px;
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+    }
+
+    #footer_head .col-lg-6{
+      display: none;
+    }   
+    #footer_body .part_1 .company {
+      display: none;
+    }
+
+    #footer_body .part_2 {
+        margin-top: 0px;
+        margin-left: -20px;
+    }
+
+    #footer_body .part_3 {
+        margin-top: 58px;
+
+    }
+/* ====================fotter=================== */
+}
+
+@media (min-width: 992px) and (max-width:1199.98px) {
+    #header .header_head .col-lg-5 .head_right .head_country {
+        display: none;
+    }
+
+    #menu .menu_bar .menu_end {
+        display: none;
+    }
+
+    #nav .nav_bar .col-lg-4 {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories {
+        margin-top: 30px;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .fashion_menu .fashion {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .home_menu .garden {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .electronics_bar .electronics {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .furniture_bar .furniture {
+        display: none;
+    }
+
+    #nav .nav_bar .search_box .input .sub_input {
+        width: 500px;
+    }
+
+    #nav .nav_bar .search_box {
+        width: 700px;
+        margin-left: 20px;
+    }
+
+    #footer_body .part_1 {
+        height: 250px;
+        flex-wrap: wrap;
+    }
+
+    #footer_body .part_2 {
+        flex-wrap: wrap;
+    }
+
+    #footer_body .part_3 {
+        flex-wrap: wrap;
+    }
+
+    #footer_head .col-lg-4 {
+        margin-left: -40px;
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+    }
+
+    #footer_head .col-lg-6 {
+        display: none;
+    }
+
+    #footer_body .part_1 .company {
+        margin-top: 0px;
+    }
+
+    #footer_body .part_2 {
+        margin-top: 350px;
+        margin-left: -20px;
+    }
+
+    #footer_body .part_3 {
+        margin-top: 58px;
+
+    }
+}
+
+@media (min-width: 786px) and (max-width:991.98px) {
+
+
+    #menu .menu_bar .menu_end {
+        display: none;
+    }
+
+    #nav .nav_bar .col-lg-4 {
+        position: relative;
+    }
+
+    #menu .menu_bar .browse_catagories {
+        margin-top: 30px;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .fashion_menu .fashion {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .home_menu .garden {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .electronics_bar .electronics {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .furniture_bar .furniture {
+        display: none;
+    }
+
+    #nav .nav_bar .search_box .input .sub_input {
+        width: 500px;
+    }
+
+    #nav .nav_bar .search_box {
+        width: 700px;
+    }
+
+
+    #footer_body .part_1 {
+        height: 250px;
+        flex-wrap: wrap;
+    }
+
+    #footer_body .part_2 {
+        flex-wrap: wrap;
+    }
+
+    #footer_body .part_3 {
+        flex-wrap: wrap;
+    }
+
+    #footer_head .col-lg-4 {
+        margin-left: -40px;
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+    }
+
+    #footer_head .col-lg-6 {
+        display: none;
+    }
+
+    #footer_body .part_1 .company {
+        margin-top: 50px;
+    }
+
+    #footer_body .part_2 {
+        margin-top: 350px;
+        margin-left: -20px;
+    }
+
+    #footer_body .part_3 {
+        margin-top: 58px;
+
+    }
+}
+
+@media (min-width: 576.98px) and (max-width:767.98px) {
+
+    #header .header_head .col-lg-5 {
+        margin-left: -50px;
+    }
+
+    #menu .menu_bar .menu_list {
+        display: block;
+        position: absolute;
+        top: 269px;
+        left: 100px;
+        z-index: 999;
+    }
+
+    #menu .menu_bar .menu_list .shop_list {
+        display: none;
+    }
+
+    #menu .menu_bar .menu_list .vendor {
+        display: none;
+    }
+
+    #menu .menu_bar .menu_list .blog {
+        display: none;
+    }
+
+    #menu .menu_bar .menu_list .pages {
+        display: none;
+    }
+
+    #menu .menu_bar .menu_end {
+        display: none;
+    }
+
+    #nav .nav_bar .col-lg-4 {
+        position: relative;
+    }
+
+    #menu .menu_bar .browse_catagories {
+        margin-top: 30px;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .fashion_menu .fashion {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .home_menu .garden {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .electronics_bar .electronics {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .furniture_bar .furniture {
+        display: none;
+    }
+
+    #nav .nav_bar .search_box .input .sub_input {
+        width: 300px;
+    }
+
+    #nav .nav_bar .search_box {
+        width: 500px;
+    }
+
+
+
+    #footer_body .part_1 {
+        height: 250px;
+        flex-wrap: wrap;
+    }
+
+    #footer_body .part_2 {
+        flex-wrap: wrap;
+    }
+
+    #footer_body .part_3 {
+        flex-wrap: wrap;
+    }
+
+    #footer_head .col-lg-4 {
+        margin-left: -40px;
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+    }
+
+    #footer_head .col-lg-6 {
+        display: none;
+    }
+
+    #footer_body .part_1 .company {
+        margin-top: 50px;
+    }
+
+    #footer_body .part_2 {
+        display: none;
+    }
+
+    #footer_body .part_3 {
+        margin-top: 840px;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    #header {
+        display: none;
+    }
+
+    #menu .menu_bar .menu_list {
+        display: none;
+    }
+
+    #menu .menu_bar .menu_list .shop_list {
+        display: none;
+    }
+
+    #menu .menu_bar .menu_end {
+        display: none;
+    }
+
+    #nav .nav_bar .col-lg-4 {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories {
+        margin-top: 30px;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .fashion_menu .fashion {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .home_menu .garden {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .electronics_bar .electronics {
+        display: none;
+    }
+
+    #menu .menu_bar .browse_catagories .drop_box .furniture_bar .furniture {
+        display: none;
+    }
+
+    #nav .nav_bar .search_box .input .sub_input {
+        width: 320px;
+    }
+
+    #nav .nav_bar .search_box {
+        width: 500px;
+    }
+
+
+
+    #footer_body .part_1 {
+        height: 250px;
+        flex-direction: column;
+    }
+
+    #footer_body .part_2 {
+        flex-direction: column;
+    }
+
+    #footer_body .part_3 {
+        flex-direction: column;
+    }
+
+    #footer_head .col-lg-4 {
+        margin-left: 30px;
+        transform: scale(.9);
+        -webkit-transform: scale(.9);
+        -moz-transform: scale(.9);
+        -ms-transform: scale(.9);
+        -o-transform: scale(.9);
+    }
+
+    #footer_head .col-lg-6 {
+        display: none;
+    }
+
+    #footer_body .part_1 .company {
+        margin-top: 50px;
+    }
+
+    #footer_body .part_2 {
+        display: none;
+    }
+
+    #footer_body .part_3 {
+        margin-top: 650px;
+    }
+}
